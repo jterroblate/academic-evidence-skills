@@ -4,6 +4,10 @@
 
 ## Claim 中心工作流补充包
 
+[下载本轮讲解图 PNG](https://github.com/jterroblate/academic-evidence-skills/releases/download/claim-supplement-v0.1/claim-supplement-explainer-v0.1.png)
+
+![本轮新增两个skill及AskChem源码参考的讲解图](docs/updates/claim-supplement-explainer-v0.1.png)
+
 基于AskChem完整音轨、幻灯片与原论文/源码复核，新增两个窄技能及固定系统参考。先看共享claim库、出处核验与小金标评测，再决定扩展服务。
 
 - [下载补充包ZIP](https://github.com/jterroblate/academic-evidence-skills/releases/download/claim-supplement-v0.1/claim-centered-supplement-v0.1.zip)
