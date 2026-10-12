@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-12T02:23:17.318759+00:00",
+  "author": "JT为朋友准备；AI参与选型与定制",
+  "nature": "2 narrow adapted skills + fixed public source reference; not formal claim Compiler",
+  "sources": [
+    {
+      "component": "AskChem",
+      "repository": "https://github.com/bingyan4science/askchem",
+      "commit": "cbb612ab355cca0b9fbd23a457b42ae82c172a70",
+      "archive": "sources/askchem-cbb612ab355cca0b9fbd23a457b42ae82c172a70.tar.gz",
+      "bytes": 2030495,
+      "sha256": "8a31a13e2eb3ffe419e53ce55ebd20a432aa6acc5953b7efa355132c1a198258",
+      "license": "MIT",
+      "purpose": "系统架构/模型/抽取/分类/图关系/检索参考，非运行环境验收"
+    },
+    {
+      "component": "academic-langextract",
+      "repository": "https://github.com/google/langextract",
+      "commit": "f6dc772b738a44cd6f77d0858d6ce3afa16acd15",
+      "license": "Apache-2.0",
+      "changes_and_original_hashes": "skills/academic-langextract/UPSTREAM.json"
+    },
+    {
+      "component": "academic-claim-search-quality",
+      "repository": "https://github.com/qdrant/skills",
+      "commit": "1780b6de984a41bac76be3ac4f6856e7b8762fd7",
+      "license": "Apache-2.0",
+      "changes_and_original_hashes": "skills/academic-claim-search-quality/UPSTREAM.json"
+    }
+  ],
+  "verification": "Claim补充版验证说明.md",
+  "excluded": [
+    "视频音频和完整转写",
+    "签名媒体URL/API原始任务日志",
+    "朋友原始系统附件",
+    "大型语料/DB/embedding/model",
+    "凭据或用户机器配置"
+  ],
+  "unchanged_existing_release": "academic-evidence-skills-v0.1.0 remains independently versioned",
+  "original_package_reference": "claim-centered-supplement",
+  "original_supplement_version": "0.1",
+  "integration_note": "本文件保留原claim补充版来源；此文件的两项skills位于完整包skills下，当前完整包为academic-evidence-skills-v0.2.0"
+}

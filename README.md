@@ -2,6 +2,18 @@
 
 16个可携带技能：原14技能基础包覆盖PDF转写、文献检索、引用管理、阅读与研究；新增2技能补充包侧重原子claim抽取和检索质量诊断。AI参与选型与改编。
 
+## 最新完整包 v0.2.0
+
+**原14技能＋新增2项，共16项，合并为一个完整ZIP。** 包内附全部用法、3张讲解图和AskChem固定源码参考；朋友下载这一份即可取得当前全部交付。
+
+- [下载最新版完整技能包](https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.2.0/academic-evidence-skills-v0.2.0.zip)
+- [安装与入门](academic-evidence-skills-v0.2.0/README_先读.md)
+- [16项分别怎么用](academic-evidence-skills-v0.2.0/每个技能怎么用.md)
+- [包内讲解图](academic-evidence-skills-v0.2.0/讲解图)
+- [本版验证说明](academic-evidence-skills-v0.2.0/验证说明.md)
+
+已核对16项源文件保持既有版本、安装全部16项的复制机制及ZIP完整性；模型/后端效果与正式Compiler接入仍按接收工程验证。原基础版与补充版作为历史来源保留。
+
 ## Claim 中心工作流补充包
 
 [下载本轮讲解图 PNG](https://github.com/jterroblate/academic-evidence-skills/releases/download/claim-supplement-v0.1/claim-supplement-explainer-v0.1.png)

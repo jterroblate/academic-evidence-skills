@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF 转 Markdown"
+  short_description: "Convert PDFs with source files and page provenance"
+  default_prompt: "使用 $pdf-to-markdown 将这个 PDF 转成全文 Markdown，保留原件、页码映射和转换报告，并列出需要复核的部分。"
+policy:
+  allow_implicit_invocation: true

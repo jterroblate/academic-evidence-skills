@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "skill_name": "academic-critical-reading",
+  "adaptation_version": "0.1.0",
+  "adapted_on": "2026-10-12",
+  "adaptation_author": "AI协作产物",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "commit": "92ace75ac21efe19a620434e0ca4e356081fe807",
+  "upstream_skill_path": "skills/scientific-critical-thinking",
+  "pinned_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/92ace75ac21efe19a620434e0ca4e356081fe807/skills/scientific-critical-thinking",
+  "license": {
+    "spdx": "MIT",
+    "path": "LICENSE.md",
+    "upstream_path": "LICENSE.md",
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "copyright": "Copyright (c) 2025 K-Dense Inc."
+  },
+  "changes": [
+    "中文且宿主中立的SKILL/usage与Codex UI元数据",
+    "L0不可变/逐字quote/原始物理页/定位/hash/角色分离/Gateway边界",
+    "删除上游强制营销引用和无关图像/缺失外技能要求，保留相关方法资源"
+  ],
+  "removed_files": [],
+  "upstream_files": [
+    {
+      "path": "skills/scientific-critical-thinking/SKILL.md",
+      "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "bytes": 13146
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/common_biases.md",
+      "sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+      "bytes": 12368
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/core_capabilities.md",
+      "sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+      "bytes": 16975
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+      "bytes": 17435
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/experimental_design.md",
+      "sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+      "bytes": 18227
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+      "bytes": 18659
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/review_sources.md",
+      "sha256": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+      "bytes": 7557
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/scientific_method.md",
+      "sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+      "bytes": 7641
+    },
+    {
+      "path": "skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+      "bytes": 21151
+    }
+  ],
+  "delivered_files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "bytes": 1068,
+      "adaptation": "unchanged",
+      "upstream_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "4a75c7f8caefc7e033fbe68f2f79a41cd5bc92654422ccb816ea8637bdd03ffb",
+      "bytes": 3486,
+      "adaptation": "modified",
+      "upstream_sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "218f00aca3b0c9a411620bc2a244320d87bd4aa1243ba3bc745bc309261a79e1",
+      "bytes": 316,
+      "adaptation": "added",
+      "upstream_sha256": null
+    },
+    {
+      "path": "references/common_biases.md",
+      "sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+      "bytes": 12368,
+      "adaptation": "unchanged",
+      "upstream_sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39"
+    },
+    {
+      "path": "references/core_capabilities.md",
+      "sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+      "bytes": 16975,
+      "adaptation": "unchanged",
+      "upstream_sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180"
+    },
+    {
+      "path": "references/evidence_hierarchy.md",
+      "sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+      "bytes": 17435,
+      "adaptation": "unchanged",
+      "upstream_sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c"
+    },
+    {
+      "path": "references/experimental_design.md",
+      "sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+      "bytes": 18227,
+      "adaptation": "unchanged",
+      "upstream_sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c"
+    },
+    {
+      "path": "references/logical_fallacies.md",
+      "sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+      "bytes": 18659,
+      "adaptation": "unchanged",
+      "upstream_sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593"
+    },
+    {
+      "path": "references/review_sources.md",
+      "sha256": "52e962785d73efd81bd4477b1b597242661d43531fda6da498ba9d941fa9b504",
+      "bytes": 7594,
+      "adaptation": "modified",
+      "upstream_sha256": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62"
+    },
+    {
+      "path": "references/scientific_method.md",
+      "sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+      "bytes": 7641,
+      "adaptation": "unchanged",
+      "upstream_sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f"
+    },
+    {
+      "path": "references/statistical_pitfalls.md",
+      "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+      "bytes": 21151,
+      "adaptation": "unchanged",
+      "upstream_sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9"
+    },
+    {
+      "path": "references/usage.md",
+      "sha256": "12e304a0ad9b083ff6bbbdf272357110f90aa17c451ca8351741f5e430325c37",
+      "bytes": 3937,
+      "adaptation": "added",
+      "upstream_sha256": null
+    }
+  ],
+  "validation_scope": "离线CLI帮助与行为测试；原始HTTP使用合成mock，无实际API或PDF内容准确性验证；不认证科学真相",
+  "dependencies_and_limits_reference": "references/usage.md",
+  "not_implemented": [
+    "Gateway/Registry/EU正式写入",
+    "科学坐标正式schema",
+    "真实PDF原文核验",
+    "真实API当前契约/配额实跑"
+  ],
+  "repo": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_paths": [
+    "skills/scientific-critical-thinking"
+  ],
+  "adaptations": [
+    "中文且宿主中立的SKILL/usage与Codex UI元数据",
+    "L0不可变/逐字quote/原始物理页/定位/hash/角色分离/Gateway边界",
+    "删除上游强制营销引用和无关图像/缺失外技能要求，保留相关方法资源"
+  ]
+}

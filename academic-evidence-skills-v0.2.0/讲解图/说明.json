@@ -1,0 +1,24 @@
+{
+  "kind": "已验收讲解图，随最新版完整skill包交付",
+  "parent_visual_qa_performed": false,
+  "assets": [
+    {
+      "file": "01_基础工具_资料获取与解析.png",
+      "sha256": "1ecbeeb80c292cd59334874b0b258abb782dd795f45b077bc7f0c4e87b2c92e1",
+      "bytes": 1568767,
+      "visual_qa": "previously accepted by independent image worker; integrated by path only"
+    },
+    {
+      "file": "02_基础工具_研究与审查.png",
+      "sha256": "23da3fc830aa49d465f7520eb909a3430efdb36486deafc928414a03ab48717f",
+      "bytes": 1542133,
+      "visual_qa": "previously accepted by independent image worker; integrated by path only"
+    },
+    {
+      "file": "03_本轮新增_Claim补充版.png",
+      "sha256": "bdeb5cc1c82751abfad4c450f0f38cfe1ccf8fee47d36de3762e01eb4b28f023",
+      "bytes": 1727507,
+      "visual_qa": "previously accepted by independent image worker; integrated by path only"
+    }
+  ]
+}

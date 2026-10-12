@@ -1,0 +1,90 @@
+{
+  "repo": "https://github.com/Future-House/paper-qa",
+  "commit": "57e89f7223b0960d5ee5ea048c69e3c47e088572",
+  "paths": [
+    "README.md",
+    "pyproject.toml",
+    "LICENSE",
+    "docs/tutorials/settings_tutorial.md",
+    "docs/tutorials/where_do_I_get_papers.md",
+    "src/paperqa/docs.py",
+    "src/paperqa/settings.py",
+    "src/paperqa/types.py"
+  ],
+  "license": "Apache-2.0",
+  "source_kind": "new-optional-library-adapter-not-an-upstream-skill",
+  "adaptations": [
+    "JT/AI新编中文host-neutral skill及标准库doctor/plan脚本",
+    "仅Docs手动添加已有本地PDF，不启用agentic远端paper search",
+    "显式LLM、summary_llm、embedding，禁止默认付费模型与metadata upgrade、media enrichment",
+    "L0 SHA256/source_id保持，派生答案与L0引文候选映射分文件，不升级正式EU",
+    "doctor/runmanifest显式注明provider内部retry未测试；adapter不重复aquery不构成全链路重试保证"
+  ],
+  "raw_snapshot": "Package-external 来源/discovery/paperqa/57e89f7223b0960d5ee5ea048c69e3c47e088572",
+  "raw_snapshot_manifest": "Package-external 来源/discovery/paperqa/snapshot-manifest.json",
+  "api_references": [
+    "https://github.com/Future-House/paper-qa/blob/57e89f7223b0960d5ee5ea048c69e3c47e088572/src/paperqa/docs.py",
+    "https://github.com/Future-House/paper-qa/blob/57e89f7223b0960d5ee5ea048c69e3c47e088572/src/paperqa/settings.py"
+  ],
+  "adaptation_version": "0.1.0",
+  "adapted_on": "2026-10-12",
+  "adaptation_author": "JT/AI",
+  "delivered_files_excludes_self": true,
+  "delivered_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a10f591e3522fbfe867cfde0b35e0594f6f43a51b013540208a1469c9e0b0f62",
+      "bytes": 11341
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "4383b6ba686378e8506c3d06a047a78e8b34e9c6a016f171ecf0fb4fcfc4dd3d",
+      "bytes": 3049
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "b05e8b8e086c3b5f3ac44fd02f1f8f3f1e7f71c420110d71a1aa33953dcc9c67",
+      "bytes": 313
+    },
+    {
+      "path": "assets/bundle.example.json",
+      "sha256": "1dd31008400f6132004b6e649de7ff8242f44867c6034c7b9159face58a4e79c",
+      "bytes": 453
+    },
+    {
+      "path": "assets/settings.local.example.json",
+      "sha256": "622e1f0211d59b8bc5db14fd631aa7ab58bd82671f7805d7002a91d7bfefab71",
+      "bytes": 833
+    },
+    {
+      "path": "references/api.md",
+      "sha256": "9a9c7d51bc2e04cd988ddd07deae193ee777f0da61bd833e79c43100f2d9f7c9",
+      "bytes": 2387
+    },
+    {
+      "path": "references/evidence-contract.md",
+      "sha256": "dd269891890a42e8fe094a34143ad3873c5823cadd233c3d71e94641ce72d9c0",
+      "bytes": 2521
+    },
+    {
+      "path": "references/usage.md",
+      "sha256": "2d178092d75ab3ae37464b05fcd455e9c7a71b5a09776f99e0fecb2ef9a5b3a8",
+      "bytes": 5000
+    },
+    {
+      "path": "scripts/paperqa_adapter.py",
+      "sha256": "970481d8a0a94c3f0e4e3aa8cb0a365c46bec4dbb97548f4e37f068ccca32701",
+      "bytes": 12804
+    }
+  ],
+  "source_paths": [
+    "README.md",
+    "pyproject.toml",
+    "LICENSE",
+    "docs/tutorials/settings_tutorial.md",
+    "docs/tutorials/where_do_I_get_papers.md",
+    "src/paperqa/docs.py",
+    "src/paperqa/settings.py",
+    "src/paperqa/types.py"
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "skill_name": "academic-hypotheses",
+  "adaptation_version": "0.1.0",
+  "adapted_on": "2026-10-12",
+  "adaptation_author": "AI协作产物",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "commit": "92ace75ac21efe19a620434e0ca4e356081fe807",
+  "upstream_skill_path": "skills/hypothesis-generation",
+  "pinned_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/92ace75ac21efe19a620434e0ca4e356081fe807/skills/hypothesis-generation",
+  "license": {
+    "spdx": "MIT",
+    "path": "LICENSE.md",
+    "upstream_path": "LICENSE.md",
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "copyright": "Copyright (c) 2025 K-Dense Inc."
+  },
+  "changes": [
+    "中文且宿主中立的SKILL/usage与Codex UI元数据",
+    "L0不可变/逐字quote/原始物理页/定位/hash/角色分离/Gateway边界",
+    "删除上游强制营销引用和无关图像/缺失外技能要求，保留相关方法资源",
+    "evidence ledger增row_id/source_family/quote/pdf_page/bbox/segment_id/l0_sha256/status/核验声明字段",
+    "审计器支持同source多quote和null元数据；定位缺口needs_review；true只是声明，所有实测核验结果false"
+  ],
+  "removed_files": [],
+  "upstream_files": [
+    {
+      "path": "skills/hypothesis-generation/SKILL.md",
+      "sha256": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719",
+      "bytes": 16622
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/evidence_ledger_template.csv",
+      "sha256": "1ec5cc4ada96e05041c67865bcdfd3bb0a4f7cc92f24ca1ce7a826028a41d3de",
+      "bytes": 581
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/falsification_controls_template.json",
+      "sha256": "beea4e2be3b5abdad1014934a7c2fe1f9f00f07b3270119cfeb8134a94603e26",
+      "bytes": 5880
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/hypothesis_record_template.json",
+      "sha256": "73f080a6696c415f228b38100bb7b0f6bc89ad2c7997bf50d62b585b0bc8fe0c",
+      "bytes": 13768
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/operationalization_template.json",
+      "sha256": "36ecdbd91c022554e60db646b548f5694d8409277a5b15fdf309d86f8c1e3070",
+      "bytes": 2208
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/prediction_rival_matrix_template.csv",
+      "sha256": "ccf6cb53c048a9f4d60788a8ec73c5d683ec549dab7df95b30282f6c0963653a",
+      "bytes": 1638
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/preregistration_scaffold_template.md",
+      "sha256": "fa577c7413435054ed927a9a925abc2f3a99373e55431eb6407425670276d87b",
+      "bytes": 5102
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/search_boundary_template.json",
+      "sha256": "b885d4e252c0df7010d8fca3dab7e3fef49e9f386b7a1b15240531ce374bf6ec",
+      "bytes": 1114
+    },
+    {
+      "path": "skills/hypothesis-generation/assets/source_ledger.csv",
+      "sha256": "9543f313b9cffec9bd2cf39376edca86d39c10635b447fa7689147931d8c4813",
+      "bytes": 15163
+    },
+    {
+      "path": "skills/hypothesis-generation/references/causal_inference_and_claims.md",
+      "sha256": "0162cd131dd12c6235a3b78c033c685abd80e98d5f40f9fb297b4d8104f85122",
+      "bytes": 7993
+    },
+    {
+      "path": "skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "sha256": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc",
+      "bytes": 7341
+    },
+    {
+      "path": "skills/hypothesis-generation/references/ethics_safety_and_ai.md",
+      "sha256": "81d5691cd46d646ead2db50635bdcc07755e5f738b040c2ad707ac3b0eda034d",
+      "bytes": 10507
+    },
+    {
+      "path": "skills/hypothesis-generation/references/experimental_design_patterns.md",
+      "sha256": "83c0c75c7b1edadc92e4ae23607624277c19955fc6a71ee0313b6efc51e4e939",
+      "bytes": 9765
+    },
+    {
+      "path": "skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+      "sha256": "12698b549f77a6ee64807b959093f39628fe3d47aa9a00a9b235681bf0b09269",
+      "bytes": 8035
+    },
+    {
+      "path": "skills/hypothesis-generation/references/literature_search_strategies.md",
+      "sha256": "2a34fa0645f854093aea2d867059bae563c795f1935ba4b9c6d494bdc389fdcb",
+      "bytes": 8046
+    },
+    {
+      "path": "skills/hypothesis-generation/references/preregistration_and_open_science.md",
+      "sha256": "33788e3cd4eeb62e80e9fb952e3bfb532320d373e7b00ed7c0a75b4200ccdbf4",
+      "bytes": 7751
+    },
+    {
+      "path": "skills/hypothesis-generation/references/security_validation.md",
+      "sha256": "71acbc8d040588f1ab879cafeb0e7d491cbed99359bde011c645d289446ba38a",
+      "bytes": 4199
+    },
+    {
+      "path": "skills/hypothesis-generation/references/source_ledger.md",
+      "sha256": "b0281b810134599210f905f967267f0b44638676f673fca7528275f8e5042e55",
+      "bytes": 10009
+    },
+    {
+      "path": "skills/hypothesis-generation/references/tool_reference.md",
+      "sha256": "db2c2f8fefc4093c0e235a309de3ee5767c672519d8c8b681e65f7ac6a9ff5d7",
+      "bytes": 8397
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/_common.py",
+      "sha256": "7a41a5f9b97092ee188d45959f38f92a4215d4f298dd04fd0f2817e9f607e74e",
+      "bytes": 15316
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/audit_evidence_ledger.py",
+      "sha256": "18fc0a947fec34ea573eb824f540ce6ccb351aed5e08fc80ae476c2150aef2bb",
+      "bytes": 12069
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/check_falsification_controls.py",
+      "sha256": "e56f67b92d15c93cbe9eb1b9fb89253239b6ac81328fb56fc96d9e2c3ec3ba32",
+      "bytes": 16477
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/check_operationalization.py",
+      "sha256": "efc093f4b58b23e095238e60badef04d34dfb012b7958e1326a1f7d58ed5edd6",
+      "bytes": 8086
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/generate_preregistration_scaffold.py",
+      "sha256": "12df2ad3bcd47ef172b3284e9c8c543ef01ba415d3ab21ffe3ead079cdc454da",
+      "bytes": 14287
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/lint_causal_claims.py",
+      "sha256": "561186e71f7c0b573f7ba45ef0009460c1398048929ed55fad53a65cda56dafe",
+      "bytes": 6809
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/validate_hypothesis_schema.py",
+      "sha256": "63bc1b7752d20042c2845ecb2457448ec8e2d9bc8fe1337003b222f8f4620608",
+      "bytes": 38955
+    },
+    {
+      "path": "skills/hypothesis-generation/scripts/validate_prediction_matrix.py",
+      "sha256": "3888802496f4e6ece5955b4fe28d6b2e6d810c5107ce6ca45ebbd70acceed317",
+      "bytes": 9815
+    }
+  ],
+  "delivered_files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "bytes": 1068,
+      "adaptation": "unchanged",
+      "upstream_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "6b25a7327b8fbde986d86a61307d59bcc1dffc1f6b3be193ac654e837cd75b05",
+      "bytes": 3647,
+      "adaptation": "modified",
+      "upstream_sha256": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "91018a9a5ce016bee6a31e5fa48d3b91321dea922590f68c29641841ce29ec9c",
+      "bytes": 316,
+      "adaptation": "added",
+      "upstream_sha256": null
+    },
+    {
+      "path": "assets/evidence_ledger_template.csv",
+      "sha256": "95fcb1855b630de74350bcd985c1ce9fee491bab95e5da7f5e0a8e61044815fc",
+      "bytes": 773,
+      "adaptation": "modified",
+      "upstream_sha256": "1ec5cc4ada96e05041c67865bcdfd3bb0a4f7cc92f24ca1ce7a826028a41d3de"
+    },
+    {
+      "path": "assets/falsification_controls_template.json",
+      "sha256": "beea4e2be3b5abdad1014934a7c2fe1f9f00f07b3270119cfeb8134a94603e26",
+      "bytes": 5880,
+      "adaptation": "unchanged",
+      "upstream_sha256": "beea4e2be3b5abdad1014934a7c2fe1f9f00f07b3270119cfeb8134a94603e26"
+    },
+    {
+      "path": "assets/hypothesis_record_template.json",
+      "sha256": "73f080a6696c415f228b38100bb7b0f6bc89ad2c7997bf50d62b585b0bc8fe0c",
+      "bytes": 13768,
+      "adaptation": "unchanged",
+      "upstream_sha256": "73f080a6696c415f228b38100bb7b0f6bc89ad2c7997bf50d62b585b0bc8fe0c"
+    },
+    {
+      "path": "assets/operationalization_template.json",
+      "sha256": "36ecdbd91c022554e60db646b548f5694d8409277a5b15fdf309d86f8c1e3070",
+      "bytes": 2208,
+      "adaptation": "unchanged",
+      "upstream_sha256": "36ecdbd91c022554e60db646b548f5694d8409277a5b15fdf309d86f8c1e3070"
+    },
+    {
+      "path": "assets/prediction_rival_matrix_template.csv",
+      "sha256": "ccf6cb53c048a9f4d60788a8ec73c5d683ec549dab7df95b30282f6c0963653a",
+      "bytes": 1638,
+      "adaptation": "unchanged",
+      "upstream_sha256": "ccf6cb53c048a9f4d60788a8ec73c5d683ec549dab7df95b30282f6c0963653a"
+    },
+    {
+      "path": "assets/preregistration_scaffold_template.md",
+      "sha256": "fa577c7413435054ed927a9a925abc2f3a99373e55431eb6407425670276d87b",
+      "bytes": 5102,
+      "adaptation": "unchanged",
+      "upstream_sha256": "fa577c7413435054ed927a9a925abc2f3a99373e55431eb6407425670276d87b"
+    },
+    {
+      "path": "assets/search_boundary_template.json",
+      "sha256": "b885d4e252c0df7010d8fca3dab7e3fef49e9f386b7a1b15240531ce374bf6ec",
+      "bytes": 1114,
+      "adaptation": "unchanged",
+      "upstream_sha256": "b885d4e252c0df7010d8fca3dab7e3fef49e9f386b7a1b15240531ce374bf6ec"
+    },
+    {
+      "path": "assets/source_ledger.csv",
+      "sha256": "9543f313b9cffec9bd2cf39376edca86d39c10635b447fa7689147931d8c4813",
+      "bytes": 15163,
+      "adaptation": "unchanged",
+      "upstream_sha256": "9543f313b9cffec9bd2cf39376edca86d39c10635b447fa7689147931d8c4813"
+    },
+    {
+      "path": "references/causal_inference_and_claims.md",
+      "sha256": "0162cd131dd12c6235a3b78c033c685abd80e98d5f40f9fb297b4d8104f85122",
+      "bytes": 7993,
+      "adaptation": "unchanged",
+      "upstream_sha256": "0162cd131dd12c6235a3b78c033c685abd80e98d5f40f9fb297b4d8104f85122"
+    },
+    {
+      "path": "references/concepts_and_workflow.md",
+      "sha256": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc",
+      "bytes": 7341,
+      "adaptation": "unchanged",
+      "upstream_sha256": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc"
+    },
+    {
+      "path": "references/ethics_safety_and_ai.md",
+      "sha256": "81d5691cd46d646ead2db50635bdcc07755e5f738b040c2ad707ac3b0eda034d",
+      "bytes": 10507,
+      "adaptation": "unchanged",
+      "upstream_sha256": "81d5691cd46d646ead2db50635bdcc07755e5f738b040c2ad707ac3b0eda034d"
+    },
+    {
+      "path": "references/experimental_design_patterns.md",
+      "sha256": "83c0c75c7b1edadc92e4ae23607624277c19955fc6a71ee0313b6efc51e4e939",
+      "bytes": 9765,
+      "adaptation": "unchanged",
+      "upstream_sha256": "83c0c75c7b1edadc92e4ae23607624277c19955fc6a71ee0313b6efc51e4e939"
+    },
+    {
+      "path": "references/hypothesis_quality_criteria.md",
+      "sha256": "12698b549f77a6ee64807b959093f39628fe3d47aa9a00a9b235681bf0b09269",
+      "bytes": 8035,
+      "adaptation": "unchanged",
+      "upstream_sha256": "12698b549f77a6ee64807b959093f39628fe3d47aa9a00a9b235681bf0b09269"
+    },
+    {
+      "path": "references/literature_search_strategies.md",
+      "sha256": "2a34fa0645f854093aea2d867059bae563c795f1935ba4b9c6d494bdc389fdcb",
+      "bytes": 8046,
+      "adaptation": "unchanged",
+      "upstream_sha256": "2a34fa0645f854093aea2d867059bae563c795f1935ba4b9c6d494bdc389fdcb"
+    },
+    {
+      "path": "references/preregistration_and_open_science.md",
+      "sha256": "33788e3cd4eeb62e80e9fb952e3bfb532320d373e7b00ed7c0a75b4200ccdbf4",
+      "bytes": 7751,
+      "adaptation": "unchanged",
+      "upstream_sha256": "33788e3cd4eeb62e80e9fb952e3bfb532320d373e7b00ed7c0a75b4200ccdbf4"
+    },
+    {
+      "path": "references/security_validation.md",
+      "sha256": "71acbc8d040588f1ab879cafeb0e7d491cbed99359bde011c645d289446ba38a",
+      "bytes": 4199,
+      "adaptation": "unchanged",
+      "upstream_sha256": "71acbc8d040588f1ab879cafeb0e7d491cbed99359bde011c645d289446ba38a"
+    },
+    {
+      "path": "references/source_ledger.md",
+      "sha256": "b0281b810134599210f905f967267f0b44638676f673fca7528275f8e5042e55",
+      "bytes": 10009,
+      "adaptation": "unchanged",
+      "upstream_sha256": "b0281b810134599210f905f967267f0b44638676f673fca7528275f8e5042e55"
+    },
+    {
+      "path": "references/tool_reference.md",
+      "sha256": "cda8ee5a085675e25117c4d00df305a4794b5d228b04fdfa1d84f0ae19c85d38",
+      "bytes": 8783,
+      "adaptation": "modified",
+      "upstream_sha256": "db2c2f8fefc4093c0e235a309de3ee5767c672519d8c8b681e65f7ac6a9ff5d7"
+    },
+    {
+      "path": "references/usage.md",
+      "sha256": "043b38a5c11aef197041f4ae73da59c9d0c8d06d19a61c1d2089c3f29752e6c3",
+      "bytes": 5570,
+      "adaptation": "added",
+      "upstream_sha256": null
+    },
+    {
+      "path": "scripts/_common.py",
+      "sha256": "7a41a5f9b97092ee188d45959f38f92a4215d4f298dd04fd0f2817e9f607e74e",
+      "bytes": 15316,
+      "adaptation": "unchanged",
+      "upstream_sha256": "7a41a5f9b97092ee188d45959f38f92a4215d4f298dd04fd0f2817e9f607e74e"
+    },
+    {
+      "path": "scripts/audit_evidence_ledger.py",
+      "sha256": "0e2496f1fea05962ea9f3c768274743c345e989240c5ddbe8fa1459833004822",
+      "bytes": 16333,
+      "adaptation": "modified",
+      "upstream_sha256": "18fc0a947fec34ea573eb824f540ce6ccb351aed5e08fc80ae476c2150aef2bb"
+    },
+    {
+      "path": "scripts/check_falsification_controls.py",
+      "sha256": "e56f67b92d15c93cbe9eb1b9fb89253239b6ac81328fb56fc96d9e2c3ec3ba32",
+      "bytes": 16477,
+      "adaptation": "unchanged",
+      "upstream_sha256": "e56f67b92d15c93cbe9eb1b9fb89253239b6ac81328fb56fc96d9e2c3ec3ba32"
+    },
+    {
+      "path": "scripts/check_operationalization.py",
+      "sha256": "efc093f4b58b23e095238e60badef04d34dfb012b7958e1326a1f7d58ed5edd6",
+      "bytes": 8086,
+      "adaptation": "unchanged",
+      "upstream_sha256": "efc093f4b58b23e095238e60badef04d34dfb012b7958e1326a1f7d58ed5edd6"
+    },
+    {
+      "path": "scripts/generate_preregistration_scaffold.py",
+      "sha256": "12df2ad3bcd47ef172b3284e9c8c543ef01ba415d3ab21ffe3ead079cdc454da",
+      "bytes": 14287,
+      "adaptation": "unchanged",
+      "upstream_sha256": "12df2ad3bcd47ef172b3284e9c8c543ef01ba415d3ab21ffe3ead079cdc454da"
+    },
+    {
+      "path": "scripts/lint_causal_claims.py",
+      "sha256": "561186e71f7c0b573f7ba45ef0009460c1398048929ed55fad53a65cda56dafe",
+      "bytes": 6809,
+      "adaptation": "unchanged",
+      "upstream_sha256": "561186e71f7c0b573f7ba45ef0009460c1398048929ed55fad53a65cda56dafe"
+    },
+    {
+      "path": "scripts/validate_hypothesis_schema.py",
+      "sha256": "63bc1b7752d20042c2845ecb2457448ec8e2d9bc8fe1337003b222f8f4620608",
+      "bytes": 38955,
+      "adaptation": "unchanged",
+      "upstream_sha256": "63bc1b7752d20042c2845ecb2457448ec8e2d9bc8fe1337003b222f8f4620608"
+    },
+    {
+      "path": "scripts/validate_prediction_matrix.py",
+      "sha256": "3888802496f4e6ece5955b4fe28d6b2e6d810c5107ce6ca45ebbd70acceed317",
+      "bytes": 9815,
+      "adaptation": "unchanged",
+      "upstream_sha256": "3888802496f4e6ece5955b4fe28d6b2e6d810c5107ce6ca45ebbd70acceed317"
+    }
+  ],
+  "validation_scope": "离线CLI帮助与行为测试；原始HTTP使用合成mock，无实际API或PDF内容准确性验证；不认证科学真相",
+  "dependencies_and_limits_reference": "references/usage.md",
+  "not_implemented": [
+    "Gateway/Registry/EU正式写入",
+    "科学坐标正式schema",
+    "真实PDF原文核验",
+    "真实API当前契约/配额实跑"
+  ],
+  "repo": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_paths": [
+    "skills/hypothesis-generation"
+  ],
+  "adaptations": [
+    "中文且宿主中立的SKILL/usage与Codex UI元数据",
+    "L0不可变/逐字quote/原始物理页/定位/hash/角色分离/Gateway边界",
+    "删除上游强制营销引用和无关图像/缺失外技能要求，保留相关方法资源",
+    "evidence ledger增row_id/source_family/quote/pdf_page/bbox/segment_id/l0_sha256/status/核验声明字段",
+    "审计器支持同source多quote和null元数据；定位缺口needs_review；true只是声明，所有实测核验结果false"
+  ]
+}

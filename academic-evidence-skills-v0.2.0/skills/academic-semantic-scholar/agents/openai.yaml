@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Scholar 文献入口"
+  short_description: "按准确端点查找论文与引用关系，保留原始响应和来源，避免元数据越权"
+  default_prompt: "使用 $academic-semantic-scholar 查询这篇论文及其引用关系，保存原始响应并区分文献身份与内容支持。"

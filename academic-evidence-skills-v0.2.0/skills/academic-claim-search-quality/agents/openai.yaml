@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claim 检索质量诊断"
+  short_description: "为已有学术 claim 检索建立金标、来源去重与失败诊断，固定版本复核质量"
+  default_prompt: "使用 $academic-claim-search-quality 为现有 claim 检索设计金标与分层质量诊断，保留来源族和版本，报告实际完成及缺口。"

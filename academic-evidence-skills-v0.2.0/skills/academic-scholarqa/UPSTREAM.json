@@ -1,0 +1,102 @@
+{
+  "repo": "https://github.com/XWang20/semanticscholar-MCP-Server",
+  "commit": "5139c045365244b6940e9fb6e4df62e6a302d0e5",
+  "paths": [
+    "skills/scholarqa-research",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "pyproject.toml",
+    "requirements.txt"
+  ],
+  "license": "MIT; Scideator adapted published references retain CC BY 4.0 notices",
+  "source_kind": "existing-skill-adaptation",
+  "adaptations": [
+    "重命名技能与中文host-neutral入口；保留全部上游references及许可",
+    "新增项目隔离安装usage、source_id/L0 SHA256/L1候选契约",
+    "书目身份verify与内容支持、exact quote、正式EU分离",
+    "不自动远端调用/新增收费渠道/云上传/全局配置/Registry写入",
+    "Scideator质量约束改为原论文协议描述，不凌驾宿主用户指令；prompt原文与published/adapter区分保留",
+    "reporting中的stable-link伪链接改为文字示例，避免被输出或误读成真实来源",
+    "上游SDK默认TransportError/超时retry3次；每次网络CLI进程强制SEMANTIC_SCHOLAR_MAX_RETRIES=0，MCP需确认当前实例等价配置；不改上游源码或全局配置"
+  ],
+  "raw_snapshot": "Package-external 来源/discovery/semanticscholar/5139c045365244b6940e9fb6e4df62e6a302d0e5",
+  "raw_snapshot_manifest": "Package-external 来源/discovery/semanticscholar/snapshot-manifest.json",
+  "adaptation_version": "0.1.0",
+  "adapted_on": "2026-10-12",
+  "adaptation_author": "JT/AI",
+  "delivered_files_excludes_self": true,
+  "delivered_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "4e10fb1092890e39f4031f955d530737a33a1d9e83b6fad19755baa615cf488a",
+      "bytes": 1097
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "214ee1052ac4805f68006927b7e528b885dcacd8c9212d89438b18e8364617fb",
+      "bytes": 3584
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "67dc07c8e06942e22d843ba56814e58d458eb5e5778a478a970c399e900f0479",
+      "bytes": 2377
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "e821d465c53a1241a36e5c6ca9151d72c23f891255fe74ae72887b8a10ae896b",
+      "bytes": 327
+    },
+    {
+      "path": "references/evidence-contract.md",
+      "sha256": "dd269891890a42e8fe094a34143ad3873c5823cadd233c3d71e94641ce72d9c0",
+      "bytes": 2521
+    },
+    {
+      "path": "references/provenance.md",
+      "sha256": "1942c97a6d0e6632153e21d1ce96251ad80599c2c33a90cee60b9f97f6e70b20",
+      "bytes": 3235
+    },
+    {
+      "path": "references/reporting.md",
+      "sha256": "08f42c49fbeddfe67df24d1339f090c2383988d23a38328440f2c71a37a13a42",
+      "bytes": 3490
+    },
+    {
+      "path": "references/retrieval.md",
+      "sha256": "1a9cc8f275402c1f7f33b24c2958acd3514a35fa1825cfefb5f5aaa57c7d3eb1",
+      "bytes": 6257
+    },
+    {
+      "path": "references/scideator-novelty-examples.md",
+      "sha256": "769815bb197b1267180bdb216e837965386fd2848a7757ffab1166dd1895c0cd",
+      "bytes": 4456
+    },
+    {
+      "path": "references/scideator-prompts.md",
+      "sha256": "4f88a81db19297d86775b47e653afc1eff3466ab942cb85ebbacb99695023adb",
+      "bytes": 13893
+    },
+    {
+      "path": "references/scideator-workflow.md",
+      "sha256": "c3e49ac964a97d217665cbf85305f4cc4f944725fcfaa7e00182b1a99e1da87e",
+      "bytes": 15015
+    },
+    {
+      "path": "references/usage.md",
+      "sha256": "219a1d4da4453a863125087c8c614d6045af969a216744b4637856466b05b3c5",
+      "bytes": 4480
+    },
+    {
+      "path": "scripts/inspect_bundle.py",
+      "sha256": "cb27044df6c91e6780d9ef05c2481e30822311559b57f7c1be442e3a82b45ef2",
+      "bytes": 2176
+    }
+  ],
+  "source_paths": [
+    "skills/scholarqa-research",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "pyproject.toml",
+    "requirements.txt"
+  ]
+}

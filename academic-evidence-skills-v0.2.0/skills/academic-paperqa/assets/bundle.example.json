@@ -1,0 +1,12 @@
+{
+  "schema_version": "academic-source-bundle-candidate/0.1",
+  "sources": [
+    {
+      "source_id": "existing-source-id-from-caller",
+      "source_family": "existing-paper-family-from-caller",
+      "source_path": "paper.pdf",
+      "source_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "bibliographic_citation": "Caller-provided source label; replace with verified bibliographic citation if available"
+    }
+  ]
+}
