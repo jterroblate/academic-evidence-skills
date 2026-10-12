@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "adapted_skill": "academic-paper-search",
+  "repo": "openags/paper-search-mcp",
+  "url": "https://github.com/openags/paper-search-mcp",
+  "commit": "cab1b5cc276a0cd004a0044003926a6440088049",
+  "source_paths": [
+    "claude-code",
+    "LICENSE",
+    "docs/PDF_SECTIONS.md",
+    "docs/CLI_TOOL_PARITY_PROVENANCE.md"
+  ],
+  "source_snapshot": "来源/paper-search-mcp",
+  "source_manifest": "验证/ingestion/paper-search-mcp-snapshot.json",
+  "license": {
+    "summary": "MIT for repository code; provider API/content licenses and access terms independent",
+    "source_path": "LICENSE",
+    "packaged_path": "LICENSE",
+    "sha256": "995371b5b03267390307273fad027e86672c4a71b8d3648978047044e9e15065"
+  },
+  "adapted_at": "2026-10-12",
+  "adaptations": [
+    "Chinese host-neutral discoverable entrypoint and explicit CLI usage",
+    "Immutable L0 full SHA256; native outputs and actual engine/version/parameters/page coverage retained",
+    "Physical page 1-based; printed-page unknown null; preserve native bbox and source hash without invented coordinates",
+    "L1 document.md distinct from deep reading.md; no formal EU/Utility/ScientificCoordinate/Registry P IDs",
+    "Selected local channel first; no automatic upload, install, model replacement or unknown-result retry",
+    "Fresh staging only; Gateway owns identity/archive movement; external credentials; no automatic git commit/push",
+    "Upstream references isolated as .txt, raw SKILL kept outside delivery; no upstream precedence over current authorization",
+    "Metadata/snippets/abstracts remain candidates; no Sci-Hub; only authorized public/access-allowed downloads"
+  ],
+  "vendored_resources": [
+    {
+      "source_path": "docs/PDF_SECTIONS.md",
+      "packaged_path": "references/upstream/PDF_SECTIONS.md.txt",
+      "sha256": "3433220d94bfea873fb40e94c40327c69a503a122366589ae331fcde1cb5873d",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docs/CLI_TOOL_PARITY_PROVENANCE.md",
+      "packaged_path": "references/upstream/CLI_TOOL_PARITY_PROVENANCE.md.txt",
+      "sha256": "dfb7d425fd648c40e8e98e6a934b2a646867b032748dda03ff1c709bf9151997",
+      "execution_status": "isolated-reference-only"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "995371b5b03267390307273fad027e86672c4a71b8d3648978047044e9e15065",
+      "git_blob": "020f74d1e06a31b1a648aaf559aa8664e4aae01d",
+      "size": 1064
+    },
+    {
+      "path": "README.md",
+      "sha256": "801f4fa2f29710669e2112790ac771609f6fe91ac1797cc1d5e534222d947596",
+      "git_blob": "a68831a246ea113b0ce1520375f7032d8a273aec",
+      "size": 42879
+    },
+    {
+      "path": "claude-code/SKILL.md",
+      "sha256": "e09bb3d7f9dc2a6ca5cf8346d53aaea88e4212e6b777ba92ff829ec37b2ad2c0",
+      "git_blob": "8593686476d40effb3017152b09b6c2fb1a0e09e",
+      "size": 4618
+    },
+    {
+      "path": "docs/CLI_TOOL_PARITY_PROVENANCE.md",
+      "sha256": "dfb7d425fd648c40e8e98e6a934b2a646867b032748dda03ff1c709bf9151997",
+      "git_blob": "1a90c30141b268aac7adadc2c5a9028717371be6",
+      "size": 1518
+    },
+    {
+      "path": "docs/CONTRIBUTION_PROVENANCE.md",
+      "sha256": "13293ff8b1452e19174b085950b76003bb2b6c3ac8905e63c31e0bef0a4727e6",
+      "git_blob": "8fc5d25a804e11cefd11d876c17c203b187ccdc1",
+      "size": 5670
+    },
+    {
+      "path": "docs/IEEE_METADATA.md",
+      "sha256": "4c04269605cb2e8eeee2abc58e2549b313ced91c5ec6dbbf23ce115f521ba557",
+      "git_blob": "3f76252f2b3fc852479b13f99a74b6baa081ed9c",
+      "size": 2885
+    },
+    {
+      "path": "docs/INSTITUTIONAL_CONNECTORS.md",
+      "sha256": "58ed27c9e01037995cea55c84e7b2218d79f484bdfdd0b1f8ace8c45eaec3d03",
+      "git_blob": "56145586b86848e0e3482b9942b9930949027466",
+      "size": 8878
+    },
+    {
+      "path": "docs/OAUTH_PROTECTED_RESOURCE.md",
+      "sha256": "463a5f1c828931fa6db4bd425f19bf3c3cffd0df74edfb22300516d6e6ce7529",
+      "git_blob": "803dd9e5e97b03d7486420224188eaeffb4c7809",
+      "size": 11140
+    },
+    {
+      "path": "docs/OPENALEX_RELATIONSHIPS.md",
+      "sha256": "cf20369aecd81b96bc0985651a9b37cc33026ef54d5cfd6bb66d90ad1a7deb89",
+      "git_blob": "ed8fcb287fb507326e9f3886a7030b7878753d35",
+      "size": 3530
+    },
+    {
+      "path": "docs/OPENREVIEW.md",
+      "sha256": "ea4c79943fe94a54b8b70d415ed678949658d0e930ba712a1223c9171466f1a5",
+      "git_blob": "9d64612602fa49cc44f96d125e18f9791b00208b",
+      "size": 2902
+    },
+    {
+      "path": "docs/PDF_SECTIONS.md",
+      "sha256": "3433220d94bfea873fb40e94c40327c69a503a122366589ae331fcde1cb5873d",
+      "git_blob": "c1eaeb65f90e0c3ce168e44a8fd521ecfa4fd8fd",
+      "size": 6955
+    },
+    {
+      "path": "docs/SEARCH_CACHE.md",
+      "sha256": "06829820ff2f1013bddbe9d5b81542d45c35ae17e20906cb300ea63c1de0a722",
+      "git_blob": "b1808f164e9092786aa58ff1ebe65f2ec4fe6e34",
+      "size": 6602
+    },
+    {
+      "path": "docs/SSRN_OPENALEX.md",
+      "sha256": "eab5f7debf1f7c3b116ef877b6de28fad1576397ec2271daa2bea5b101d5c41f",
+      "git_blob": "dc9353c01e5c6e04fd3462d0dee3a09aabce0232",
+      "size": 2863
+    },
+    {
+      "path": "docs/images/demo.png",
+      "sha256": "7303431dc104ae2850125bda07a74f73504bf24de712406e5abefaa91c9a3f35",
+      "git_blob": "2dc4cd9d983254a7496f692ea693278030731d7e",
+      "size": 192998
+    },
+    {
+      "path": "paper_search_mcp/__init__.py",
+      "sha256": "b4aa4c17dab345cb2bdc9c52ab798d9b0258c549300f59645b4a2f9951b9927f",
+      "git_blob": "19b0816fdfe3b5f1280a1f431291ffc77dd1be4e",
+      "size": 52
+    },
+    {
+      "path": "paper_search_mcp/_section_worker.py",
+      "sha256": "cede6fc9c49230b1bb2b50efc375d29290027083b6bcdd857b31e1b340eaee99",
+      "git_blob": "3b55176859da854d8b0c19807a3d1550b6c5f31b",
+      "size": 3930
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/acm.py",
+      "sha256": "455f0c25a671a4763101653b65981e6606c1dc7fd096b2b5f7604d725761185a",
+      "git_blob": "9cddc034eb81afa45e254a4638da1037c47c6680",
+      "size": 4135
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/arxiv.py",
+      "sha256": "23ff87a71a5155784844fbbff2b90ea85f2e0bc6f2565f2b9621bf41ef8d1746",
+      "git_blob": "a365a7d666b8a561b67a312a316378b1fa6dafb2",
+      "size": 14865
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/base.py",
+      "sha256": "ee6fcd477678f452c354662186d52ea10c0920b76f1af7e57bd4c5431b22d351",
+      "git_blob": "4958483f10a89a221cc901ef7d1b3cc46db05f66",
+      "size": 1656
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/base_search.py",
+      "sha256": "94208329b0c004da7196b00c83abbb1ee21ad594e3f4d40cb0e51ae4515eea76",
+      "git_blob": "0e3a7535ec7988891fed76b2914016c116374a41",
+      "size": 9258
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/biorxiv.py",
+      "sha256": "0763f09844ea79f3451976fb70906b0999e05be7ef5cad33f0a653dca9a663f2",
+      "git_blob": "2091be07c277629060a99413df03aca0835faaeb",
+      "size": 8305
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/chemrxiv.py",
+      "sha256": "894a9b9a1a129dfa616b4506f1237e7e3a4947fb01e8f3d618622b9db8bcf123",
+      "git_blob": "e0a2dfc8e8ca37cf4717001d04ed6fe6a7119cfa",
+      "size": 6273
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/citeseerx.py",
+      "sha256": "9965b06bdc0c2991363df3531f9335539e5a1b57d204540098d42e89167a68e4",
+      "git_blob": "4ad70a711849ead0de2e4208464c09b46a8ea1b0",
+      "size": 14461
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/core.py",
+      "sha256": "659c4f35b42ea61dcd74dab2b4b0dba6a78cad47e2c389fff52c8240154fdc0d",
+      "git_blob": "ba414eb2fc148862bedae3a13b5cdc16f933ba86",
+      "size": 18159
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/crossref.py",
+      "sha256": "f12fdd974ca2a52bc003443c30022482be00b914c4033eae9d3c68b7b445683f",
+      "git_blob": "8f1c0bb461c7035e8e1884aa471106eb5442027f",
+      "size": 14561
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/dblp.py",
+      "sha256": "80077956396a1c0e7ef763d58c8387f7c2c7832c2a0483d69344744d0f1ded54",
+      "git_blob": "46a2857d70febfb2e989d65e65262143c94908d7",
+      "size": 14466
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/doaj.py",
+      "sha256": "2ab92db29a839e2623bb95a82d8e4bd7472491833ce361e7bc47f54f14bd454d",
+      "git_blob": "60414493c25eab7ee39fa5aebddbd4dc881909c3",
+      "size": 17201
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/europepmc.py",
+      "sha256": "70b3ef2c31c6ac2bd3ad34abb7f5fd9b2e51e480aa5cc25348a3a05fe249e25d",
+      "git_blob": "c2adf439505cb767c399fb06c2eec667021dfedf",
+      "size": 16536
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/google_scholar.py",
+      "sha256": "96ded1881062d4f309167ddd24686d3a3413631628fe4516fd37b931537d89f8",
+      "git_blob": "28b1b4bcee0c2e83e19ecb543f980ae2462d9482",
+      "size": 17296
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/hal.py",
+      "sha256": "ce36fdb4ddbf2daf99f36f8c2095e48f64ca64e321294643bacf3e0e5c80dc25",
+      "git_blob": "846513c2033622157b69b5d8175fbd55792e0263",
+      "size": 9766
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/iacr.py",
+      "sha256": "468fbc77d07c9c278920cd470f212fb14eebd02338f7d1e9807a1767918359e1",
+      "git_blob": "44c396efd8345a4c18b6c7a00acec20e79786114",
+      "size": 18905
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/ieee.py",
+      "sha256": "4aea2c483bfbb5e89f2e609e817d3c0cbd88d07ac3c89417e0665d4e0a725340",
+      "git_blob": "b131c0fbd8302ff00f3a37f2b5b2ee0b46552fdd",
+      "size": 12000
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/institutional.py",
+      "sha256": "234af00e5a6293a94bd3f4e63a46d0cfc771939c538638b8c0a77b206184da74",
+      "git_blob": "202fb71224a2c4126f7b2d415973d56bec48dfc8",
+      "size": 4345
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/medrxiv.py",
+      "sha256": "aac136a0ba81b4011066d0ae17e863304515fcc1cf8f69628cf175356d80198e",
+      "git_blob": "e3be337976e6502dd2d140b1f2ef3f2a4bd3583e",
+      "size": 6116
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/oaipmh.py",
+      "sha256": "d8bc040ec32add63c179282ccfff4836f0825573f4b40c970e6c355e6322e615",
+      "git_blob": "fe2888e2d4e95f5221820c42d1e09bf5405c2a8c",
+      "size": 17326
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/openaire.py",
+      "sha256": "6569570cace47e584284fdac01a630de3f713ac34464b94a584db2616510bc5b",
+      "git_blob": "24147838f994395028445dbd5d0e8fb712babc55",
+      "size": 28875
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/openalex.py",
+      "sha256": "bd2583acb708758bf26ad8241e4820ee384b50d61b5b571b103261e9a8c93afe",
+      "git_blob": "a2277c7b6bf719e28e73f61050a1b0c1cd551f1f",
+      "size": 16037
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/openalex_relations.py",
+      "sha256": "a6a7b49f498b1f09bec9b6e56f9ad8459a9025731e22ebf9c7aeba22620cbf10",
+      "git_blob": "059eb8d463ecf421cb79fa5fcbf8cfbbf83aa725",
+      "size": 8598
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/openreview.py",
+      "sha256": "92ddfa7255f1e23f379fe71d047b29f831c35f09d5db8432bcaebb628d480bc3",
+      "git_blob": "1c9437ba8de49e22816ecdce48856107300b3143",
+      "size": 9619
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/pmc.py",
+      "sha256": "381474ccb4ad58fe2a3944848355b874eec6965346fe7919ffddac5a2dc31295",
+      "git_blob": "5c2beb881213039780b3c2375de4f399edb2a090",
+      "size": 15591
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/public_pdf.py",
+      "sha256": "c4bd6c2fc878e07584b2e4bdbd29e926427baf45f1aef243865a681f54f62293",
+      "git_blob": "dd108eca10871bb2b4c63abc28f4f3318be54357",
+      "size": 2064
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/pubmed.py",
+      "sha256": "f3e0e489cb0bd1885430359156a1828981cdb073ee299f9db801bc3e2dcc62e4",
+      "git_blob": "bbd15f26c6ada62077a00e53076481d1bc51f8e2",
+      "size": 6600
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/sci_hub.py",
+      "sha256": "883764ea8128f5244c47aa7a79303bbf4b0fc834a460d9ae029530bbee4f3eb2",
+      "git_blob": "6f1d8249c1a0cae8ea2a35625149d6c020da049b",
+      "size": 6256
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/scopus.py",
+      "sha256": "2cdde84123ce3fd704be3a23bc5b3111018cf7d36d10961055f97e03324b7dbd",
+      "git_blob": "eae361ce4c408c5f3d67e3ddd7ad16f3d77cc577",
+      "size": 12788
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/semantic.py",
+      "sha256": "df5cd68f45605b525ee2b8dcfe216b1b4e99eec221bf91c9d29de4db24697d65",
+      "git_blob": "7be53a3ce6b5abaeee048addbdacbfbac5093437",
+      "size": 25857
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/ssrn.py",
+      "sha256": "c9f6bb5f96a0c58368883d8a7b325b8a54afb60462b7f5b73f590cacc2422da3",
+      "git_blob": "15b7d9e367e3e2a6236675f477f98ff5d41a10c0",
+      "size": 13481
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/unpaywall.py",
+      "sha256": "ee5d849067898365d7171f54dbe7230d48c75d2ae12870db99cb137cef610666",
+      "git_blob": "3b8ac89b8f193141a45f5f567c2fdf544abc34e2",
+      "size": 8037
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/wos.py",
+      "sha256": "4d235e28dbc9e0a55a99d70b420850941d7b6f5828d8dbe948596a94c1b84b6e",
+      "git_blob": "717ea2ab7d55775149e20f3aaae8255eec431b66",
+      "size": 5342
+    },
+    {
+      "path": "paper_search_mcp/academic_platforms/zenodo.py",
+      "sha256": "08a7b13d8d8186c52e1d944eb47614f83f30b0ef8bc651c82df657abcdacc8fc",
+      "git_blob": "686c0ddb376267f554be81cdc93ffb97b65d1ae1",
+      "size": 10561
+    },
+    {
+      "path": "paper_search_mcp/cli.py",
+      "sha256": "7932791488fa53052a1e2ddaa9581bf5567d43abc266901d7da0c2941bb6e288",
+      "git_blob": "24b79fc162af790e7bdebb4633939c61f163901d",
+      "size": 18012
+    },
+    {
+      "path": "paper_search_mcp/cli_search.py",
+      "sha256": "2b2adcc1e8f4d736d80613c1b5576e19682717d7e7a9635d2c26884437525fcb",
+      "git_blob": "2d88982cfac2c0b4e98c0fdc3e1cb603493facaa",
+      "size": 3341
+    },
+    {
+      "path": "paper_search_mcp/cli_search_worker.py",
+      "sha256": "462c32438c1918aa0aa308f83068e6c210313259d8ca52338262043ec5fa6edd",
+      "git_blob": "6b90d6c040807db19769443cd9925dec43338b2d",
+      "size": 852
+    },
+    {
+      "path": "paper_search_mcp/config.py",
+      "sha256": "811105cf096e3d928625a8700642d740caacd70bd1e034cd48451b6dab76eee0",
+      "git_blob": "e5b4a53ebcbbf6b6c67e98220a6e44286bfceeaf",
+      "size": 2125
+    },
+    {
+      "path": "paper_search_mcp/http_auth.py",
+      "sha256": "4948b078d3c043dc765e76373ea3bc9abf107fbe7a7cbe87ff0a875d1743d2b5",
+      "git_blob": "843a1b145162ee1559ebded468f5e1646d58a84b",
+      "size": 12499
+    },
+    {
+      "path": "paper_search_mcp/paper.py",
+      "sha256": "24fec199640667905a51dedcd835196d70266fd994a1dc9542ac70054c509a42",
+      "git_blob": "1e26332b2bb766e097fcff807a71c6492c8aaad8",
+      "size": 3232
+    },
+    {
+      "path": "paper_search_mcp/search_cache.py",
+      "sha256": "f3fb29700521dbe0f592e22dc61dd55215ff9fe9516d488546bc4fc4a670f0c9",
+      "git_blob": "9d615ec83fe4001c0877f70e208132b82d62fa93",
+      "size": 15850
+    },
+    {
+      "path": "paper_search_mcp/sections.py",
+      "sha256": "fec65dad1b8b230b1f7731ce2f11898bd61f6341c76bcca12e597ec68c0adfa1",
+      "git_blob": "118ef578953c0bfc6d35d8affc98f8707bc8164e",
+      "size": 17321
+    },
+    {
+      "path": "paper_search_mcp/server.py",
+      "sha256": "4932ba358e6fe74c26b83af19d646422919f2ffc33aa334781295a33145546f7",
+      "git_blob": "93edfe8a41234f7fa653628ac8a7e1fca79c74f9",
+      "size": 82188
+    },
+    {
+      "path": "paper_search_mcp/tool_cli.py",
+      "sha256": "b001fb7166b38abed9e779febf025ab5261bd9d56dcef71a01af443101a44fab",
+      "git_blob": "b345f2b6810a3f3051f5d15c85a8391eb92078fb",
+      "size": 5324
+    },
+    {
+      "path": "paper_search_mcp/utils.py",
+      "sha256": "858b6d1df4f523d9b606a1ff30b57e6d59c26e89a8ae4849ec25a159348d49b6",
+      "git_blob": "0a6027cb85b12063f1cd1ef46102f5c00066721d",
+      "size": 277
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "667114720469984a0a3c6b92ac9e5289432b41b9f860b7b09e0aa7a7239e056e",
+      "git_blob": "201218323cc2309ccd9d7453d32a62a937504a2f",
+      "size": 1649
+    }
+  ],
+  "validation_scope": "Fixed-source hash and static command checks; no runtime installation or real PDF/API end-to-end test"
+}

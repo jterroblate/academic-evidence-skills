@@ -1,0 +1,4 @@
+interface:
+  display_name: "独立学术审阅与挑战"
+  short_description: "独立挑战claim、证据对齐和统计复现，输出定位问题并区分输入声明与核验"
+  default_prompt: "用 $academic-peer-review 处理我指定的学术材料，保留来源、原文定位、核验范围与待复核状态。"

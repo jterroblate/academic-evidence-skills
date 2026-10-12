@@ -1,0 +1,3 @@
+# Local baseline tested on Python 3.12.14; install into an isolated task environment.
+pymupdf4llm==1.28.2
+pymupdf==1.28.2

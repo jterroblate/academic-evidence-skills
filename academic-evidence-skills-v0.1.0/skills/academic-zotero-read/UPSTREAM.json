@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "adapted_skill": "academic-zotero-read",
+  "repo": "54yyyu/zotero-mcp",
+  "url": "https://github.com/54yyyu/zotero-mcp",
+  "commit": "0faf1b25c4b9bb95e2571bc8af60b62e9ce10e24",
+  "source_paths": [
+    "src/zotero_mcp/skills/zotero-cli",
+    "LICENSE",
+    "src/zotero_mcp/tools/search.py",
+    "src/zotero_mcp/chroma_client.py",
+    "src/zotero_mcp/semantic_search.py"
+  ],
+  "source_snapshot": "来源/zotero-mcp",
+  "source_manifest": "验证/ingestion/zotero-mcp-snapshot.json",
+  "license": {
+    "summary": "MIT for core CLI/skill; upstream chat plugin AGPL-3.0-or-later is not bundled",
+    "source_path": "LICENSE",
+    "packaged_path": "LICENSE",
+    "sha256": "bc38723323389a27f0efc6110bab876be3d891271f39ec061fdc99251fea2dca"
+  },
+  "adapted_at": "2026-10-12",
+  "adaptations": [
+    "Chinese host-neutral discoverable entrypoint and explicit CLI usage",
+    "Immutable L0 full SHA256; native outputs and actual engine/version/parameters/page coverage retained",
+    "Physical page 1-based; printed-page unknown null; preserve native bbox and source hash without invented coordinates",
+    "L1 document.md distinct from deep reading.md; no formal EU/Utility/ScientificCoordinate/Registry P IDs",
+    "Selected local channel first; no automatic upload, install, model replacement or unknown-result retry",
+    "Fresh staging only; Gateway owns identity/archive movement; external credentials; no automatic git commit/push",
+    "Upstream references isolated as .txt, raw SKILL kept outside delivery; no upstream precedence over current authorization",
+    "Explicit read command allowlist; toolsets=none and local-write=false are not read-only; no authorize-local/index/sync/writes",
+    "Exclude default/items search cascade, semantic background sync and CLI db status initialization; keyword search uses advanced field conditions"
+  ],
+  "vendored_resources": [
+    {
+      "source_path": "src/zotero_mcp/skills/zotero-cli/reference.md",
+      "packaged_path": "references/upstream/reference.md.txt",
+      "sha256": "ea2f2772bba305471230675a51bf983935b9ce5d3ec894184e692ab5b06dce26",
+      "execution_status": "isolated-reference-only"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "bc38723323389a27f0efc6110bab876be3d891271f39ec061fdc99251fea2dca",
+      "git_blob": "68bd9d3b6cc7c9787d5d7da23dead3ba4287e702",
+      "size": 1080
+    },
+    {
+      "path": "README.md",
+      "sha256": "2fe602d1f5bd4f7382535cc96b2e2effac8ddaa93683250a1d3e34f4f2e67951",
+      "git_blob": "8bcd81b4077dd50311b6acbeabb23cfcd11a55b2",
+      "size": 13940
+    },
+    {
+      "path": "docs/cli.md",
+      "sha256": "422081cf4b68dd9d1016da05f7360aa47327ad6f6f5575a2cf83e6a15280608b",
+      "git_blob": "c10eb6d401cc4dc77f3db95e6e7eb2af8f0585da",
+      "size": 10354
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "14bd7f1405b9a0cfd1b16b76872b2ade22f279deafe1e4a1de4cb0e9fe0a91be",
+      "git_blob": "45604f61a62655e2dab130e32482f6285e6ccb67",
+      "size": 13817
+    },
+    {
+      "path": "docs/for-agents.md",
+      "sha256": "3cfc6050ca070253b77f81e52b13735aec07b5ae0162f01d2672c87718db5cf7",
+      "git_blob": "4d1fe5898188b73537b726bea29fe4740e2d1a49",
+      "size": 7796
+    },
+    {
+      "path": "docs/getting-started.md",
+      "sha256": "e6b92bd95b2831c1d8ec8ebe6bf3bc7b10257fa77e7f8e4e4764fbeb96ad9dae",
+      "git_blob": "b391d3bdbceea880b5a4244f21e3e2b5b2f3f7f0",
+      "size": 15292
+    },
+    {
+      "path": "docs/tools.md",
+      "sha256": "693d6b8d48288997f99c4161eb8397d6f97264f55acca3b5b3dae0a0500e5760",
+      "git_blob": "a221aeb4f26d2af5197e5118fda1862aeaf492c3",
+      "size": 10312
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "fb47da8df9b639229c9d540828505f014ea7d12b2adc3a30da74790b05f5d36b",
+      "git_blob": "069d7d3f30658da580433cad6ec4b286f05235c5",
+      "size": 5449
+    },
+    {
+      "path": "src/zotero_mcp/chroma_client.py",
+      "sha256": "d3175442211f66ae7c9e01aeed795d9febf71eb39ca64832a5626576a18cc394",
+      "git_blob": "8ef79964ad99ea8ae94608b68161674a45652fb6",
+      "size": 30600
+    },
+    {
+      "path": "src/zotero_mcp/cli.py",
+      "sha256": "ed2e23eabd656727800c7e8aae0162f833430572d4ca2fdd854956d248c08feb",
+      "git_blob": "023b3e1258b59edb77119f39a89d62b394c2977b",
+      "size": 69781
+    },
+    {
+      "path": "src/zotero_mcp/cli_json.py",
+      "sha256": "bf541cdedcb3a0852035594507a8a6f6be52480f3ec0f1b9f3a91c7c5a4450f1",
+      "git_blob": "6f85c61a70e9666e2641ad69478ff3ea2ba9daa6",
+      "size": 7809
+    },
+    {
+      "path": "src/zotero_mcp/cli_standalone.py",
+      "sha256": "a2e1660980581ef368e5b7dce9bb8ee014a5865f7af38988175ed19daa4faba2",
+      "git_blob": "d1ecac643a16c6a19fd028d396167e7936c470a2",
+      "size": 85391
+    },
+    {
+      "path": "src/zotero_mcp/client.py",
+      "sha256": "d70204b64a52153bac0d4ca33c82004a1bae41ceefb7b54003f628e514b557c5",
+      "git_blob": "f6df4a14e66e1524ed7f6f8aa2498d7e460b3be8",
+      "size": 50269
+    },
+    {
+      "path": "src/zotero_mcp/semantic_search.py",
+      "sha256": "222e481c211064e47b41f0fea22644be4a6b818a373e63798a3acb3dc915ecd6",
+      "git_blob": "7e8db58e763523478c8be32ce967d4ebd44faa87",
+      "size": 206062
+    },
+    {
+      "path": "src/zotero_mcp/skills/zotero-cli/SKILL.md",
+      "sha256": "24822998c0fed41b756f5f99c982684648586396fe28c0ad58522343f8c297f7",
+      "git_blob": "cbf9cef8acc0ea916482fcee78c995d66a5c0634",
+      "size": 9088
+    },
+    {
+      "path": "src/zotero_mcp/skills/zotero-cli/reference.md",
+      "sha256": "ea2f2772bba305471230675a51bf983935b9ce5d3ec894184e692ab5b06dce26",
+      "git_blob": "e4f1c5f4eac4931e82a0111ba1fe2394b04a5084",
+      "size": 13336
+    },
+    {
+      "path": "src/zotero_mcp/tools/read_pdf.py",
+      "sha256": "81e7f19cc3295eb369e16b4a687b549fbb7bfe0708059c3dc97604ea21ea04b2",
+      "git_blob": "2f0ee9963ba9f41d833b8711eb5cc2d6323d705c",
+      "size": 29155
+    },
+    {
+      "path": "src/zotero_mcp/tools/retrieval.py",
+      "sha256": "68419beee380b7b239c4bdc32cb000c6a754e8020bed01318ad691a964ce71e5",
+      "git_blob": "3002fc0bbda70a22bc486430b9b705aa8de02c22",
+      "size": 70135
+    },
+    {
+      "path": "src/zotero_mcp/tools/search.py",
+      "sha256": "4f168bb423d7d4989838b5698ddea526e624175bbf9c7986a58f4725b4f196f1",
+      "git_blob": "0f81c52245eee997e063d4e28813bd19a46aedc2",
+      "size": 81574
+    },
+    {
+      "path": "src/zotero_mcp/tools/write.py",
+      "sha256": "068e72c8f12ccd50e992f5f0f2f3ef17ab018e6b97e4b46c994e63b71a53e81a",
+      "git_blob": "943eadaf2d2abf76022cebdac5cd05a4da9e25c5",
+      "size": 253193
+    }
+  ],
+  "validation_scope": "Fixed-source hash and static command checks; no runtime installation or real PDF/API end-to-end test"
+}

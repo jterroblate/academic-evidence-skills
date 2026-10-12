@@ -1,0 +1,4 @@
+interface:
+  display_name: "学术论文发现与溯源"
+  short_description: "按原生学术接口检索论文，留存原始响应并区分摘要、全文和候选来源"
+  default_prompt: "用 $academic-paper-lookup 处理我指定的学术材料，保留来源、原文定位、核验范围与待复核状态。"

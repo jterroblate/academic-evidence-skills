@@ -1,0 +1,36 @@
+{
+  "backend_declared_ready": false,
+  "content_submission_authorized": false,
+  "backend_scope": "local",
+  "settings": {
+    "llm": "ollama/llama3.2",
+    "summary_llm": "ollama/llama3.2",
+    "embedding": "ollama/mxbai-embed-large",
+    "llm_config": {
+      "model_list": [
+        {
+          "model_name": "ollama/llama3.2",
+          "litellm_params": {
+            "model": "ollama/llama3.2",
+            "api_base": "http://localhost:11434"
+          }
+        }
+      ]
+    },
+    "summary_llm_config": {
+      "model_list": [
+        {
+          "model_name": "ollama/llama3.2",
+          "litellm_params": {
+            "model": "ollama/llama3.2",
+            "api_base": "http://localhost:11434"
+          }
+        }
+      ]
+    },
+    "parsing": {
+      "use_doc_details": false,
+      "multimodal": false
+    }
+  }
+}

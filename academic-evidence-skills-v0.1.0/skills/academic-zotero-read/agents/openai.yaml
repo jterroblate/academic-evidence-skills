@@ -1,0 +1,6 @@
+interface:
+  display_name: "Zotero 只读学术材料"
+  short_description: "按明确只读命令读取 Zotero 书目、附件、页段和既有笔记"
+  default_prompt: "使用 $academic-zotero-read 只读检索现有 Zotero 材料，导出书目与附件出处到全新 staging。"
+policy:
+  allow_implicit_invocation: true

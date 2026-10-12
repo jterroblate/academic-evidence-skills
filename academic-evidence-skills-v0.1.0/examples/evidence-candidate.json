@@ -1,0 +1,17 @@
+{
+  "schema": "portable-evidence-candidate/0.1",
+  "example_only": true,
+  "status": "candidate",
+  "source_id": null,
+  "source_family": null,
+  "source_pdf_sha256": null,
+  "metadata": {"doi": null, "title": null, "authors": null, "year": null, "zotero_key": null},
+  "quote": {"text": null, "compiler_quote_verified": false},
+  "l0_locator": {"physical_pdf_page": null, "printed_page_label": null, "bbox": null, "segment_id": null, "l0_verified": false},
+  "claim": null,
+  "support_type": null,
+  "contradiction_or_limit": null,
+  "derivation": {"engine": null, "version": null, "parameters": {}, "raw_result_path": null},
+  "review": {"reviewer": null, "reviewed_at": null, "checked_scope": null},
+  "missing_information": ["This is an empty template, not a real paper or evidence unit."]
+}
