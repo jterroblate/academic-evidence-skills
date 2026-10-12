@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-13",
+  "purpose": "WorkBuddy只按现有工程需要选择和适配",
+  "formal_package": {
+    "version": "0.2.0",
+    "skills": 16,
+    "repo_directory": "academic-evidence-skills-v0.2.0",
+    "download_url": "https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.2.0/academic-evidence-skills-v0.2.0.zip",
+    "sha256": "92be20a332b92d435ce56e74f38fc2a04e0d69c67041fd1e84917f5f539a7cf3",
+    "use_first": [
+      "pdf-to-markdown",
+      "academic-langextract",
+      "academic-literature-review"
+    ]
+  },
+  "candidate_archive": {
+    "version": "0.1",
+    "download_url": "https://github.com/jterroblate/academic-evidence-skills/releases/download/workbuddy-handoff-v0.1/meeting-tool-candidates-v0.1.zip",
+    "bytes": 358864,
+    "sha256": "0432e3140603844f6b1cb9a1351595d0e4591b0533d58484f30a95af5334f89f",
+    "archive_root": "meeting-tool-candidates-v0.1",
+    "standard_skill_directories": 11,
+    "status": "static_research_snapshot_not_a_formal_package_update"
+  },
+  "skills": [
+    {
+      "name": "obsidian-markdown",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "Zotero与归档/obsidian-skills-3ccff5338ea7/skills/obsidian-markdown/SKILL.md",
+      "sha256": "7ad72e1f0a9081ed325e76b6402ad5de50a00e63e2341fd403a92f147234a007",
+      "license": "MIT",
+      "license_path": "Zotero与归档/obsidian-skills-3ccff5338ea7/skills/obsidian-markdown/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/kepano/obsidian-skills",
+      "upstream_commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "upstream_skill_url": "https://github.com/kepano/obsidian-skills/blob/3ccff5338ea700537839b21900aa5358a0402c98/skills/obsidian-markdown/SKILL.md",
+      "purpose_and_condition": "Obsidian Markdown规范；纯文件Vault可仅借写法",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "obsidian-cli",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "Zotero与归档/obsidian-skills-3ccff5338ea7/skills/obsidian-cli/SKILL.md",
+      "sha256": "b54257cdc0e5d04488b35b0c797bfe427b24359f0848d3c73924dcacf8da6358",
+      "license": "MIT",
+      "license_path": "Zotero与归档/obsidian-skills-3ccff5338ea7/skills/obsidian-cli/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/kepano/obsidian-skills",
+      "upstream_commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "upstream_skill_url": "https://github.com/kepano/obsidian-skills/blob/3ccff5338ea700537839b21900aa5358a0402c98/skills/obsidian-cli/SKILL.md",
+      "purpose_and_condition": "真实Obsidian Vault的文件操作；需可用CLI，不分配Registry ID",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "zotkit",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "Zotero与归档/zotkit-1335df225e08/skills/zotkit/SKILL.md",
+      "sha256": "7c04fb5d0260002975c9b51014c3744d98075405b3f81c71bdb03d57ef14518f",
+      "license": "MIT",
+      "license_path": "Zotero与归档/zotkit-1335df225e08/skills/zotkit/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/oldantique/zotkit",
+      "upstream_commit": "1335df225e086580bd336468190e87a7ba618e7b",
+      "upstream_skill_url": "https://github.com/oldantique/zotkit/blob/1335df225e086580bd336468190e87a7ba618e7b/skills/zotkit/SKILL.md",
+      "purpose_and_condition": "已有Zotero Web API路线的候选；部分写入/重试行为需适配",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "zotero-local-mcp-bridge",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "Zotero与归档/zotero-local-mcp-bridge-3e3f89019ad7/skills/zotero-local-mcp-bridge/SKILL.md",
+      "sha256": "6a3694b4f5411a4a12d06a8c02127a3d4fc3ee11859087a0106a9bdf45291124",
+      "license": "AGPL-3.0-or-later",
+      "license_path": "Zotero与归档/zotero-local-mcp-bridge-3e3f89019ad7/skills/zotero-local-mcp-bridge/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/PhoenixChenLu/zotero-local-mcp-bridge",
+      "upstream_commit": "3e3f89019ad773ff756a3a6244324a8988dfdb93",
+      "upstream_skill_url": "https://github.com/PhoenixChenLu/zotero-local-mcp-bridge/blob/3e3f89019ad773ff756a3a6244324a8988dfdb93/skills/zotero-local-mcp-bridge/SKILL.md",
+      "purpose_and_condition": "Zotero本地条目/附件查询与经授权写入；本地用户库且需要插件时采用",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "zotero-local-mcp-bridge-zh-cn",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "Zotero与归档/zotero-local-mcp-bridge-3e3f89019ad7/skills/zotero-local-mcp-bridge-zh-cn/SKILL.md",
+      "sha256": "5636b6a53c775af5eb388e821308edafae35d3756ecf61f818042ca6866c95b1",
+      "license": "AGPL-3.0-or-later",
+      "license_path": "Zotero与归档/zotero-local-mcp-bridge-3e3f89019ad7/skills/zotero-local-mcp-bridge-zh-cn/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/PhoenixChenLu/zotero-local-mcp-bridge",
+      "upstream_commit": "3e3f89019ad773ff756a3a6244324a8988dfdb93",
+      "upstream_skill_url": "https://github.com/PhoenixChenLu/zotero-local-mcp-bridge/blob/3e3f89019ad773ff756a3a6244324a8988dfdb93/skills/zotero-local-mcp-bridge-zh-cn/SKILL.md",
+      "purpose_and_condition": "同一Zotero桥的中文指引；优先读取此版本，不重复计算能力",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "langgraph-human-in-the-loop",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "langchain-official/langgraph-human-in-the-loop/SKILL.md",
+      "sha256": "ce56e8ce58548dd1d7cb0d3e524cf546cef0c712e3c35d63fdd4ae354b40d3c1",
+      "license": "MIT",
+      "license_path": "langchain-official/langgraph-human-in-the-loop/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/langchain-ai/langchain-skills",
+      "upstream_commit": "16a992f09ab3ccfb642dd4f08d350d833d1990bf",
+      "upstream_skill_url": "https://github.com/langchain-ai/langchain-skills/blob/16a992f09ab3ccfb642dd4f08d350d833d1990bf/config/skills/langgraph-human-in-the-loop/SKILL.md",
+      "purpose_and_condition": "开发缺PDF等待和同一任务恢复；不是已接通的循环",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "ecosystem-primer",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "langchain-official/ecosystem-primer/SKILL.md",
+      "sha256": "cc786e2a06096142f93bda47bd9e9419338b21fead8d5c3d7b997cef43ed32cb",
+      "license": "MIT",
+      "license_path": "langchain-official/ecosystem-primer/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/langchain-ai/langchain-skills",
+      "upstream_commit": "16a992f09ab3ccfb642dd4f08d350d833d1990bf",
+      "upstream_skill_url": "https://github.com/langchain-ai/langchain-skills/blob/16a992f09ab3ccfb642dd4f08d350d833d1990bf/config/skills/ecosystem-primer/SKILL.md",
+      "purpose_and_condition": "框架选择参考；不强制采用追踪服务或迁移模型",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "langgraph-persistence",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "langchain-official/langgraph-persistence/SKILL.md",
+      "sha256": "0a9a4f36e6d7895a273ce0882655e57023d2d992d4fde8e033e2936ac1df789e",
+      "license": "MIT",
+      "license_path": "langchain-official/langgraph-persistence/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/langchain-ai/langchain-skills",
+      "upstream_commit": "16a992f09ab3ccfb642dd4f08d350d833d1990bf",
+      "upstream_skill_url": "https://github.com/langchain-ai/langchain-skills/blob/16a992f09ab3ccfb642dd4f08d350d833d1990bf/config/skills/langgraph-persistence/SKILL.md",
+      "purpose_and_condition": "开发跨进程任务状态保存；需实际持久化后端",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "langgraph-fundamentals",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "langchain-official/langgraph-fundamentals/SKILL.md",
+      "sha256": "193bea142c9df04abc44917fb96c0be53ec9b5c77f56670004d3c03c117fb990",
+      "license": "MIT",
+      "license_path": "langchain-official/langgraph-fundamentals/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/langchain-ai/langchain-skills",
+      "upstream_commit": "16a992f09ab3ccfb642dd4f08d350d833d1990bf",
+      "upstream_skill_url": "https://github.com/langchain-ai/langchain-skills/blob/16a992f09ab3ccfb642dd4f08d350d833d1990bf/config/skills/langgraph-fundamentals/SKILL.md",
+      "purpose_and_condition": "仅使用LangGraph时读取框架基础与相应语言参考",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "mcp-builder",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "anthropic-official/mcp-builder/SKILL.md",
+      "sha256": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
+      "license": "Apache-2.0",
+      "license_path": "anthropic-official/mcp-builder/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/anthropics/skills",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "upstream_skill_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/SKILL.md",
+      "purpose_and_condition": "开发query、字段与精确ID回取合同；MCP可选",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    },
+    {
+      "name": "pinecone-full-text-search",
+      "kind": "standard_skill_in_candidate_archive",
+      "archive_skill_path": "召回后端/pinecone-full-text-search/SKILL.md",
+      "sha256": "397ee0f2e26e2ce6cf0c7a12781d57c26487f89a4fec7ac4d81e7202c19e773d",
+      "license": "MIT",
+      "license_path": "召回后端/pinecone-full-text-search/UPSTREAM_LICENSE.txt",
+      "upstream_repo": "https://github.com/pinecone-io/skills",
+      "upstream_commit": "885dc539fbc2c777dee9764a5b05656663b43c5f",
+      "upstream_skill_url": "https://github.com/pinecone-io/skills/blob/885dc539fbc2c777dee9764a5b05656663b43c5f/skills/pinecone-full-text-search/SKILL.md",
+      "purpose_and_condition": "已有Pinecone平台时的FTS开发指引；不默认新增平台",
+      "review": "downloaded_and_statically_reviewed",
+      "workbuddy_import_tested": false,
+      "runtime_integrated": false
+    }
+  ],
+  "external_services": [
+    {
+      "name": "Elicit",
+      "kind": "official_api_and_mcp_with_nonstandard_sample_skill",
+      "docs": "https://docs.elicit.com/",
+      "terms": "https://elicit.com/operations/api-terms",
+      "repo": "https://github.com/elicit/api-examples/tree/89e24c1b28510079aad24fcd73f8052858cc7257",
+      "source_archive_in_candidates": "可选外部入口源码/elicit-official-89e24c1b2851.tar.gz",
+      "condition": "核对账户、用量和用途；不得默认用于聚合独立EU索引/数据库",
+      "runtime_tested": false
+    },
+    {
+      "name": "OpenAlex",
+      "kind": "official_api_and_cli_source_no_skill",
+      "docs": "https://help.openalex.org/api/authentication/",
+      "content_docs": "https://help.openalex.org/access/fulltext/",
+      "repo": "https://github.com/ourresearch/openalex-official/tree/183ff7cd1997a67599a8095f8a7a672d2e5a37f8",
+      "source_archive_in_candidates": "可选外部入口源码/openalex-official-183ff7cd1997.tar.gz",
+      "condition": "先单篇查询；metadata-only结果与真实PDF分开",
+      "runtime_tested": false
+    }
+  ],
+  "friend_contracts_needed": [
+    "existing EU schema and ID rules",
+    "Registry/Gateway write contract",
+    "paper list and task resume contract",
+    "Zotero/Vault paths and backend"
+  ],
+  "workbuddy_official_sources": [
+    "https://open.workbuddy.cn/docs/skill",
+    "https://intl.cloud.tencent.com/document/product/1316/84503"
+  ],
+  "do_not_infer": [
+    "candidate download means runtime installation",
+    "reading SKILL.md proves successful import",
+    "commercial service sample license grants database aggregation rights"
+  ]
+}

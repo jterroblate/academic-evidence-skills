@@ -2,6 +2,14 @@
 
 16个可携带技能：原14技能基础包覆盖PDF转写、文献检索、引用管理、阅读与研究；新增2技能补充包侧重原子claim抽取和检索质量诊断。AI参与选型与改编。
 
+## 在 WorkBuddy 中使用
+
+[给 WorkBuddy 的启动提示词](workbuddy/START_HERE.md) · [交接与导入说明](workbuddy/README.md) · [候选工具目录](workbuddy/TOOL_CATALOG.json)
+
+新增 WorkBuddy 交接入口，合并原16项正式技能、本轮定向候选与用法，方便一次转交。候选只做过静态审查；未在朋友的 WorkBuddy/工程上验证。正式技能仍为16项 v0.2.0。
+
+[下载 WorkBuddy 完整交接包 v0.1](https://github.com/jterroblate/academic-evidence-skills/releases/download/workbuddy-handoff-v0.1/academic-workbuddy-handoff-v0.1.zip) · [本轮结构示意图](workbuddy/workbuddy-handoff-diagram.png)
+
 ## 最新完整包 v0.2.0
 
 **原14技能＋新增2项，共16项，合并为一个完整ZIP。** 包内附全部用法、3张讲解图和AskChem固定源码参考；朋友下载这一份即可取得当前全部交付。
