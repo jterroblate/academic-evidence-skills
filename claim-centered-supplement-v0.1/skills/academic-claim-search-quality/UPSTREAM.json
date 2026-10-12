@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "skill_name": "academic-claim-search-quality",
+  "adaptation_version": "0.1.0",
+  "adapted_on": "2026-10-12",
+  "adaptation_author": "AI协作产物",
+  "nature": "Narrow method skill and fixed references, no backend or evaluation runner",
+  "repository": "https://github.com/qdrant/skills",
+  "commit": "1780b6de984a41bac76be3ac4f6856e7b8762fd7",
+  "head_verification": "git ls-remote --symref on 2026-10-12; refs/heads/main",
+  "upstream_skill_path": "skills/qdrant-search-quality",
+  "pinned_url": "https://github.com/qdrant/skills/tree/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality",
+  "license": {
+    "spdx": "Apache-2.0",
+    "path": "LICENSE",
+    "upstream_path": "LICENSE",
+    "sha256": "210b508429e913d9de5301f90508bc2cbf5b2281de5b45e607c04d58f0f3bd8f"
+  },
+  "upstream_files": [
+    {
+      "upstream_path": "skills/qdrant-model-migration/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-model-migration/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-model-migration/SKILL.md",
+      "sha256": "0b87bd7f89f768a56fdf71f3cd8579d3c62a846b7c8e146742d936797718b43e",
+      "bytes": 9142,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "skills/qdrant-search-quality/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-search-quality/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality/SKILL.md",
+      "sha256": "13aa52bba98d28c390c5c0e2ef240964214ed017402f41cd61bf51680f280a17",
+      "bytes": 2465,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "skills/qdrant-search-quality/diagnosis/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-search-quality/diagnosis/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality/diagnosis/SKILL.md",
+      "sha256": "e72f37c45e5e3f3f8d28239bfd7e2e14f1bbca065bab10a3b58b7561aa2cff37",
+      "bytes": 9331,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "skills/qdrant-search-quality/search-strategies/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality/search-strategies/SKILL.md",
+      "sha256": "5d254d99aed9c86eb0d066a4465750303eaf4bca1573eba3f5dd15975d26606b",
+      "bytes": 5602,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "skills/qdrant-search-quality/search-strategies/hybrid-search/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/hybrid-search/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality/search-strategies/hybrid-search/SKILL.md",
+      "sha256": "c98db5c272945d8bab316e9444c124118d6710b70c30a9a9f84e8dbd02be590a",
+      "bytes": 3669,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "skills/qdrant-search-quality/search-strategies/hybrid-search/combining-searches/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/hybrid-search/combining-searches/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality/search-strategies/hybrid-search/combining-searches/SKILL.md",
+      "sha256": "57ecdbcafa5dc00a32d49718579f15972828276fa0e200121620ab9a2870146f",
+      "bytes": 6593,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "skills/qdrant-search-quality/search-strategies/hybrid-search/search-types/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/hybrid-search/search-types/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality/search-strategies/hybrid-search/search-types/SKILL.md",
+      "sha256": "94b28b1a5fb740071e0087f0a5d1524b1962c4589e20dbf38f43ba9342f52e03",
+      "bytes": 9668,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "skills/qdrant-search-quality/search-strategies/relevance-feedback/SKILL.md",
+      "delivered_path": "references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/relevance-feedback/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/skills/qdrant-search-quality/search-strategies/relevance-feedback/SKILL.md",
+      "sha256": "c04a8a50e737f122717fcfcb8b586dd5ce27382ada6127e25b3a434c9b8480f2",
+      "bytes": 10754,
+      "adaptation": "unchanged"
+    },
+    {
+      "upstream_path": "LICENSE",
+      "delivered_path": "LICENSE",
+      "upstream_url": "https://raw.githubusercontent.com/qdrant/skills/1780b6de984a41bac76be3ac4f6856e7b8762fd7/LICENSE",
+      "sha256": "210b508429e913d9de5301f90508bc2cbf5b2281de5b45e607c04d58f0f3bd8f",
+      "bytes": 11351,
+      "adaptation": "unchanged"
+    }
+  ],
+  "adapted_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "a1a57dffc8890c580c6905765488faa643dc7dee77a68c384912bdc24a9923f5",
+      "bytes": 4394,
+      "adaptation": "Chinese portable adaptation / added interface"
+    },
+    {
+      "path": "references/usage.md",
+      "sha256": "7cd09d6c133c6fd3713b613221dde49b0cbb15e19982d7042ed3d32d1f5b6f39",
+      "bytes": 10036,
+      "adaptation": "Chinese portable adaptation / added interface"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "19f1d4e1c5b01717ff7ba2afcd9af6dc53302aa6c2f58028be042835c0a59041",
+      "bytes": 349,
+      "adaptation": "Chinese portable adaptation / added interface"
+    }
+  ],
+  "changes": [
+    "中文且宿主中立的已有学术claim检索质量入口；AskChem SQLite/FAISS/FTS5既有实现优先参考",
+    "先建立相关性金标、source-family隔离dev/held-out，记录反例/错配/否定/数值/insufficient、固定语料与taxonomy/embedding版本",
+    "将Qdrant排障置于用户已经选择Qdrant的条件分支，保留其必要相对链接子树与model-migration原件",
+    "保留source_id/claim_id传入身份与派生索引边界，区分相关性、原文定位、entailment、科学可信度",
+    "新增可复制提示词、分阶段输入输出、实际执行范围与缺后端/embedding的退化状态",
+    "不增加模型/云依赖、不自动安装或迁移、不修改线上索引、不实现Formal EU晋升"
+  ],
+  "copied_scope": "Complete qdrant-search-quality subtree plus its relative model-migration reference; original source bytes preserved",
+  "not_implemented": [
+    "Retrieval/index/embedding backend",
+    "Evaluation runner or SDK",
+    "Literal quote/PDF locator verifier",
+    "Semantic entailment or scientific truth validator",
+    "Formal EU/Gateway/Registry compiler",
+    "Scientific coordinate/Utility scorer"
+  ],
+  "validation_scope": "skill format + relative reference integrity + unchanged upstream hash checks; no SDK/backend/model execution",
+  "validation": {
+    "checked_on": "2026-10-12",
+    "quick_validate": "passed",
+    "validator": "system skill-creator/scripts/quick_validate.py",
+    "interpreter": "Existing jt-knowledge-retrieval venv Python with PyYAML; no dependencies installed",
+    "relative_markdown_and_skill_references": "passed",
+    "upstream_byte_hashes": "9 of 9 unchanged",
+    "openai_interface": "passed; quoted strings, 37-character description, exact skill invocation",
+    "backend_model_or_sdk_executed": false,
+    "independent_forward_test": "not performed; additional agent spawn unavailable due to thread limit"
+  }
+}

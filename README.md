@@ -1,8 +1,19 @@
 # 学术证据工作流 · Skill 合集
 
-14个可携带技能，覆盖PDF转写、文献检索、引用管理、批判性阅读、假设、综述和审查。12个开源技能的定制版本，配合PDF交付适配器与PaperQA2可选适配器；AI参与改编。
+16个可携带技能：原14技能基础包覆盖PDF转写、文献检索、引用管理、阅读与研究；新增2技能补充包侧重原子claim抽取和检索质量诊断。AI参与选型与改编。
 
-## 下载与入门
+## Claim 中心工作流补充包
+
+基于AskChem完整音轨、幻灯片与原论文/源码复核，新增两个窄技能及固定系统参考。先看共享claim库、出处核验与小金标评测，再决定扩展服务。
+
+- [下载补充包ZIP](https://github.com/jterroblate/academic-evidence-skills/releases/download/claim-supplement-v0.1/claim-centered-supplement-v0.1.zip)
+- [中文入口与两个技能用法](claim-centered-supplement-v0.1/README_先读.md)
+- [精选工具及起步顺序](claim-centered-supplement-v0.1/工具用途与起步顺序.md)
+- [补充包验证边界](claim-centered-supplement-v0.1/验证说明.md)
+
+`academic-langextract`处理已有L1文本的typed claim候选与跨度；`academic-claim-search-quality`指导golden set、召回/排序、反例与过滤诊断。另含AskChem固定源码约2MB，不含其大型数据库或模型。这些是方法技能与技术参考，正式Compiler、Registry和eval runner仍需目标工程实现；未代测真实provider与朋友论文效果。
+
+## 基础包下载与入门
 
 - [下载 v0.1.0 ZIP](https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.1.0/academic-evidence-skills-v0.1.0.zip)
 - [安装与第一篇PDF](academic-evidence-skills-v0.1.0/README_先读.md)

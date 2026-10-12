@@ -1,0 +1,173 @@
+{
+  "package": "claim-centered-supplement",
+  "version": "0.1",
+  "hash_algorithm": "SHA256",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "LICENSES.md",
+      "bytes": 1032,
+      "sha256": "17559dcf151aa2920a7a0a0cf40ec9b5e0f0f16a19434529fc3036533102e05e"
+    },
+    {
+      "path": "README_先读.md",
+      "bytes": 4937,
+      "sha256": "231f79a812f86b2f0a28e8af8187b379b0f65f2153f24c48161aab0cbadeb5c1"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/LICENSE",
+      "bytes": 11351,
+      "sha256": "210b508429e913d9de5301f90508bc2cbf5b2281de5b45e607c04d58f0f3bd8f"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/SHA256SUMS",
+      "bytes": 1642,
+      "sha256": "d376b013c105cbeaa6a0f38c5f23ae8a25161d152636ff024db1f3079bb76d8b"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/SKILL.md",
+      "bytes": 4394,
+      "sha256": "a1a57dffc8890c580c6905765488faa643dc7dee77a68c384912bdc24a9923f5"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/UPSTREAM.json",
+      "bytes": 8064,
+      "sha256": "a94e6e2ea36418cce54fa97890a334ee296c11f31aa2d978ff0e5ee7e434f040"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/agents/openai.yaml",
+      "bytes": 349,
+      "sha256": "19f1d4e1c5b01717ff7ba2afcd9af6dc53302aa6c2f58028be042835c0a59041"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-model-migration/SKILL.md",
+      "bytes": 9142,
+      "sha256": "0b87bd7f89f768a56fdf71f3cd8579d3c62a846b7c8e146742d936797718b43e"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-search-quality/SKILL.md",
+      "bytes": 2465,
+      "sha256": "13aa52bba98d28c390c5c0e2ef240964214ed017402f41cd61bf51680f280a17"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-search-quality/diagnosis/SKILL.md",
+      "bytes": 9331,
+      "sha256": "e72f37c45e5e3f3f8d28239bfd7e2e14f1bbca065bab10a3b58b7561aa2cff37"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/SKILL.md",
+      "bytes": 5602,
+      "sha256": "5d254d99aed9c86eb0d066a4465750303eaf4bca1573eba3f5dd15975d26606b"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/hybrid-search/SKILL.md",
+      "bytes": 3669,
+      "sha256": "c98db5c272945d8bab316e9444c124118d6710b70c30a9a9f84e8dbd02be590a"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/hybrid-search/combining-searches/SKILL.md",
+      "bytes": 6593,
+      "sha256": "57ecdbcafa5dc00a32d49718579f15972828276fa0e200121620ab9a2870146f"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/hybrid-search/search-types/SKILL.md",
+      "bytes": 9668,
+      "sha256": "94b28b1a5fb740071e0087f0a5d1524b1962c4589e20dbf38f43ba9342f52e03"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/upstream/qdrant/skills/qdrant-search-quality/search-strategies/relevance-feedback/SKILL.md",
+      "bytes": 10754,
+      "sha256": "c04a8a50e737f122717fcfcb8b586dd5ce27382ada6127e25b3a434c9b8480f2"
+    },
+    {
+      "path": "skills/academic-claim-search-quality/references/usage.md",
+      "bytes": 10036,
+      "sha256": "7cd09d6c133c6fd3713b613221dde49b0cbb15e19982d7042ed3d32d1f5b6f39"
+    },
+    {
+      "path": "skills/academic-langextract/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "skills/academic-langextract/SKILL.md",
+      "bytes": 6014,
+      "sha256": "f601ecc640c4eb52bff8dfddf542eed814c9bc4f2be55b3a2d9b92905294c1bb"
+    },
+    {
+      "path": "skills/academic-langextract/UPSTREAM.json",
+      "bytes": 7142,
+      "sha256": "b6b78c0b3e3757397b0d7e40ca870dd7e545e4c11640f4d1cd1f5ed2278114c5"
+    },
+    {
+      "path": "skills/academic-langextract/agents/openai.yaml",
+      "bytes": 323,
+      "sha256": "ab89202c1bb39c86fd889a18570616cf03593d5bf9100631fd4f2f9ebc4cc859"
+    },
+    {
+      "path": "skills/academic-langextract/references/usage.md",
+      "bytes": 6179,
+      "sha256": "0b8ddcda021e0ff2322633b983a4618a1c48bed62b5033cb132dffc795faae09"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/README.md",
+      "bytes": 3633,
+      "sha256": "daed6cca515323a4aeaa4eb97023bfc68c851e784202aaf2ebc3dfa452667358"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/SKILL.md",
+      "bytes": 6817,
+      "sha256": "d0bcbf0189a43b55ba6490a78df4828acefe7400a80a2a10166b19307bf9dacd"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/examples/basic_extraction.py",
+      "bytes": 1664,
+      "sha256": "67217ed49270b3f2ec2cfe9dfa5469e52728b6c60b09f7fa27932926fc259de9"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/examples/multiple_documents.py",
+      "bytes": 1769,
+      "sha256": "914d59edd05ec1b72ade56103d30a50523c8b5c611d8f21d7f2e2b9b5ca48d80"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/examples/relationship_extraction.py",
+      "bytes": 2215,
+      "sha256": "fe8aa22bfbcda8f4f5ce67018c05dd851db15b7f99b85683f81d8643596930d6"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/references/prompt-validation.md",
+      "bytes": 1847,
+      "sha256": "5309a79c3a1a93ec8854ad5f8876614eef51a3700d268686aebab675fe15b9a5"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/references/providers.md",
+      "bytes": 4255,
+      "sha256": "e6e7737c7f4dfe3b9d4f81424a871033457bbded2237fd49b9d5eec0ad9b9747"
+    },
+    {
+      "path": "skills/academic-langextract/upstream/langextract-usage/references/resolver-params.md",
+      "bytes": 2866,
+      "sha256": "f916c63aa7f9c58df73ca9b86cd08d81cc5c416c4f8650f7392e8a2d94e1f258"
+    },
+    {
+      "path": "sources/askchem-cbb612ab355cca0b9fbd23a457b42ae82c172a70.tar.gz",
+      "bytes": 2030495,
+      "sha256": "8a31a13e2eb3ffe419e53ce55ebd20a432aa6acc5953b7efa355132c1a198258"
+    },
+    {
+      "path": "工具用途与起步顺序.md",
+      "bytes": 4519,
+      "sha256": "4b75a2cd5e18b3a075f67f5f6e115e308416e3883a64419a357f4102fa1a2da0"
+    },
+    {
+      "path": "来源与修改.json",
+      "bytes": 1711,
+      "sha256": "c32a11cbb61a5036fcb50e0f2681d5eedf59f74ec45c36a41a26ede75501697a"
+    },
+    {
+      "path": "验证说明.md",
+      "bytes": 2140,
+      "sha256": "4fd4a7309483e681cd426486686ba209ac5962a5ee2f86df49f3cdd0f459bd3f"
+    }
+  ]
+}
