@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-21",
+  "purpose": "WorkBuddy single-skill import preparation",
+  "official_structure_url": "https://open.workbuddy.cn/docs/skill",
+  "source_skills_unchanged": true,
+  "frozen_formal_package_modified": false,
+  "workbuddy_client_import_tested": false,
+  "runtime_or_models_bundled": false,
+  "remote_mutations_performed": false,
+  "privacy_scan": {
+    "scope": "All UTF-8 output files and identical ZIP payloads",
+    "private_path_or_credential_pattern_hits": []
+  },
+  "skills": [
+    {
+      "skill": "pdf-to-markdown",
+      "version": "0.2.0",
+      "zip": "pdf-to-markdown-workbuddy-v0.2.0.zip",
+      "sha256": "b615aada431f3db3130c727a6e51267b19f3a3f131a9e06205b00aa1cda9e20b",
+      "size_bytes": 38895,
+      "files": 17,
+      "top_level_folder": "pdf-to-markdown",
+      "changed_files": [
+        "SHA256SUMS",
+        "SKILL.md",
+        "UPSTREAM.json"
+      ],
+      "required_yaml_fields_passed": true,
+      "existing_frontmatter_and_body_preserved": true,
+      "other_source_files_unchanged": true,
+      "sha256sums_passed": true,
+      "zip_crc_passed": true,
+      "zip_readback_matches_manifest": true,
+      "python_scripts_ast_valid": 4,
+      "licenses_preserved": true
+    },
+    {
+      "skill": "academic-mineru",
+      "version": "0.2.0",
+      "zip": "academic-mineru-workbuddy-v0.2.0.zip",
+      "sha256": "9de0148f464a10113a303e7f0adbbdb19d5fdcece5a4ae9788e8ccabbc80f6fe",
+      "size_bytes": 33485,
+      "files": 14,
+      "top_level_folder": "academic-mineru",
+      "changed_files": [
+        "SHA256SUMS",
+        "SKILL.md",
+        "UPSTREAM.json"
+      ],
+      "required_yaml_fields_passed": true,
+      "existing_frontmatter_and_body_preserved": true,
+      "other_source_files_unchanged": true,
+      "sha256sums_passed": true,
+      "zip_crc_passed": true,
+      "zip_readback_matches_manifest": true,
+      "python_scripts_ast_valid": 1,
+      "licenses_preserved": true
+    },
+    {
+      "skill": "academic-docling",
+      "version": "0.2.0",
+      "zip": "academic-docling-workbuddy-v0.2.0.zip",
+      "sha256": "9cecd19c80dfc39521085d1d0c0f60e5ce6af12218829dd2d83d30b8a8c33fbe",
+      "size_bytes": 28943,
+      "files": 13,
+      "top_level_folder": "academic-docling",
+      "changed_files": [
+        "SHA256SUMS",
+        "SKILL.md",
+        "UPSTREAM.json"
+      ],
+      "required_yaml_fields_passed": true,
+      "existing_frontmatter_and_body_preserved": true,
+      "other_source_files_unchanged": true,
+      "sha256sums_passed": true,
+      "zip_crc_passed": true,
+      "zip_readback_matches_manifest": true,
+      "python_scripts_ast_valid": 0,
+      "licenses_preserved": true
+    }
+  ],
+  "limits": [
+    "Required-field validation follows the published WorkBuddy structure, not a claim of client acceptance.",
+    "No parser inference or provider call was rerun for this metadata-only adaptation.",
+    "Hashes are unsigned and do not prove publisher authenticity."
+  ],
+  "post_corpus_diagnostic_sync": {
+    "date": "2026-10-21",
+    "math_check_sha256": "65f6411fccb033ee1ae4fac1a9ff38b68fcc3117c2034f300a9cda06cfdace2f",
+    "original_21_tests_passed": true,
+    "page_recovery_regressions_passed": 2,
+    "source_text_repaired": false,
+    "variant_matches_current_formal_scripts": true
+  }
+}

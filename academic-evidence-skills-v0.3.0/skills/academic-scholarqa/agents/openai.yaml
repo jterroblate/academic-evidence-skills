@@ -1,0 +1,4 @@
+interface:
+  display_name: "学术文献问答与主张账本"
+  short_description: "检索互补文献并保留主张出处、分级证据与候选状态，支持可审阅文献综合"
+  default_prompt: "使用 $academic-scholarqa 围绕我的问题整理有出处的文献回答，并保留证据分级和未验证部分。"

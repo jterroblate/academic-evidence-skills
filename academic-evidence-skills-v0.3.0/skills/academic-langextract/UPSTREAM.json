@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "skill": "academic-langextract",
+  "created_at_utc": "2026-10-12T02:19:32.928617+00:00",
+  "identity": "Chinese narrow candidate-extraction wrapper around preserved official usage references; not an official Google skill or formal Evidence Compiler",
+  "upstream_repo": "https://github.com/google/langextract",
+  "upstream_skill_url": "https://github.com/google/langextract/blob/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/SKILL.md",
+  "upstream_commit": "f6dc772b738a44cd6f77d0858d6ce3afa16acd15",
+  "upstream_default_branch": "main",
+  "upstream_head_committer_at_utc": "2026-10-12T01:11:07Z",
+  "license": "Apache-2.0",
+  "license_file": "LICENSE",
+  "original_files": [
+    {
+      "upstream_path": "skills/langextract-usage/README.md",
+      "packaged_path": "upstream/langextract-usage/README.md",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/README.md",
+      "original_sha256": "daed6cca515323a4aeaa4eb97023bfc68c851e784202aaf2ebc3dfa452667358",
+      "packaged_sha256": "daed6cca515323a4aeaa4eb97023bfc68c851e784202aaf2ebc3dfa452667358",
+      "bytes": 3633,
+      "modified": false
+    },
+    {
+      "upstream_path": "skills/langextract-usage/SKILL.md",
+      "packaged_path": "upstream/langextract-usage/SKILL.md",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/SKILL.md",
+      "original_sha256": "d0bcbf0189a43b55ba6490a78df4828acefe7400a80a2a10166b19307bf9dacd",
+      "packaged_sha256": "d0bcbf0189a43b55ba6490a78df4828acefe7400a80a2a10166b19307bf9dacd",
+      "bytes": 6817,
+      "modified": false
+    },
+    {
+      "upstream_path": "skills/langextract-usage/examples/basic_extraction.py",
+      "packaged_path": "upstream/langextract-usage/examples/basic_extraction.py",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/examples/basic_extraction.py",
+      "original_sha256": "67217ed49270b3f2ec2cfe9dfa5469e52728b6c60b09f7fa27932926fc259de9",
+      "packaged_sha256": "67217ed49270b3f2ec2cfe9dfa5469e52728b6c60b09f7fa27932926fc259de9",
+      "bytes": 1664,
+      "modified": false
+    },
+    {
+      "upstream_path": "skills/langextract-usage/examples/multiple_documents.py",
+      "packaged_path": "upstream/langextract-usage/examples/multiple_documents.py",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/examples/multiple_documents.py",
+      "original_sha256": "914d59edd05ec1b72ade56103d30a50523c8b5c611d8f21d7f2e2b9b5ca48d80",
+      "packaged_sha256": "914d59edd05ec1b72ade56103d30a50523c8b5c611d8f21d7f2e2b9b5ca48d80",
+      "bytes": 1769,
+      "modified": false
+    },
+    {
+      "upstream_path": "skills/langextract-usage/examples/relationship_extraction.py",
+      "packaged_path": "upstream/langextract-usage/examples/relationship_extraction.py",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/examples/relationship_extraction.py",
+      "original_sha256": "fe8aa22bfbcda8f4f5ce67018c05dd851db15b7f99b85683f81d8643596930d6",
+      "packaged_sha256": "fe8aa22bfbcda8f4f5ce67018c05dd851db15b7f99b85683f81d8643596930d6",
+      "bytes": 2215,
+      "modified": false
+    },
+    {
+      "upstream_path": "skills/langextract-usage/references/prompt-validation.md",
+      "packaged_path": "upstream/langextract-usage/references/prompt-validation.md",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/references/prompt-validation.md",
+      "original_sha256": "5309a79c3a1a93ec8854ad5f8876614eef51a3700d268686aebab675fe15b9a5",
+      "packaged_sha256": "5309a79c3a1a93ec8854ad5f8876614eef51a3700d268686aebab675fe15b9a5",
+      "bytes": 1847,
+      "modified": false
+    },
+    {
+      "upstream_path": "skills/langextract-usage/references/providers.md",
+      "packaged_path": "upstream/langextract-usage/references/providers.md",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/references/providers.md",
+      "original_sha256": "e6e7737c7f4dfe3b9d4f81424a871033457bbded2237fd49b9d5eec0ad9b9747",
+      "packaged_sha256": "e6e7737c7f4dfe3b9d4f81424a871033457bbded2237fd49b9d5eec0ad9b9747",
+      "bytes": 4255,
+      "modified": false
+    },
+    {
+      "upstream_path": "skills/langextract-usage/references/resolver-params.md",
+      "packaged_path": "upstream/langextract-usage/references/resolver-params.md",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/skills/langextract-usage/references/resolver-params.md",
+      "original_sha256": "f916c63aa7f9c58df73ca9b86cd08d81cc5c416c4f8650f7392e8a2d94e1f258",
+      "packaged_sha256": "f916c63aa7f9c58df73ca9b86cd08d81cc5c416c4f8650f7392e8a2d94e1f258",
+      "bytes": 2866,
+      "modified": false
+    },
+    {
+      "upstream_path": "LICENSE",
+      "packaged_path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/google/langextract/f6dc772b738a44cd6f77d0858d6ce3afa16acd15/LICENSE",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "packaged_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "modified": false
+    }
+  ],
+  "adaptations": [
+    {
+      "file": "SKILL.md",
+      "change": "新增中文窄入口，只针对已有L1文本抽typed candidate与span；保持模型渠道和来源身份，缺配置停在待配置，不成为正式Compiler或FormalEU创建器"
+    },
+    {
+      "file": "SKILL.md",
+      "change": "逐字quote与claim改述分开，保留主客体/原数值/单位/比较/否定/条件/范围/不确定性；独立字符相等检查和重复定位消歧，不仅过滤非空char_interval"
+    },
+    {
+      "file": "SKILL.md",
+      "change": "L1字面匹配、L0定位与entailment三状态分开；未知/模糊/失败保留；要求调用层审计原响应和retry，不声称SDK自动提供完整日志"
+    },
+    {
+      "file": "references/usage.md",
+      "change": "补SDK准备边界、复制提示词与人为构造的非正式candidate示例；明确不是上游JSON envelope或原工程EU schema"
+    },
+    {
+      "file": "agents/openai.yaml",
+      "change": "按skill-creator规范新增中文发现元数据，default_prompt含 $academic-langextract"
+    }
+  ],
+  "new_runtime_scripts": [],
+  "validation_boundary": "未调用provider、安装SDK、下载模型、处理朋友真实PDF或验证科学entailment。quick_validate和相对路径/hash核对仅验证包结构与资源保留。",
+  "requirements_source": "用户授权和既有朋友系统需求的边界改编；未将朋友原始内部附件放入本Skill。"
+}

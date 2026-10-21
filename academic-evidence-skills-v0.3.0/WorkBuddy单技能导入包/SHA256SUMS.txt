@@ -1,0 +1,5 @@
+b615aada431f3db3130c727a6e51267b19f3a3f131a9e06205b00aa1cda9e20b  pdf-to-markdown-workbuddy-v0.2.0.zip
+9de0148f464a10113a303e7f0adbbdb19d5fdcece5a4ae9788e8ccabbc80f6fe  academic-mineru-workbuddy-v0.2.0.zip
+9cecd19c80dfc39521085d1d0c0f60e5ce6af12218829dd2d83d30b8a8c33fbe  academic-docling-workbuddy-v0.2.0.zip
+814e81cb7f6a0c41635608ee086b7da6b7ccdf129d07520e69b610cc01351d5e  manifest.json
+b07bd8c7fae7df3cb27a1306519a69cfd01a5bc4e608faec6be5d4401e7ab9b5  校验回执.json

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "author": "AI-assisted implementation and independent cross review",
+  "skill_count": 14,
+  "official_skill_validators": {
+    "total": 14,
+    "passed": 14
+  },
+  "portable_tools_behavior": {
+    "total": 9,
+    "passed": 9,
+    "independently_rerun": true
+  },
+  "ingestion_offline_checks": {
+    "total": 13,
+    "passed": 13,
+    "raw_source_files_verified": 139
+  },
+  "scientific": {
+    "help_commands": 28,
+    "behavior_checks": 45,
+    "all_passed": true,
+    "raw_source_files_verified": 119
+  },
+  "discovery": {
+    "upstream_mock_tests": 20,
+    "adapter_offline_mock_tests": 18,
+    "command_checks": 12,
+    "all_passed": true,
+    "raw_source_files_verified": 36
+  },
+  "independent_discovery_review": {
+    "checks": 10,
+    "passed": 10,
+    "scope": "Offline fake transport/SDK; not live services"
+  },
+  "prior_pdf_adapter": {
+    "cli_behavior_tests": 17,
+    "passed": 17,
+    "script_implementation_retained": true
+  },
+  "cross_review_resolutions": [
+    "PDF export refuses existing or symlink destinations before subprocess",
+    "Semantic Scholar process-level max retries=0 verified against actual request control flow with fake transport",
+    "PaperQA adapter-only retry boundary disclosed; underlying SDK/provider retries unverified",
+    "Zotero default queries avoid semantic auto-initialization/background sync",
+    "Runtime command inventory and Python version instructions corrected",
+    "UPSTREAM provenance common aliases normalized"
+  ],
+  "not_run": [
+    "friend actual PDFs",
+    "real MinerU/Docling parsing",
+    "real Zotero library",
+    "live scholarly APIs",
+    "PaperQA LLM/embedding backends",
+    "Windows execution",
+    "Registry/Gate0/EU/coordinate integration"
+  ],
+  "claim_support_verified": false,
+  "l0_quote_accuracy_verified_for_real_papers": false,
+  "source_snapshots_and_full_logs_in_internal_project_archive": true,
+  "release_transfer": "Final zip is extracted and tested before handover; final receipt is kept alongside the zip and in the internal validation directory."
+}

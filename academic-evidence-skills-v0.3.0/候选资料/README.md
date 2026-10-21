@@ -1,0 +1,7 @@
+# 按需采用的历史候选
+
+这里是2026-10-13静态审查快照，不是已在WorkBuddy接通的新能力。11个标准SKILL目录包括中英版本与框架primer，不计入正式16项，也不等于11项独立能力。保留原ZIP和各自许可。
+
+Zotero Bridge用于本地文献/附件查询与经授权补入；Obsidian用于实际采用的Vault；LangGraph方法用于缺PDF等待和持久化恢复；MCP Builder帮助开发query/返回字段接口。现有工程已有对应能力时优先复用。Elicit/OpenAlex源码是可选外部入口，不是可直接安装的标准技能；Elicit用途条款须先核对。
+
+ZIP SHA256：`0432e3140603844f6b1cb9a1351595d0e4591b0533d58484f30a95af5334f89f`。解压后读取该候选包入口和本目录的`TOOL_CATALOG.json`；不能把多技能ZIP作为一个技能导入。

@@ -1,0 +1,4 @@
+interface:
+  display_name: "L1候选主张抽取"
+  short_description: "从已有L1论文文本抽取保留原句跨度的候选主张并逐项核查"
+  default_prompt: "使用 $academic-langextract，从指定 L1 文本抽取候选主张，保持已有模型渠道并分别检查逐字引文、L0定位和语义支持。"

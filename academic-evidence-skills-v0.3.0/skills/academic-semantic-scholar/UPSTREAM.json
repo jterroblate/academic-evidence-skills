@@ -1,0 +1,70 @@
+{
+  "repo": "https://github.com/XWang20/semanticscholar-MCP-Server",
+  "commit": "5139c045365244b6940e9fb6e4df62e6a302d0e5",
+  "paths": [
+    "skills/semantic-scholar-cli",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "pyproject.toml",
+    "requirements.txt"
+  ],
+  "license": "MIT; Scideator adapted published references retain CC BY 4.0 notices",
+  "source_kind": "existing-skill-adaptation",
+  "adaptations": [
+    "重命名技能与中文host-neutral入口；保留全部上游references及许可",
+    "新增项目隔离安装usage、source_id/L0 SHA256/L1候选契约",
+    "书目身份verify与内容支持、exact quote、正式EU分离",
+    "不自动远端调用/新增收费渠道/云上传/全局配置/Registry写入",
+    "上游SDK默认TransportError/超时retry3次；每次网络CLI进程强制SEMANTIC_SCHOLAR_MAX_RETRIES=0，MCP需确认当前实例等价配置；不改上游源码或全局配置"
+  ],
+  "raw_snapshot": "Package-external 来源/discovery/semanticscholar/5139c045365244b6940e9fb6e4df62e6a302d0e5",
+  "raw_snapshot_manifest": "Package-external 来源/discovery/semanticscholar/snapshot-manifest.json",
+  "adaptation_version": "0.1.0",
+  "adapted_on": "2026-10-12",
+  "adaptation_author": "JT/AI",
+  "delivered_files_excludes_self": true,
+  "delivered_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "4e10fb1092890e39f4031f955d530737a33a1d9e83b6fad19755baa615cf488a",
+      "bytes": 1097
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "2cd0749bc7f8066e69c0f751f798bbf59f308088dffe76c87ff466986732da31",
+      "bytes": 2970
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "67dc07c8e06942e22d843ba56814e58d458eb5e5778a478a970c399e900f0479",
+      "bytes": 2377
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "e820ef99736688ebb887e4fa804bcd63fe4a6183424820a0d695b8ff0be08f1b",
+      "bytes": 330
+    },
+    {
+      "path": "references/evidence-contract.md",
+      "sha256": "dd269891890a42e8fe094a34143ad3873c5823cadd233c3d71e94641ce72d9c0",
+      "bytes": 2521
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "7ab48f30a3f1008d17af61b5b4a26d35def8579fc2cf77ce249b020ccd52695f",
+      "bytes": 6497
+    },
+    {
+      "path": "references/usage.md",
+      "sha256": "8b2da31311c5cb91737dd760c748db620a75b2830974e833eee1e3ed91ee2053",
+      "bytes": 3875
+    }
+  ],
+  "source_paths": [
+    "skills/semantic-scholar-cli",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "pyproject.toml",
+    "requirements.txt"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "title": "WorkBuddy 三项技能怎么配合",
+  "date": "2026-10-21",
+  "status": "accepted",
+  "production_method": "Deterministic SVG layout and local Chromium PNG rendering; no AI image generation or paid API call.",
+  "artifacts": [
+    {
+      "file": "WorkBuddy三项技能怎么配合_2026-10-21.svg",
+      "media_type": "image/svg+xml",
+      "width": 1080,
+      "height": 2400,
+      "sha256": "2eb6a4161b82f69ec00896c92a758d8585208d503fae13990f82cb44e1888c0e"
+    },
+    {
+      "file": "WorkBuddy三项技能怎么配合_2026-10-21.png",
+      "media_type": "image/png",
+      "width": 1080,
+      "height": 2400,
+      "sha256": "4ca1edf68ca9bae46b0178323f2a267869b389492247363cbac58f214575bfdd"
+    }
+  ],
+  "content_check": {
+    "required_content": "pass",
+    "three_existing_skills_and_import_copies": "explicit",
+    "parser_choice_to_organize_check_to_original_pdf_review": "shown_with_arrows",
+    "four_import_steps": "present",
+    "client_import_not_yet_tested": "explicit",
+    "generic_skill_package_and_paper_test_package": "separated",
+    "paper_processing_times_bytes_and_completion_statistics": "not included",
+    "private_paths_paper_titles_keys_and_compatibility_certifications": "not included"
+  },
+  "qa": {
+    "reviewer": "independent deterministic image worker",
+    "full_resolution_visual_review": "pass: Chinese glyphs, hierarchy, visible text and card boundaries checked",
+    "390_px_width_visual_review": "pass: main body remains readable and all required sections are visible",
+    "chinese_font": "PingFang SC available in renderer; rendered glyphs visually checked",
+    "canvas_and_card_text_bounds": "pass: all 42 text elements within the canvas and their assigned cards",
+    "svg_source_security": "pass: no scripts, event handlers, external references, embedded binary data, or private source paths",
+    "png_dimensions": "1080 × 2400",
+    "open_issues": []
+  },
+  "handoff": "Final SVG and PNG only; main agent integrates by path without repeating visual QA. This worker is complete and must not be reused."
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "skill_name": "academic-literature-review",
+  "adaptation_version": "0.1.0",
+  "adapted_on": "2026-10-12",
+  "adaptation_author": "AI协作产物",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "commit": "92ace75ac21efe19a620434e0ca4e356081fe807",
+  "upstream_skill_path": "skills/literature-review",
+  "pinned_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/92ace75ac21efe19a620434e0ca4e356081fe807/skills/literature-review",
+  "license": {
+    "spdx": "MIT",
+    "path": "LICENSE.md",
+    "upstream_path": "LICENSE.md",
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "copyright": "Copyright (c) 2025 K-Dense Inc."
+  },
+  "changes": [
+    "中文且宿主中立的SKILL/usage与Codex UI元数据",
+    "L0不可变/逐字quote/原始物理页/定位/hash/角色分离/Gateway边界",
+    "删除上游强制营销引用和无关图像/缺失外技能要求，保留相关方法资源",
+    "删除generate_schematic与generate_schematic_ai（原始快照仍保留）",
+    "DOI输出由verified改registered_dois；显式false内容范围；增加offline与raw-dir、拒绝报告覆盖",
+    "交叉审查修复PDF导出：在任何依赖/渲染调用前拒绝所有既有或symlink目标，防同名原PDF覆盖"
+  ],
+  "removed_files": [
+    "scripts/generate_schematic.py",
+    "scripts/generate_schematic_ai.py"
+  ],
+  "upstream_files": [
+    {
+      "path": "skills/literature-review/SKILL.md",
+      "sha256": "16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8",
+      "bytes": 12869
+    },
+    {
+      "path": "skills/literature-review/assets/review_template.md",
+      "sha256": "08671516976d01a7004f8ae7c944a50c253877504720c15d5fa24eed90889819",
+      "bytes": 13769
+    },
+    {
+      "path": "skills/literature-review/references/citation_styles.md",
+      "sha256": "2a50e43b18c2fff781e04406deb66186ba8f91ed28af32004aba63c63dcc1789",
+      "bytes": 7627
+    },
+    {
+      "path": "skills/literature-review/references/core_workflow.md",
+      "sha256": "4d63f1087c98efeec7c7bf622bed6e0456a9c7c3defe584995917f2de6f2c601",
+      "bytes": 11876
+    },
+    {
+      "path": "skills/literature-review/references/database_strategies.md",
+      "sha256": "24b56cd88128a9016520ed6b5e2abb79e19dc9b86cbf064927e9056aa1504f48",
+      "bytes": 10431
+    },
+    {
+      "path": "skills/literature-review/references/example_workflow.md",
+      "sha256": "86336c42f78ff282430a6cdd2282a99562cc9d5e46b62e70a33bd839f9ab726a",
+      "bytes": 3078
+    },
+    {
+      "path": "skills/literature-review/references/search_and_citation.md",
+      "sha256": "f33d671351989ee86066b9a21bdbf630a1f60001ada92fda4c942006d37b74fe",
+      "bytes": 4685
+    },
+    {
+      "path": "skills/literature-review/scripts/generate_pdf.py",
+      "sha256": "0ba1b16b196b64d4966e5f055a289f0c17e3579a84254abe47ff63be95b4f136",
+      "bytes": 4990
+    },
+    {
+      "path": "skills/literature-review/scripts/generate_schematic.py",
+      "sha256": "0c81ce099d5ab9aa3d3c486aa9bd3e81ee1117e18a54db14bb0a68de61eaa4bc",
+      "bytes": 7782
+    },
+    {
+      "path": "skills/literature-review/scripts/generate_schematic_ai.py",
+      "sha256": "7316f2df92f442b8c60a5dd2bd8b504e17449d4be89352e5af24be2239700046",
+      "bytes": 35684
+    },
+    {
+      "path": "skills/literature-review/scripts/search_databases.py",
+      "sha256": "76f47fd18ca28df4985ffc6d30d5ad659e67c8058bb3de8f385c2443752f4eaf",
+      "bytes": 8769
+    },
+    {
+      "path": "skills/literature-review/scripts/verify_citations.py",
+      "sha256": "4c8e8377718ddd47e9cd7cef706935b04910af5d13bfd920970dcf41d4ef3706",
+      "bytes": 9960
+    }
+  ],
+  "delivered_files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "bytes": 1068,
+      "adaptation": "unchanged",
+      "upstream_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "90753f052be4bfeacf8c019f3fdd20e122ebd5283a153f67c5ba0e44162a7f1b",
+      "bytes": 3499,
+      "adaptation": "modified",
+      "upstream_sha256": "16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "c171448cb933727ea4bc5417b890c07fc6af67e43578054ae411d67333afd0fa",
+      "bytes": 326,
+      "adaptation": "added",
+      "upstream_sha256": null
+    },
+    {
+      "path": "assets/review_template.md",
+      "sha256": "08671516976d01a7004f8ae7c944a50c253877504720c15d5fa24eed90889819",
+      "bytes": 13769,
+      "adaptation": "unchanged",
+      "upstream_sha256": "08671516976d01a7004f8ae7c944a50c253877504720c15d5fa24eed90889819"
+    },
+    {
+      "path": "references/citation_styles.md",
+      "sha256": "6f820af3330a4d2dc7a3074b663f0b36f0d3c1be91b115e450edf0b6fb10e3da",
+      "bytes": 7870,
+      "adaptation": "modified",
+      "upstream_sha256": "2a50e43b18c2fff781e04406deb66186ba8f91ed28af32004aba63c63dcc1789"
+    },
+    {
+      "path": "references/core_workflow.md",
+      "sha256": "ddbea99adb30c446aa280513215e0880f5bab19d63fa399b34b01b9f348f4ef5",
+      "bytes": 12143,
+      "adaptation": "modified",
+      "upstream_sha256": "4d63f1087c98efeec7c7bf622bed6e0456a9c7c3defe584995917f2de6f2c601"
+    },
+    {
+      "path": "references/database_strategies.md",
+      "sha256": "a3cf184ee1fdc4689e9675185ac4262a1fc932dc1538c59888b5f83d38da7598",
+      "bytes": 10674,
+      "adaptation": "modified",
+      "upstream_sha256": "24b56cd88128a9016520ed6b5e2abb79e19dc9b86cbf064927e9056aa1504f48"
+    },
+    {
+      "path": "references/example_workflow.md",
+      "sha256": "25c6195bae5ab2cddac684211279b2653db009939d0788e64992cfead54e94d8",
+      "bytes": 3369,
+      "adaptation": "modified",
+      "upstream_sha256": "86336c42f78ff282430a6cdd2282a99562cc9d5e46b62e70a33bd839f9ab726a"
+    },
+    {
+      "path": "references/search_and_citation.md",
+      "sha256": "e5bdddc6e95ba8cabebd0fc676cd7781b0d32d228a67b7a30aa6b69c92c39ca1",
+      "bytes": 4952,
+      "adaptation": "modified",
+      "upstream_sha256": "f33d671351989ee86066b9a21bdbf630a1f60001ada92fda4c942006d37b74fe"
+    },
+    {
+      "path": "references/usage.md",
+      "sha256": "e0b99e7feba9a531a67148f5a349af6484e707802c965707b53150bb6daecab9",
+      "bytes": 4614,
+      "adaptation": "added",
+      "upstream_sha256": null
+    },
+    {
+      "path": "scripts/_http_capture.py",
+      "sha256": "4bddfce08ea22198b6781bf395f5919e8a8f60f9653bdaa7917650a6b5d63ac8",
+      "bytes": 3426,
+      "adaptation": "added",
+      "upstream_sha256": null
+    },
+    {
+      "path": "scripts/generate_pdf.py",
+      "sha256": "8ab0f5a0c10c502b7198ae43cbc4ae7c6c3d9683c52503635d6d2abed8872495",
+      "bytes": 5215,
+      "adaptation": "modified",
+      "upstream_sha256": "0ba1b16b196b64d4966e5f055a289f0c17e3579a84254abe47ff63be95b4f136"
+    },
+    {
+      "path": "scripts/search_databases.py",
+      "sha256": "76f47fd18ca28df4985ffc6d30d5ad659e67c8058bb3de8f385c2443752f4eaf",
+      "bytes": 8769,
+      "adaptation": "unchanged",
+      "upstream_sha256": "76f47fd18ca28df4985ffc6d30d5ad659e67c8058bb3de8f385c2443752f4eaf"
+    },
+    {
+      "path": "scripts/verify_citations.py",
+      "sha256": "ac2d9637a726dd9895878c7be689df895ba0f124658298f7f137bbe9b7a9eab3",
+      "bytes": 11214,
+      "adaptation": "modified",
+      "upstream_sha256": "4c8e8377718ddd47e9cd7cef706935b04910af5d13bfd920970dcf41d4ef3706"
+    }
+  ],
+  "validation_scope": "离线CLI帮助与行为测试；原始HTTP使用合成mock，无实际API或PDF内容准确性验证；不认证科学真相",
+  "dependencies_and_limits_reference": "references/usage.md",
+  "not_implemented": [
+    "Gateway/Registry/EU正式写入",
+    "科学坐标正式schema",
+    "真实PDF原文核验",
+    "真实API当前契约/配额实跑"
+  ],
+  "repo": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_paths": [
+    "skills/literature-review"
+  ],
+  "adaptations": [
+    "中文且宿主中立的SKILL/usage与Codex UI元数据",
+    "L0不可变/逐字quote/原始物理页/定位/hash/角色分离/Gateway边界",
+    "删除上游强制营销引用和无关图像/缺失外技能要求，保留相关方法资源",
+    "删除generate_schematic与generate_schematic_ai（原始快照仍保留）",
+    "DOI输出由verified改registered_dois；显式false内容范围；增加offline与raw-dir、拒绝报告覆盖",
+    "交叉审查修复PDF导出：在任何依赖/渲染调用前拒绝所有既有或symlink目标，防同名原PDF覆盖"
+  ]
+}

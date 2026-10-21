@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="3360" viewBox="0 0 1080 3360" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">PDF 转 Markdown：这次重点保住公式</title>
+<desc id="svg-desc">2026-10-21。pdf-to-markdown 技能版本0.2.0更新讲解。原PDF留存、公式解析器能力边界、require-latex需求记录、公式检查器与原图复核。能渲染不等于公式正确，重复稳定不等于内容正确。</desc>
+<style>text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;fill:#203541;font-weight:400}.bold{font-weight:600}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.math{font-family:"Times New Roman",serif;font-style:italic}.muted{fill:#5E6D72}.white{fill:#fffaf2}</style>
+<rect width="1080" height="3360" fill="#F7F4EE"/>
+
+<rect x="72" y="64" width="245" height="52" rx="26" fill="#DFECE7"/>
+<text id="t1" x="194" y="100" font-size="30" class="bold" text-anchor="middle" data-section="header" style="fill:#176D68">本轮技能更新</text>
+<text id="t2" x="1008" y="100" font-size="30" class="muted" text-anchor="end" data-section="header">2026-10-21</text>
+<text id="t3" x="72" y="196" font-size="62" class="bold" text-anchor="start" data-section="header">PDF 转 Markdown：</text>
+<text id="t4" x="72" y="274" font-size="68" class="bold" text-anchor="start" data-section="header">这次重点保住公式</text>
+<text id="t5" x="74" y="330" font-size="34" class="muted" text-anchor="start" data-section="header">pdf-to-markdown 技能 · 0.2.0</text>
+<rect x="72" y="376" width="936" height="254" rx="28" fill="#203541"/>
+<text id="t6" x="116" y="459" font-size="60" class="bold white" text-anchor="start" data-section="principle">能渲染 ≠ 公式正确</text>
+<text id="t7" x="116" y="537" font-size="60" class="bold white" text-anchor="start" data-section="principle">重复稳定 ≠ 内容正确</text>
+<text id="t8" x="116" y="591" font-size="34" class="white" text-anchor="start" data-section="principle">格式过关以后，还要核对内容。</text>
+<text id="t9" x="72" y="716" font-size="44" class="bold" text-anchor="start" data-section="flow-heading">从原件到人工复核</text>
+<text id="t10" x="1008" y="716" font-size="31" class="muted" text-anchor="end" data-section="flow-heading">5 步流程</text>
+<rect x="72" y="760" width="936" height="200" rx="24" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<circle cx="126" cy="817" r="28" fill="#176D68"/>
+<text id="t11" x="126" y="829" font-size="34" class="bold" text-anchor="middle" data-section="step-1" style="fill:#FFFFFF">1</text>
+<text id="t12" x="176" y="830" font-size="41" class="bold" text-anchor="start" data-section="step-1">保留原 PDF</text>
+<text id="t13" x="176" y="888" font-size="39" class="bold" text-anchor="start" data-section="step-1" style="fill:#176D68">页码 + SHA 留痕</text>
+<text id="t14" x="176" y="930" font-size="34" class="muted" text-anchor="start" data-section="step-1">方便定位、比对与复查。</text>
+<line x1="540" y1="970" x2="540" y2="992" stroke="#176D68" stroke-width="3"/>
+<path d="M531 984 L540 994 L549 984" fill="none" stroke="#176D68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="72" y="1004" width="936" height="220" rx="24" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<circle cx="126" cy="1061" r="28" fill="#176D68"/>
+<text id="t15" x="126" y="1073" font-size="34" class="bold" text-anchor="middle" data-section="step-2" style="fill:#FFFFFF">2</text>
+<text id="t16" x="176" y="1074" font-size="41" class="bold" text-anchor="start" data-section="step-2">选真正支持公式的解析器</text>
+<text id="t17" x="176" y="1143" font-size="40" class="bold" text-anchor="start" data-section="step-2" style="fill:#B44B29">文本提取 ≠ LaTeX 识别</text>
+<text id="t18" x="176" y="1197" font-size="34" class="muted" text-anchor="start" data-section="step-2">解析能力要按实际测试确认。</text>
+<line x1="540" y1="1234" x2="540" y2="1256" stroke="#176D68" stroke-width="3"/>
+<path d="M531 1248 L540 1258 L549 1248" fill="none" stroke="#176D68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="72" y="1268" width="936" height="276" rx="24" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<circle cx="126" cy="1325" r="28" fill="#176D68"/>
+<text id="t19" x="126" y="1337" font-size="34" class="bold" text-anchor="middle" data-section="step-3" style="fill:#FFFFFF">3</text>
+<text id="t20" x="176" y="1338" font-size="41" class="bold" text-anchor="start" data-section="step-3">新增公式需求开关</text>
+<rect x="176" y="1364" width="437" height="62" rx="10" fill="#E9F2EF"/>
+<text id="t21" x="198" y="1407" font-size="37" class="mono bold" text-anchor="start" data-section="step-3" style="fill:#176D68">--require-latex</text>
+<text id="t22" x="176" y="1468" font-size="37" class="" text-anchor="start" data-section="step-3">只记录需求、保留待复核</text>
+<text id="t23" x="176" y="1525" font-size="35" class="bold" text-anchor="start" data-section="step-3" style="fill:#B44B29">不负责 OCR</text>
+<line x1="540" y1="1544" x2="540" y2="1566" stroke="#176D68" stroke-width="3"/>
+<path d="M531 1558 L540 1568 L549 1558" fill="none" stroke="#176D68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="72" y="1572" width="936" height="275" rx="24" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<circle cx="126" cy="1629" r="28" fill="#176D68"/>
+<text id="t24" x="126" y="1641" font-size="34" class="bold" text-anchor="middle" data-section="step-4" style="fill:#FFFFFF">4</text>
+<text id="t25" x="176" y="1642" font-size="41" class="bold" text-anchor="start" data-section="step-4">新增公式检查器</text>
+<text id="t26" x="176" y="1709" font-size="35" class="" text-anchor="start" data-section="step-4">分隔符 / 括号 · 乱码 / 控制字符</text>
+<text id="t27" x="176" y="1762" font-size="37" class="" text-anchor="start" data-section="step-4">图像占位</text>
+<text id="t28" x="176" y="1822" font-size="37" class="bold" text-anchor="start" data-section="step-4" style="fill:#176D68">只做检查，不改原文。</text>
+<line x1="540" y1="1857" x2="540" y2="1879" stroke="#176D68" stroke-width="3"/>
+<path d="M531 1871 L540 1881 L549 1871" fill="none" stroke="#176D68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="72" y="1891" width="936" height="235" rx="24" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<circle cx="126" cy="1948" r="28" fill="#B44B29"/>
+<text id="t29" x="126" y="1960" font-size="34" class="bold" text-anchor="middle" data-section="step-5" style="fill:#FFFFFF">5</text>
+<text id="t30" x="176" y="1961" font-size="41" class="bold" text-anchor="start" data-section="step-5">回原图核对</text>
+<text id="t31" x="176" y="2032" font-size="37" class="bold" text-anchor="start" data-section="step-5" style="fill:#B44B29">指数、分母、算符、化学能级</text>
+<text id="t32" x="176" y="2089" font-size="34" class="muted" text-anchor="start" data-section="step-5">最终确认仍要看原始页面。</text>
+<rect x="72" y="2200" width="936" height="345" rx="28" fill="#FFF3E7" stroke="#EDD5BD" stroke-width="2"/>
+<text id="t33" x="116" y="2266" font-size="36" class="bold" text-anchor="start" data-section="example" style="fill:#B44B29">一个少平方的示意</text>
+<line x1="540" y1="2302" x2="540" y2="2407" stroke="#E3C8AF" stroke-width="2"/>
+<text id="t34" x="310" y="2368" font-size="56" class="math" text-anchor="middle" data-section="example">x/(a+b)</text>
+<text id="t35" x="770" y="2368" font-size="56" class="math" text-anchor="middle" data-section="example">x/(a+b)²</text>
+<text id="t36" x="310" y="2421" font-size="32" class="bold" text-anchor="middle" data-section="example" style="fill:#B44B29">少了 ²</text>
+<text id="t37" x="770" y="2421" font-size="32" class="bold" text-anchor="middle" data-section="example" style="fill:#176D68">需要核对指数</text>
+<text id="t38" x="116" y="2482" font-size="37" class="bold" text-anchor="start" data-section="example">两式都能渲染，内容却不同。</text>
+<text id="t39" x="116" y="2524" font-size="29" class="muted" text-anchor="start" data-section="example">通用示意；不对应任何真实论文。</text>
+<text id="t40" x="72" y="2640" font-size="44" class="bold" text-anchor="start" data-section="tests">已做的测试，边界说清楚</text>
+<text id="t41" x="72" y="2726" font-size="53" class="bold" text-anchor="start" data-section="tests" style="fill:#176D68">5篇论文 · 103页</text>
+<text id="t42" x="72" y="2791" font-size="43" class="bold" text-anchor="start" data-section="tests">全文基线 × 2</text>
+<text id="t43" x="72" y="2860" font-size="43" class="bold" text-anchor="start" data-section="tests">17项独立原图小金标</text>
+<text id="t44" x="72" y="2925" font-size="43" class="bold" text-anchor="start" data-section="tests">52个关键断言</text>
+<text id="t45" x="72" y="2990" font-size="34" class="muted" text-anchor="start" data-section="tests">公式模型只按实际测试范围报告。</text>
+<rect x="72" y="3060" width="936" height="205" rx="28" fill="#E1ECE8"/>
+<text id="t46" x="116" y="3138" font-size="43" class="bold" text-anchor="start" data-section="status" style="fill:#176D68">未核验：needs_review</text>
+<text id="t47" x="116" y="3212" font-size="44" class="bold" text-anchor="start" data-section="status">不自动变成正式 EU</text>
+<text id="t48" x="72" y="3320" font-size="29" class="muted" text-anchor="start" data-section="footer">原件留存  →  需求记录  →  可疑项标记  →  人工确认</text>
+</svg>

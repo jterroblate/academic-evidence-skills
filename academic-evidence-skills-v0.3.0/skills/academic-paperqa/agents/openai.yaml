@@ -1,0 +1,4 @@
+interface:
+  display_name: "PaperQA2 本地论文问答适配"
+  short_description: "对已有本地PDF做可审阅问答计划，配置已有后端后保存派生答案和引文候选"
+  default_prompt: "使用 $academic-paperqa 对我的本地PDF资料包制定问答计划，并检查依赖与来源映射。"

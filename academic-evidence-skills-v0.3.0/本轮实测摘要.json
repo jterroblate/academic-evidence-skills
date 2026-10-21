@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-21",
+  "formal_skill_count": 16,
+  "updated_formal_skills": [
+    "pdf-to-markdown",
+    "academic-mineru",
+    "academic-docling"
+  ],
+  "baseline": {
+    "engine": "PyMuPDF4LLM 1.28.2 classic",
+    "papers": 5,
+    "physical_pages": 103,
+    "complete_runs_per_paper": 2,
+    "latex_requirement_met": false
+  },
+  "docling": {
+    "version": "2.141.0",
+    "formula_model": "CodeFormulaV2",
+    "local_cpu": true,
+    "representative_pages": 5,
+    "full_corpus_run": false
+  },
+  "mineru": {
+    "version": "4.0.12",
+    "tier": "basic",
+    "backend": "ONNX CPU",
+    "representative_pages": 5,
+    "full_papers": 5,
+    "full_physical_pages": 103,
+    "same_page_same_configuration_repeat": 1,
+    "all_outputs_unreviewed": true,
+    "parallelism_note": "The extension used at most two parser processes with four threads each; elapsed times are not a fair cross-backend speed ranking."
+  },
+  "local_gold": {
+    "items": 17,
+    "assertions": 52,
+    "assertion_result": {
+      "pass": 44,
+      "fail": 6,
+      "uncertain": 2
+    },
+    "extra_source_fidelity_failures": 3,
+    "method": "agent visual source-region review, independently frozen before converter outputs; not human certified",
+    "whole_document_accuracy": "not_established"
+  },
+  "additional_katex_check": {
+    "version": "0.19.0",
+    "scope": "detected delimited fragments, with physical-page diagnostic recovery; not every native region or source formula",
+    "full_tex_compiler": false,
+    "source_fidelity_verified": false,
+    "rows": [
+      {
+        "paper": 1,
+        "delimited_segments": 138,
+        "parse_exceptions": 0
+      },
+      {
+        "paper": 2,
+        "delimited_segments": 72,
+        "parse_exceptions": 0
+      },
+      {
+        "paper": 3,
+        "delimited_segments": 1187,
+        "parse_exceptions": 0
+      },
+      {
+        "paper": 4,
+        "delimited_segments": 362,
+        "parse_exceptions": 1
+      },
+      {
+        "paper": 5,
+        "delimited_segments": 242,
+        "parse_exceptions": 0
+      }
+    ]
+  },
+  "machine_guards": {
+    "source_hash_and_page_map": true,
+    "required_latex_keeps_needs_review": true,
+    "basic_math_lexical_diagnostics": true,
+    "page_boundary_recovery_repairs_source": false,
+    "quote_l0_eu_auto_verified": false
+  },
+  "private_papers_or_models_included": false,
+  "friend_workbuddy_import_tested": false
+}

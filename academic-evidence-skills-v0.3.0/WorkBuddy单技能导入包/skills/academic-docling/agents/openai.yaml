@@ -1,0 +1,6 @@
+interface:
+  display_name: "Docling 学术 PDF 转写"
+  short_description: "以既有本地 Docling 转写学术 PDF，留存 JSON 与页面定位"
+  default_prompt: "使用 $academic-docling 将已授权 PDF 转成 document.md 和原生 JSON，并记录页覆盖、bbox 与源哈希。"
+policy:
+  allow_implicit_invocation: true

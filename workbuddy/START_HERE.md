@@ -1,6 +1,6 @@
 # 发给 WorkBuddy 的启动提示词
 
-2026-10-13 · JT 为朋友准备，AI 参与整理。下面正文可直接复制给 WorkBuddy；这里的“我”指接收这段提示词的项目主人。
+2026-10-21 · JT 为朋友准备，AI 参与整理。下面正文可直接复制给 WorkBuddy；这里的“我”指接收这段提示词的项目主人。
 
 ---
 
@@ -8,7 +8,7 @@
 
 资料仓库：https://github.com/jterroblate/academic-evidence-skills
 
-先读仓库中的 `workbuddy/README.md`、`workbuddy/TOOL_CATALOG.json`，再读正式包的 `academic-evidence-skills-v0.2.0/README_先读.md` 与 `每个技能怎么用.md`。按目录指引读取少量相关 `SKILL.md` 和必要参考文件，不一次加载全部内容。正式包有16项技能；本轮候选是另一个经静态审查的资料包，并非已接通、测试通过的新版本。可下载仓库 Release 中的对应 ZIP，核对 SHA256 后解压到独立资料目录；如果不能访问 GitHub，明确说明读不到的文件，使用我提供的本地 ZIP。
+先读仓库中的 `workbuddy/README.md`、`workbuddy/TOOL_CATALOG.json`，再读正式包的 `academic-evidence-skills-v0.3.0/README_先读.md` 与 `每个技能怎么用.md`。按目录指引读取少量相关 `SKILL.md` 和必要参考文件，不一次加载全部内容。正式包有16项技能，v0.3.0更新其中3项并附既有候选ZIP；候选仍只有静态审查，不是已接通、测试通过的新能力。可下载仓库 Release 中的对应 ZIP，核对 SHA256 后解压到独立资料目录；如果不能访问 GitHub，明确说明读不到的文件，使用我提供的本地 ZIP。
 
 我的系统要让 Review dog（综述狗）和 Science dog（科学狗）共享可追溯的 EU（Evidence Unit，证据单元）库。文献来自 Zotero/PDF，转为 Markdown，形成带原文引句、claim、条件和出处的候选证据，再供检索与原文回取。
 
@@ -19,6 +19,8 @@
 先检查我当前工作目录里的 README/AGENTS、相关模块、运行入口、已安装技能与可用工具；读取我已有的系统设计、EU schema、Registry/Gateway、paper list 和样例。整理“已有可复用、缺失、需适配、待配置”四类。优先复用现有模型、解析器、数据库和调度器，沿用正式 ID 与写入入口。没有实际配置的通道明确标为不可用。
 
 按实际缺口选技能：
+
+- PDF公式任务另先读取正式包的 `PDF公式更新与实测范围.md` 与 `WorkBuddy_PDF公式任务提示词.md`；当前已完成本机5篇103页MinerU全文及局部源图核对，错误仍须保留。优先采用本组样本实测较合适的本地MinerU候选，启用LaTeX需求标记并回源核对。完整性与基本数学词法检查不证明公式正确。
 
 - PDF/证据候选：先看 `pdf-to-markdown`、`academic-langextract`；已有解析结果就适配，必要时再用 Docling/MinerU。综述阶段看 `academic-literature-review` 与引用相关技能。
 - Zotero：已有可用连接优先复用；需要本地库查询/写入时再审查 Zotero Local MCP Bridge 中文技能及插件；Web API 路线另选。Vault 确实由 Obsidian 管理时再用 Obsidian 技能。

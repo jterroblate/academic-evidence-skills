@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "name": "workbuddy-single-skill-import-preparation",
+  "created_on": "2026-10-21",
+  "excludes": [
+    "manifest.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": {
+    "README.md": {
+      "sha256": "8cc34828f5418696ac3cd59c962f5d49861198cef8557f7f887399869f6e25ad",
+      "size_bytes": 2787
+    },
+    "WorkBuddy官方结构核对.md": {
+      "sha256": "018d99e67cca3aeb30cba1257a5c65a9e529745b2486e2653acb41ed122f1080",
+      "size_bytes": 600
+    },
+    "academic-docling-workbuddy-v0.2.0.zip": {
+      "sha256": "9cecd19c80dfc39521085d1d0c0f60e5ce6af12218829dd2d83d30b8a8c33fbe",
+      "size_bytes": 28943
+    },
+    "academic-mineru-workbuddy-v0.2.0.zip": {
+      "sha256": "9de0148f464a10113a303e7f0adbbdb19d5fdcece5a4ae9788e8ccabbc80f6fe",
+      "size_bytes": 33485
+    },
+    "pdf-to-markdown-workbuddy-v0.2.0.zip": {
+      "sha256": "b615aada431f3db3130c727a6e51267b19f3a3f131a9e06205b00aa1cda9e20b",
+      "size_bytes": 38895
+    },
+    "skills/academic-docling/LICENSE": {
+      "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+      "size_bytes": 1072
+    },
+    "skills/academic-docling/SHA256SUMS": {
+      "sha256": "42391e0f3ea353b5b186b01683cd9a0041e27763b1d928892c1de956617b8ca1",
+      "size_bytes": 1186
+    },
+    "skills/academic-docling/SKILL.md": {
+      "sha256": "5f6eb640e1b3cc47b79bf44aa025030d33ef037315241093c550e7ffd7d2f360",
+      "size_bytes": 3101
+    },
+    "skills/academic-docling/UPSTREAM.json": {
+      "sha256": "afde326b883af5e17d14e3f5b73bb52bfc3b06d8f94599b0b81b7d5abf2e371d",
+      "size_bytes": 8992
+    },
+    "skills/academic-docling/agents/openai.yaml": {
+      "sha256": "e1fcde07445dcb6c91593138580296d7f80e4f2f97e4e5fffbdf946c19dd4285",
+      "size_bytes": 331
+    },
+    "skills/academic-docling/references/upstream/NOTICE.md": {
+      "sha256": "cd82ca367af3074cf09107974af3f9a22e9fd0a8e0f34b0d621aa2d6bb51473b",
+      "size_bytes": 428
+    },
+    "skills/academic-docling/references/upstream/references__cli.md.txt": {
+      "sha256": "4a7dd31489f9f77a8df59e722902acd5b1b6aa24bb62f3f9de9845d52f17fe34",
+      "size_bytes": 8352
+    },
+    "skills/academic-docling/references/upstream/references__extraction.md.txt": {
+      "sha256": "174cc38d544a68aecd934e1706d1d4ef7df011fbc936aa0dc6f43d25dc6dafb5",
+      "size_bytes": 3220
+    },
+    "skills/academic-docling/references/upstream/references__python-sdk.md.txt": {
+      "sha256": "6ca5b1d6fc0758c2ae137b105e34c5d78f7d623c3dbea26dfe65458e11f827f0",
+      "size_bytes": 17456
+    },
+    "skills/academic-docling/references/upstream/references__rag.md.txt": {
+      "sha256": "0036ad0e2b28b338ba23f8af508f8cefb06df12f3ef81ab620cdede51290569f",
+      "size_bytes": 2422
+    },
+    "skills/academic-docling/references/upstream/references__service-client.md.txt": {
+      "sha256": "6e9ab15bea5ea25fa42fc99f47b7a0599882e711db32123271d4453c73821241",
+      "size_bytes": 4207
+    },
+    "skills/academic-docling/references/upstream/references__slim-packaging.md.txt": {
+      "sha256": "25201405686287cca8a4244956ed91ee8d44dbb11fe914d549592e58593ad8e3",
+      "size_bytes": 3674
+    },
+    "skills/academic-docling/references/usage.md": {
+      "sha256": "c54af07ae23cb10a3d3fdcdfdb8fecb86b5479690c142772399590f8b070ae62",
+      "size_bytes": 8372
+    },
+    "skills/academic-mineru/LICENSE": {
+      "sha256": "2d9aeb5d15159329a20dd804f251c64860ba954fbd26ec02f802220e6d71cf5c",
+      "size_bytes": 3301
+    },
+    "skills/academic-mineru/LICENSE-APACHE-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_bytes": 11358
+    },
+    "skills/academic-mineru/LICENSE-adapter-MIT.txt": {
+      "sha256": "69f76c7c9e203c505980fe1e1a85fca6b8b7ca1703c8cb125d9308b88e18c830",
+      "size_bytes": 1417
+    },
+    "skills/academic-mineru/SHA256SUMS": {
+      "sha256": "0bf25ef0456933d73a4c5215e4617d76230387e1aeb278684f9139254c41bb37",
+      "size_bytes": 1182
+    },
+    "skills/academic-mineru/SKILL.md": {
+      "sha256": "c6829ee8fb99a5bb92182a92b970d79739f6d71da85b2360539b00e3f2fe6fae",
+      "size_bytes": 3070
+    },
+    "skills/academic-mineru/UPSTREAM.json": {
+      "sha256": "4870c4cd1e3472ee959ef17ace66f4483701508f923868cb8bbddb962b33d089",
+      "size_bytes": 13222
+    },
+    "skills/academic-mineru/agents/openai.yaml": {
+      "sha256": "0d5c6d835f923b818280284e80b6ef4425927634bb9e0ba01882751072b6e0b6",
+      "size_bytes": 328
+    },
+    "skills/academic-mineru/references/upstream/NOTICE.md": {
+      "sha256": "cd82ca367af3074cf09107974af3f9a22e9fd0a8e0f34b0d621aa2d6bb51473b",
+      "size_bytes": 428
+    },
+    "skills/academic-mineru/references/upstream/mineru-kit-parse.md.txt": {
+      "sha256": "352b59950a8af0c2aa2708ecf37c02dca38b42f96fc0e8900a9689cf394d2b91",
+      "size_bytes": 5292
+    },
+    "skills/academic-mineru/references/upstream/output_files.md.txt": {
+      "sha256": "e16185e4a4f7f0cb65624b5cbc3bd44c1f7c9c772ce9434667c6d3a1428a80b6",
+      "size_bytes": 11126
+    },
+    "skills/academic-mineru/references/upstream/page-ranges.md.txt": {
+      "sha256": "d6280d96ee84b3837ae56376d8c106b435136a18fec4467594d04875024319ce",
+      "size_bytes": 4996
+    },
+    "skills/academic-mineru/references/usage.md": {
+      "sha256": "f70da7164f1fcfc279744c96da622d2cac2c09702baae4648c06dd91b1fefc9a",
+      "size_bytes": 8368
+    },
+    "skills/academic-mineru/requirements-tested-local.txt": {
+      "sha256": "00b0fee25fe43d7297e2398270344b79f1497f847b47a0379054295ececd0a9e",
+      "size_bytes": 170
+    },
+    "skills/academic-mineru/scripts/export_pages.py": {
+      "sha256": "b4560dcb0137dd2cb95ba39f904501f9076c2468156c378e14837a9755a7424b",
+      "size_bytes": 4976
+    },
+    "skills/pdf-to-markdown/LICENSE.txt": {
+      "sha256": "4d72e3eeaf0c3c1f7801148cce8e030187cf1a802db70e64b9a0472a9c384177",
+      "size_bytes": 1284
+    },
+    "skills/pdf-to-markdown/SHA256SUMS": {
+      "sha256": "78408fe3ab65d77609e9d6c9d6408cdb8ec1fddf7887c50026ec85ba7f45ea9e",
+      "size_bytes": 1385
+    },
+    "skills/pdf-to-markdown/SKILL.md": {
+      "sha256": "47f2451baebf7dc7ce18a92febad68f7bf466b1805fbaad74a82831217205ac6",
+      "size_bytes": 6585
+    },
+    "skills/pdf-to-markdown/THIRD_PARTY_NOTICES.md": {
+      "sha256": "889c2d168e42456824bcf1b0cb5d0f1d347a91e02c6169744a6054a8da208d2c",
+      "size_bytes": 956
+    },
+    "skills/pdf-to-markdown/UPSTREAM.json": {
+      "sha256": "c876039c8bc5e779e307a7a3278da3b0674baf0bcd2a53c0ae918fe19f505aa9",
+      "size_bytes": 2309
+    },
+    "skills/pdf-to-markdown/agents/openai.yaml": {
+      "sha256": "669673e07c55b830ec0a07534f3dd06a9f894428e5d94f2129a03aff57ad82e2",
+      "size_bytes": 323
+    },
+    "skills/pdf-to-markdown/references/engines.md": {
+      "sha256": "a7ae4ee0b7a4274dc64fdb1ef12d73bf72a2c835d15868f10262fcec0b39742b",
+      "size_bytes": 3230
+    },
+    "skills/pdf-to-markdown/references/math-workflow.md": {
+      "sha256": "22fed347a3a8bb9f6eb9aa9fc2afd27a94315fd9416b578f5e8fcfdc72e19aee",
+      "size_bytes": 4375
+    },
+    "skills/pdf-to-markdown/references/output-contract.md": {
+      "sha256": "8b379eb9360337defda654df52c99545885dee2676a283f05cf8e58b3d45642c",
+      "size_bytes": 3198
+    },
+    "skills/pdf-to-markdown/references/parser-input.md": {
+      "sha256": "a19b857ae612f0dbc32a5c23186f43c1f2dc680302dcc841d77a160bd6cdf79b",
+      "size_bytes": 2662
+    },
+    "skills/pdf-to-markdown/references/usage.md": {
+      "sha256": "32f57ee3fa2de36d94d83b8283390f2ece4c76ad7d0ea348ea1bcc13e5116748",
+      "size_bytes": 2210
+    },
+    "skills/pdf-to-markdown/references/validation.md": {
+      "sha256": "2c3cf6980d56bd4fb1155c6e0cce690aa75b5d7233bc23b684dd79c40067667b",
+      "size_bytes": 2210
+    },
+    "skills/pdf-to-markdown/requirements-local.txt": {
+      "sha256": "dabde103c1323edb00ab9579adf654e0e1e23316a43c9c9fa7ca3f7b36cccbe5",
+      "size_bytes": 122
+    },
+    "skills/pdf-to-markdown/scripts/bundle.py": {
+      "sha256": "a6fb6687ccece89dae36d244b20ad575e6a1d0aaea016e6c32909f413f6bf021",
+      "size_bytes": 6521
+    },
+    "skills/pdf-to-markdown/scripts/convert.py": {
+      "sha256": "c6b13091b29bbfa4ae60272f4e0b86ef760d3a8d15a899d5b06880112fb8d443",
+      "size_bytes": 22970
+    },
+    "skills/pdf-to-markdown/scripts/math_check.py": {
+      "sha256": "65f6411fccb033ee1ae4fac1a9ff38b68fcc3117c2034f300a9cda06cfdace2f",
+      "size_bytes": 17180
+    },
+    "skills/pdf-to-markdown/scripts/verify.py": {
+      "sha256": "1dfc5c8f100b0e47e9493207add923e8f271faa5180ddcbcc829adfbd4ebe116",
+      "size_bytes": 10313
+    },
+    "校验回执.json": {
+      "sha256": "b07bd8c7fae7df3cb27a1306519a69cfd01a5bc4e608faec6be5d4401e7ab9b5",
+      "size_bytes": 3316
+    }
+  }
+}

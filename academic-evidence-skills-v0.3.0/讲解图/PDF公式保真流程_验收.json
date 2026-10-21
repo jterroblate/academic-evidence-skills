@@ -1,0 +1,914 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "title": "PDF 转 Markdown：这次重点保住公式",
+  "subject": {
+    "skill": "pdf-to-markdown",
+    "skill_version": "0.2.0",
+    "version_scope": "技能版本，非合集版本"
+  },
+  "method": "deterministic-svg-render",
+  "image_generation_used": false,
+  "remote_generation_used": false,
+  "dimensions": {
+    "width": 1080,
+    "height": 3360,
+    "unit": "px",
+    "raster_scale": 1
+  },
+  "render": {
+    "engine": "local headless Chromium",
+    "version": "155.0.8059.84",
+    "external_resources": false,
+    "font_stack": [
+      "PingFang SC",
+      "Hiragino Sans GB",
+      "Microsoft YaHei",
+      "Arial",
+      "sans-serif"
+    ],
+    "png_mode": "RGB"
+  },
+  "files": [
+    {
+      "name": "PDF公式保真流程_2026-10-21.svg",
+      "path": "PDF公式保真流程_2026-10-21.svg",
+      "bytes": 9730,
+      "sha256": "c80f60fbd4bfe9a1c2095f249b5adb5433d23edb7c9410e747c3823e10dd57c1"
+    },
+    {
+      "name": "PDF公式保真流程_2026-10-21.png",
+      "path": "PDF公式保真流程_2026-10-21.png",
+      "bytes": 392461,
+      "sha256": "52ff0612c6f33706826b812c76347771d4b3cda67a09a42994a9b7ed07f234b1"
+    }
+  ],
+  "checks": {
+    "text": {
+      "result": "passed",
+      "missing_required_text": [],
+      "visible_text_node_count": 48,
+      "private_identifiers_or_overclaim_strings_found": [],
+      "manual_content_review": "Contains only the supplied public-safe generic process, date, skill version, aggregate test range and review status; no private PDF title or source path."
+    },
+    "render": {
+      "result": "passed",
+      "png_dimensions_match": true,
+      "svg_xml": "passed: Python ElementTree parse and local Chromium render",
+      "local_png_saved": true
+    },
+    "boundaries": {
+      "result": "passed",
+      "measured_svg_text_bounds": true,
+      "overflow_count": 0,
+      "overflow_details": [],
+      "canvas_safe_margin_px": {
+        "horizontal": 52,
+        "top": 40,
+        "bottom": 24
+      },
+      "minimum_font_size_px": 29
+    },
+    "claims": {
+      "result": "passed",
+      "checker_does_not_modify_original": true,
+      "require_latex_is_requirement_record_not_ocr": true,
+      "unverified_remains_needs_review": true,
+      "no_parser_integration_quality_claim": true,
+      "no_full_paper_latex_accuracy_claim": true
+    },
+    "visual_review": {
+      "result": "passed",
+      "method": "local deterministic PNG inspection plus 390px-wide resized phone preview",
+      "scope": [
+        "Chinese glyph rendering and line breaks",
+        "five separated process cards and arrows",
+        "formula superscript difference",
+        "test-range and needs_review visibility",
+        "canvas edge and card-boundary clearance"
+      ],
+      "preview_width_px": 390,
+      "reviewer": "Codex delegated deterministic-diagram worker",
+      "note": "No ImageGen or remote image generation used; no global image controller accessed."
+    }
+  },
+  "text_bounds": [
+    {
+      "id": "t1",
+      "text": "本轮技能更新",
+      "section": "header",
+      "allowed_bounds": [
+        84,
+        64,
+        305,
+        114
+      ],
+      "measured_bounds": [
+        104,
+        68,
+        284,
+        110
+      ]
+    },
+    {
+      "id": "t2",
+      "text": "2026-10-21",
+      "section": "header",
+      "allowed_bounds": [
+        700,
+        64,
+        1016,
+        114
+      ],
+      "measured_bounds": [
+        839.62,
+        68,
+        1008,
+        110
+      ]
+    },
+    {
+      "id": "t3",
+      "text": "PDF 转 Markdown：",
+      "section": "header",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        130,
+        666.28,
+        217
+      ]
+    },
+    {
+      "id": "t4",
+      "text": "这次重点保住公式",
+      "section": "header",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        202,
+        616,
+        297
+      ]
+    },
+    {
+      "id": "t5",
+      "text": "pdf-to-markdown 技能 · 0.2.0",
+      "section": "header",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        74,
+        294,
+        560.78,
+        342
+      ]
+    },
+    {
+      "id": "t6",
+      "text": "能渲染 ≠ 公式正确",
+      "section": "principle",
+      "allowed_bounds": [
+        106,
+        392,
+        976,
+        610
+      ],
+      "measured_bounds": [
+        116,
+        395,
+        623,
+        479
+      ]
+    },
+    {
+      "id": "t7",
+      "text": "重复稳定 ≠ 内容正确",
+      "section": "principle",
+      "allowed_bounds": [
+        106,
+        402,
+        976,
+        610
+      ],
+      "measured_bounds": [
+        116,
+        473,
+        683,
+        557
+      ]
+    },
+    {
+      "id": "t8",
+      "text": "格式过关以后，还要核对内容。",
+      "section": "principle",
+      "allowed_bounds": [
+        106,
+        402,
+        976,
+        616
+      ],
+      "measured_bounds": [
+        116,
+        555,
+        592,
+        603
+      ]
+    },
+    {
+      "id": "t9",
+      "text": "从原件到人工复核",
+      "section": "flow-heading",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        669,
+        424,
+        731
+      ]
+    },
+    {
+      "id": "t10",
+      "text": "5 步流程",
+      "section": "flow-heading",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        886.06,
+        683,
+        1008,
+        727
+      ]
+    },
+    {
+      "id": "t11",
+      "text": "1",
+      "section": "step-1",
+      "allowed_bounds": [
+        96,
+        784,
+        158,
+        850
+      ],
+      "measured_bounds": [
+        119.02,
+        793,
+        132.98,
+        841
+      ]
+    },
+    {
+      "id": "t12",
+      "text": "保留原 PDF",
+      "section": "step-1",
+      "allowed_bounds": [
+        168,
+        782,
+        974,
+        940
+      ],
+      "measured_bounds": [
+        176,
+        787,
+        392.89,
+        844
+      ]
+    },
+    {
+      "id": "t13",
+      "text": "页码 + SHA 留痕",
+      "section": "step-1",
+      "allowed_bounds": [
+        168,
+        782,
+        974,
+        940
+      ],
+      "measured_bounds": [
+        176,
+        847,
+        475.14,
+        901
+      ]
+    },
+    {
+      "id": "t14",
+      "text": "方便定位、比对与复查。",
+      "section": "step-1",
+      "allowed_bounds": [
+        168,
+        782,
+        974,
+        946
+      ],
+      "measured_bounds": [
+        176,
+        894,
+        550,
+        942
+      ]
+    },
+    {
+      "id": "t15",
+      "text": "2",
+      "section": "step-2",
+      "allowed_bounds": [
+        96,
+        1028,
+        158,
+        1094
+      ],
+      "measured_bounds": [
+        115.8,
+        1037,
+        136.2,
+        1085
+      ]
+    },
+    {
+      "id": "t16",
+      "text": "选真正支持公式的解析器",
+      "section": "step-2",
+      "allowed_bounds": [
+        168,
+        1026,
+        974,
+        1204
+      ],
+      "measured_bounds": [
+        176,
+        1031,
+        627,
+        1088
+      ]
+    },
+    {
+      "id": "t17",
+      "text": "文本提取 ≠ LaTeX 识别",
+      "section": "step-2",
+      "allowed_bounds": [
+        168,
+        1026,
+        974,
+        1210
+      ],
+      "measured_bounds": [
+        176,
+        1101,
+        607.73,
+        1157
+      ]
+    },
+    {
+      "id": "t18",
+      "text": "解析能力要按实际测试确认。",
+      "section": "step-2",
+      "allowed_bounds": [
+        168,
+        1026,
+        974,
+        1210
+      ],
+      "measured_bounds": [
+        176,
+        1161,
+        618,
+        1209
+      ]
+    },
+    {
+      "id": "t19",
+      "text": "3",
+      "section": "step-3",
+      "allowed_bounds": [
+        96,
+        1292,
+        158,
+        1358
+      ],
+      "measured_bounds": [
+        115.8,
+        1301,
+        136.2,
+        1349
+      ]
+    },
+    {
+      "id": "t20",
+      "text": "新增公式需求开关",
+      "section": "step-3",
+      "allowed_bounds": [
+        168,
+        1290,
+        974,
+        1524
+      ],
+      "measured_bounds": [
+        176,
+        1295,
+        504,
+        1352
+      ]
+    },
+    {
+      "id": "t21",
+      "text": "--require-latex",
+      "section": "step-3",
+      "allowed_bounds": [
+        184,
+        1372,
+        604,
+        1420
+      ],
+      "measured_bounds": [
+        198,
+        1373,
+        531.06,
+        1416
+      ]
+    },
+    {
+      "id": "t22",
+      "text": "只记录需求、保留待复核",
+      "section": "step-3",
+      "allowed_bounds": [
+        168,
+        1290,
+        974,
+        1538
+      ],
+      "measured_bounds": [
+        176,
+        1429,
+        583,
+        1481
+      ]
+    },
+    {
+      "id": "t23",
+      "text": "不负责 OCR",
+      "section": "step-3",
+      "allowed_bounds": [
+        168,
+        1290,
+        974,
+        1538
+      ],
+      "measured_bounds": [
+        176,
+        1488,
+        369.8,
+        1537
+      ]
+    },
+    {
+      "id": "t24",
+      "text": "4",
+      "section": "step-4",
+      "allowed_bounds": [
+        96,
+        1596,
+        158,
+        1662
+      ],
+      "measured_bounds": [
+        115.8,
+        1605,
+        136.2,
+        1653
+      ]
+    },
+    {
+      "id": "t25",
+      "text": "新增公式检查器",
+      "section": "step-4",
+      "allowed_bounds": [
+        168,
+        1594,
+        974,
+        1827
+      ],
+      "measured_bounds": [
+        176,
+        1599,
+        463,
+        1656
+      ]
+    },
+    {
+      "id": "t26",
+      "text": "分隔符 / 括号 · 乱码 / 控制字符",
+      "section": "step-4",
+      "allowed_bounds": [
+        168,
+        1594,
+        974,
+        1837
+      ],
+      "measured_bounds": [
+        176,
+        1672,
+        683.44,
+        1721
+      ]
+    },
+    {
+      "id": "t27",
+      "text": "图像占位",
+      "section": "step-4",
+      "allowed_bounds": [
+        168,
+        1594,
+        974,
+        1837
+      ],
+      "measured_bounds": [
+        176,
+        1723,
+        324,
+        1775
+      ]
+    },
+    {
+      "id": "t28",
+      "text": "只做检查，不改原文。",
+      "section": "step-4",
+      "allowed_bounds": [
+        168,
+        1594,
+        974,
+        1837
+      ],
+      "measured_bounds": [
+        176,
+        1783,
+        546,
+        1835
+      ]
+    },
+    {
+      "id": "t29",
+      "text": "5",
+      "section": "step-5",
+      "allowed_bounds": [
+        96,
+        1915,
+        158,
+        1981
+      ],
+      "measured_bounds": [
+        115.8,
+        1924,
+        136.2,
+        1972
+      ]
+    },
+    {
+      "id": "t30",
+      "text": "回原图核对",
+      "section": "step-5",
+      "allowed_bounds": [
+        168,
+        1913,
+        974,
+        2106
+      ],
+      "measured_bounds": [
+        176,
+        1918,
+        381,
+        1975
+      ]
+    },
+    {
+      "id": "t31",
+      "text": "指数、分母、算符、化学能级",
+      "section": "step-5",
+      "allowed_bounds": [
+        168,
+        1913,
+        974,
+        2115
+      ],
+      "measured_bounds": [
+        176,
+        1993,
+        657,
+        2045
+      ]
+    },
+    {
+      "id": "t32",
+      "text": "最终确认仍要看原始页面。",
+      "section": "step-5",
+      "allowed_bounds": [
+        168,
+        1913,
+        974,
+        2115
+      ],
+      "measured_bounds": [
+        176,
+        2053,
+        584,
+        2101
+      ]
+    },
+    {
+      "id": "t33",
+      "text": "一个少平方的示意",
+      "section": "example",
+      "allowed_bounds": [
+        108,
+        2220,
+        974,
+        2526
+      ],
+      "measured_bounds": [
+        116,
+        2228,
+        404,
+        2278
+      ]
+    },
+    {
+      "id": "t34",
+      "text": "x/(a+b)",
+      "section": "example",
+      "allowed_bounds": [
+        110,
+        2305,
+        516,
+        2400
+      ],
+      "measured_bounds": [
+        222.28,
+        2318,
+        395.75,
+        2380
+      ]
+    },
+    {
+      "id": "t35",
+      "text": "x/(a+b)²",
+      "section": "example",
+      "allowed_bounds": [
+        565,
+        2305,
+        974,
+        2400
+      ],
+      "measured_bounds": [
+        673.88,
+        2318,
+        866.03,
+        2380
+      ]
+    },
+    {
+      "id": "t36",
+      "text": "少了 ²",
+      "section": "example",
+      "allowed_bounds": [
+        110,
+        2382,
+        516,
+        2440
+      ],
+      "measured_bounds": [
+        264.67,
+        2387,
+        355.33,
+        2432
+      ]
+    },
+    {
+      "id": "t37",
+      "text": "需要核对指数",
+      "section": "example",
+      "allowed_bounds": [
+        565,
+        2382,
+        974,
+        2440
+      ],
+      "measured_bounds": [
+        674,
+        2387,
+        866,
+        2432
+      ]
+    },
+    {
+      "id": "t38",
+      "text": "两式都能渲染，内容却不同。",
+      "section": "example",
+      "allowed_bounds": [
+        108,
+        2220,
+        974,
+        2526
+      ],
+      "measured_bounds": [
+        116,
+        2443,
+        597,
+        2495
+      ]
+    },
+    {
+      "id": "t39",
+      "text": "通用示意；不对应任何真实论文。",
+      "section": "example",
+      "allowed_bounds": [
+        108,
+        2220,
+        974,
+        2538
+      ],
+      "measured_bounds": [
+        116,
+        2493,
+        551,
+        2534
+      ]
+    },
+    {
+      "id": "t40",
+      "text": "已做的测试，边界说清楚",
+      "section": "tests",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        2593,
+        556,
+        2655
+      ]
+    },
+    {
+      "id": "t41",
+      "text": "5篇论文 · 103页",
+      "section": "tests",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        2670,
+        462.94,
+        2744
+      ]
+    },
+    {
+      "id": "t42",
+      "text": "全文基线 × 2",
+      "section": "tests",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        2745,
+        324.45,
+        2806
+      ]
+    },
+    {
+      "id": "t43",
+      "text": "17项独立原图小金标",
+      "section": "tests",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        2814,
+        457.42,
+        2875
+      ]
+    },
+    {
+      "id": "t44",
+      "text": "52个关键断言",
+      "section": "tests",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        2879,
+        338.61,
+        2940
+      ]
+    },
+    {
+      "id": "t45",
+      "text": "公式模型只按实际测试范围报告。",
+      "section": "tests",
+      "allowed_bounds": [
+        52,
+        40,
+        1028,
+        3320
+      ],
+      "measured_bounds": [
+        72,
+        2954,
+        582,
+        3002
+      ]
+    },
+    {
+      "id": "t46",
+      "text": "未核验：needs_review",
+      "section": "status",
+      "allowed_bounds": [
+        108,
+        3080,
+        974,
+        3240
+      ],
+      "measured_bounds": [
+        116,
+        3092,
+        563.55,
+        3153
+      ]
+    },
+    {
+      "id": "t47",
+      "text": "不自动变成正式 EU",
+      "section": "status",
+      "allowed_bounds": [
+        108,
+        3080,
+        974,
+        3240
+      ],
+      "measured_bounds": [
+        116,
+        3165,
+        499.2,
+        3227
+      ]
+    },
+    {
+      "id": "t48",
+      "text": "原件留存  →  需求记录  →  可疑项标记  →  人工确认",
+      "section": "footer",
+      "allowed_bounds": [
+        64,
+        3282,
+        1018,
+        3336
+      ],
+      "measured_bounds": [
+        72,
+        3289,
+        709.95,
+        3330
+      ]
+    }
+  ],
+  "handoff": "One finished long-form diagram. Do not treat test repeatability or rendering success as evidence of formula correctness."
+}

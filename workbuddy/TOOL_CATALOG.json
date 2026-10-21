@@ -1,17 +1,20 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "purpose": "WorkBuddy只按现有工程需要选择和适配",
   "formal_package": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "skills": 16,
-    "repo_directory": "academic-evidence-skills-v0.2.0",
-    "download_url": "https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.2.0/academic-evidence-skills-v0.2.0.zip",
-    "sha256": "92be20a332b92d435ce56e74f38fc2a04e0d69c67041fd1e84917f5f539a7cf3",
+    "repo_directory": "academic-evidence-skills-v0.3.0",
+    "download_url": "https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.3.0/academic-evidence-skills-v0.3.0.zip",
+    "sha256": "c656a03342709c83c8ebaa0c409c41fbc7e0e2111ddd8be35836d7762102513b",
     "use_first": [
       "pdf-to-markdown",
+      "academic-mineru",
+      "academic-docling",
       "academic-langextract",
       "academic-literature-review"
-    ]
+    ],
+    "bytes": 8554726
   },
   "candidate_archive": {
     "version": "0.1",
@@ -225,5 +228,49 @@
     "candidate download means runtime installation",
     "reading SKILL.md proves successful import",
     "commercial service sample license grants database aggregation rights"
+  ],
+  "formula_update": {
+    "date": "2026-10-21",
+    "updated_skills": [
+      "pdf-to-markdown",
+      "academic-mineru",
+      "academic-docling"
+    ],
+    "skill_versions": "0.2.0",
+    "report": "academic-evidence-skills-v0.3.0/PDF公式更新与实测范围.md",
+    "workbuddy_prompt": "workbuddy/PDF_FORMULA_TASK.md",
+    "semantic_math_verification_automated": false,
+    "friend_workbuddy_tested": false,
+    "full_pdf_test_scope": {
+      "papers": 5,
+      "physical_pages": 103,
+      "all_source_math_verified": false
+    }
+  },
+  "workbuddy_import_variants": [
+    {
+      "formal_skill": "pdf-to-markdown",
+      "version": "0.2.0",
+      "path": "WorkBuddy单技能导入包/pdf-to-markdown-workbuddy-v0.2.0.zip",
+      "sha256": "b615aada431f3db3130c727a6e51267b19f3a3f131a9e06205b00aa1cda9e20b",
+      "client_import_tested": false,
+      "new_capability": false
+    },
+    {
+      "formal_skill": "academic-mineru",
+      "version": "0.2.0",
+      "path": "WorkBuddy单技能导入包/academic-mineru-workbuddy-v0.2.0.zip",
+      "sha256": "9de0148f464a10113a303e7f0adbbdb19d5fdcece5a4ae9788e8ccabbc80f6fe",
+      "client_import_tested": false,
+      "new_capability": false
+    },
+    {
+      "formal_skill": "academic-docling",
+      "version": "0.2.0",
+      "path": "WorkBuddy单技能导入包/academic-docling-workbuddy-v0.2.0.zip",
+      "sha256": "9cecd19c80dfc39521085d1d0c0f60e5ce6af12218829dd2d83d30b8a8c33fbe",
+      "client_import_tested": false,
+      "new_capability": false
+    }
   ]
 }

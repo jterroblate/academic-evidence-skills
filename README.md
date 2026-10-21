@@ -1,26 +1,26 @@
-# 学术证据工作流 · Skill 合集
+# 学术证据工作流 · Skill合集
 
-16个可携带技能：原14技能基础包覆盖PDF转写、文献检索、引用管理、阅读与研究；新增2技能补充包侧重原子claim抽取和检索质量诊断。AI参与选型与改编。
+16项可携带技能，涵盖PDF转写、claim候选、检索、引用与研究。JT为朋友准备，AI参与选型、适配与测试。
 
-## 在 WorkBuddy 中使用
+## 最新完整包v0.3.0
 
-[给 WorkBuddy 的启动提示词](workbuddy/START_HERE.md) · [交接与导入说明](workbuddy/README.md) · [候选工具目录](workbuddy/TOOL_CATALOG.json)
+2026-10-21：依据5篇真实材料的本机测试，更新PDF转写、MinerU和Docling三项；其余13项保持旧文件。完整ZIP也纳入既有定向候选和WorkBuddy提示词，方便一次转交。
 
-新增 WorkBuddy 交接入口，合并原16项正式技能、本轮定向候选与用法，方便一次转交。候选只做过静态审查；未在朋友的 WorkBuddy/工程上验证。正式技能仍为16项 v0.2.0。
+- [下载完整技能包v0.3.0](https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.3.0/academic-evidence-skills-v0.3.0.zip)
+- [先读与安装](academic-evidence-skills-v0.3.0/README_先读.md) · [16项用法](academic-evidence-skills-v0.3.0/每个技能怎么用.md)
+- [PDF公式实测结论与范围](academic-evidence-skills-v0.3.0/PDF公式更新与实测范围.md) · [验证说明](academic-evidence-skills-v0.3.0/验证说明.md)
+- [发给WorkBuddy的公式任务提示词](workbuddy/PDF_FORMULA_TASK.md) · [项目启动提示词](workbuddy/START_HERE.md) · [交接说明](workbuddy/README.md)
+- [公式核验流程图](academic-evidence-skills-v0.3.0/讲解图/PDF公式保真流程_2026-10-21.png) · [三项技能怎样配合](academic-evidence-skills-v0.3.0/讲解图/WorkBuddy三项技能怎么配合_2026-10-21.png)
 
-[下载 WorkBuddy 完整交接包 v0.1](https://github.com/jterroblate/academic-evidence-skills/releases/download/workbuddy-handoff-v0.1/academic-workbuddy-handoff-v0.1.zip) · [本轮结构示意图](workbuddy/workbuddy-handoff-diagram.png)
+SHA256：`c656a03342709c83c8ebaa0c409c41fbc7e0e2111ddd8be35836d7762102513b`
 
-## 最新完整包 v0.2.0
+本组样本优先建议继续测试MinerU 4.0.12 basic/ONNX。已完成5篇103页文字基线各2次、两个公式后端各5代表页、MinerU另5篇103页全文与同页复跑；没有完成全部103页的公式逐项核验。新检查器可查完整性和基本数学词法，零问题仍不证明公式正确。WorkBuddy导入与原系统接入仍需接收环境实际验证。
 
-**原14技能＋新增2项，共16项，合并为一个完整ZIP。** 包内附全部用法、3张讲解图和AskChem固定源码参考；朋友下载这一份即可取得当前全部交付。
+包内候选11个目录包含中英版本/primer，仍是静态参考，不计入正式16项，也不等于11项独立能力。论文、会议、私有设计、原文转写、环境与模型不公开。
 
-- [下载最新版完整技能包](https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.2.0/academic-evidence-skills-v0.2.0.zip)
-- [安装与入门](academic-evidence-skills-v0.2.0/README_先读.md)
-- [16项分别怎么用](academic-evidence-skills-v0.2.0/每个技能怎么用.md)
-- [包内讲解图](academic-evidence-skills-v0.2.0/讲解图)
-- [本版验证说明](academic-evidence-skills-v0.2.0/验证说明.md)
+## 历史交付
 
-已核对16项源文件保持既有版本、安装全部16项的复制机制及ZIP完整性；模型/后端效果与正式Compiler接入仍按接收工程验证。原基础版与补充版作为历史来源保留。
+[v0.2.0完整包](https://github.com/jterroblate/academic-evidence-skills/releases/tag/v0.2.0)、[WorkBuddy v0.1交接](https://github.com/jterroblate/academic-evidence-skills/releases/tag/workbuddy-handoff-v0.1)保留历史版本；新用户优先下载上面的v0.3.0。
 
 ## Claim 中心工作流补充包
 
@@ -62,7 +62,7 @@ python tools/install.py --destination /absolute/path/to/project/.agents/skills -
 
 原始PDF及完整SHA256保留，转写与原始解析结果可回溯。搜索、摘要、假设和模型回答保持候选；DOI、格式或结构校验不等于内容支持。正式EU、Gateway/Registry和科学坐标接口仍需按目标工程接入。
 
-格式、离线行为、独立审查和解压试跑已验证；真实PDF精度、远端解析/模型/API、Windows与原系统集成未代测。本地文本基线不做OCR，双栏/扫描可能返回needs_review。
+历史基础版只验证格式、离线行为与复制机制；本轮真实PDF的有限实测见v0.3.0报告，远端模型/API、Windows与原系统集成仍未代测。本地文本基线不做OCR，双栏/扫描可能返回needs_review。
 
 ## 许可
 

@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "adapted_skill": "academic-mineru",
+  "repo": "opendatalab/MinerU",
+  "url": "https://github.com/opendatalab/MinerU",
+  "commit": "b7f3dd0c5f6e6d66a298239ffd02b328b873918e",
+  "source_paths": [
+    "skills/mineru",
+    "LICENSE.md",
+    "docs/en/reference/output_files.md",
+    "docs/next/cli/mineru-kit-parse.md",
+    "docs/next/page-ranges.md"
+  ],
+  "source_snapshot": "来源/MinerU",
+  "source_manifest": "验证/ingestion/MinerU-snapshot.json",
+  "license": {
+    "summary": "MinerU Open Source License: Apache-2.0 basis with additional commercial thresholds, attribution and termination terms; not unmodified Apache-2.0",
+    "source_path": "LICENSE.md",
+    "packaged_path": "LICENSE",
+    "sha256": "2d9aeb5d15159329a20dd804f251c64860ba954fbd26ec02f802220e6d71cf5c",
+    "base_license": {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "packaged_path": "LICENSE-APACHE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  },
+  "adapted_at": "2026-10-12",
+  "adaptations": [
+    "Chinese host-neutral discoverable entrypoint and explicit CLI usage",
+    "Immutable L0 full SHA256; native outputs and actual engine/version/parameters/page coverage retained",
+    "Physical page 1-based; printed-page unknown null; preserve native bbox and source hash without invented coordinates",
+    "L1 document.md distinct from deep reading.md; no formal EU/Utility/ScientificCoordinate/Registry P IDs",
+    "Selected local channel first; no automatic upload, install, model replacement or unknown-result retry",
+    "Fresh staging only; Gateway owns identity/archive movement; external credentials; no automatic git commit/push",
+    "Upstream references isolated as .txt, raw SKILL kept outside delivery; no upstream precedence over current authorization",
+    "Retain custom fixed-commit MinerU license and full linked Apache basis; do not label unmodified Apache-2.0",
+    "Corrected runtime SDK usage to MinerUParser for tested 4.0.12",
+    "Added materialized export_pages.py with producer-source hash and page consistency checks",
+    "Added exact tested optional SDK requirement; no SDK or weights redistributed",
+    "Prepared an independent WorkBuddy import copy with required bilingual description, version and attribution frontmatter; original functionality and licenses preserved"
+  ],
+  "vendored_resources": [
+    {
+      "source_path": "docs/en/reference/output_files.md",
+      "packaged_path": "references/upstream/output_files.md.txt",
+      "sha256": "e16185e4a4f7f0cb65624b5cbc3bd44c1f7c9c772ce9434667c6d3a1428a80b6",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docs/next/cli/mineru-kit-parse.md",
+      "packaged_path": "references/upstream/mineru-kit-parse.md.txt",
+      "sha256": "352b59950a8af0c2aa2708ecf37c02dca38b42f96fc0e8900a9689cf394d2b91",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docs/next/page-ranges.md",
+      "packaged_path": "references/upstream/page-ranges.md.txt",
+      "sha256": "d6280d96ee84b3837ae56376d8c106b435136a18fec4467594d04875024319ce",
+      "execution_status": "isolated-reference-only"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "2d9aeb5d15159329a20dd804f251c64860ba954fbd26ec02f802220e6d71cf5c",
+      "git_blob": "6496f953085e712b9e1724681661b73d534fa5d8",
+      "size": 3301
+    },
+    {
+      "path": "README.md",
+      "sha256": "69c967e98536be101b5dc3420703d28cc1e0250eeca3b5bf156b060ac4ccfacb",
+      "git_blob": "db3088e7e0d945083c57a050aa16e35839a5c834",
+      "size": 55856
+    },
+    {
+      "path": "docs/en/reference/migration_4.md",
+      "sha256": "952ab5d06f92b02e4fab10edf38d54c57a3b45a9f6e086530be8de1ca891206e",
+      "git_blob": "445c0d77ddbfd1eebdeb3fbd839dd0200ed39236",
+      "size": 5916
+    },
+    {
+      "path": "docs/en/reference/output_files.md",
+      "sha256": "e16185e4a4f7f0cb65624b5cbc3bd44c1f7c9c772ce9434667c6d3a1428a80b6",
+      "git_blob": "6ce668a7fdbdc09d0c1d3421b36296e84b7174f6",
+      "size": 11126
+    },
+    {
+      "path": "docs/next/cli/mineru-kit-parse.md",
+      "sha256": "352b59950a8af0c2aa2708ecf37c02dca38b42f96fc0e8900a9689cf394d2b91",
+      "git_blob": "8c139ae9dfe8e42a47c58ee1019724a73ddf98f0",
+      "size": 5292
+    },
+    {
+      "path": "docs/next/page-ranges.md",
+      "sha256": "d6280d96ee84b3837ae56376d8c106b435136a18fec4467594d04875024319ce",
+      "git_blob": "2a99e37da2c225adc17c45c0f8e89b83b02ce9ac",
+      "size": 4996
+    },
+    {
+      "path": "mineru/cli/__init__.py",
+      "sha256": "01d72c1f22e579a75b5bb5618ecef3340d955846ab55572b5b7a6df61fa4adce",
+      "git_blob": "f20baeb177677c32f32261caeda8d50395dfd2ad",
+      "size": 145
+    },
+    {
+      "path": "mineru/cli/commands/__init__.py",
+      "sha256": "158e564a5f8b6ed00e48c3847fdc1032af514edd68fa48518087da5dbcf3ba94",
+      "git_blob": "e466e4abc135fe50290427c3e0771ab9ccb7a454",
+      "size": 500
+    },
+    {
+      "path": "mineru/cli/commands/cleanup.py",
+      "sha256": "375361d728bdc2e37d5fc73c3a1c34e3ce773eda2e62afea9d3b2aa54f3f0902",
+      "git_blob": "1ceee8452e356164f0496eec3c3d50ade48233d4",
+      "size": 2968
+    },
+    {
+      "path": "mineru/cli/commands/config.py",
+      "sha256": "f31f81d8fde54efaf7792993c3cbbce54e9e5ba7a21b76f2dffe7f032a2562c0",
+      "git_blob": "5caec0fcb86139ab2a659c2637210cc25c251b78",
+      "size": 8857
+    },
+    {
+      "path": "mineru/cli/commands/forget.py",
+      "sha256": "a6f1ef95508f8afc4d837c85727e7b0d9246dcc1a1c228174475a1678b01b645",
+      "git_blob": "a09a9c18f65df426bdf6cd9191088e74fa5b0320",
+      "size": 1435
+    },
+    {
+      "path": "mineru/cli/commands/invalidate.py",
+      "sha256": "c0dfb3b12f2c1259e34a42b317bb6b766a657b5156ae1146d421da2f8485f9c2",
+      "git_blob": "884eead204ab148d479512bf242e6db058285d98",
+      "size": 1689
+    },
+    {
+      "path": "mineru/cli/commands/list_resources.py",
+      "sha256": "13094f5d8a00fbb18cb98e06caddd06cb1d67e348867734e22ade7b3f2204ffb",
+      "git_blob": "f06f19eccb310ee1240dc5cec855357ddb5e11ee",
+      "size": 5930
+    },
+    {
+      "path": "mineru/cli/commands/parse.py",
+      "sha256": "fb965ae3c1b7d506c2b19c955a62cf6013318be200c89c14366002c50742c3f0",
+      "git_blob": "dbfd7a7ae06673577d539a4b54b31ad113e57abd",
+      "size": 17207
+    },
+    {
+      "path": "mineru/cli/commands/read.py",
+      "sha256": "f67513ba249341dfdead317a09daf3a665e6e297685b53070ef4093f598977cf",
+      "git_blob": "3b2b839f276c8a2c69ba82240b6d5f707e4066d9",
+      "size": 6054
+    },
+    {
+      "path": "mineru/cli/commands/scan.py",
+      "sha256": "35aaa90a1d146487770a131e215d77f00d483fb10f10a1e0391e05e93485db99",
+      "git_blob": "caea542e5232c6d241f293a5118dee228d52899d",
+      "size": 2762
+    },
+    {
+      "path": "mineru/cli/commands/search.py",
+      "sha256": "e017f910625b661ffd55eeab9197131fae6ef6ba9849dac8dfb403940f1759e7",
+      "git_blob": "c152350743022cec5d67db97db49db374e9b1405",
+      "size": 3999
+    },
+    {
+      "path": "mineru/cli/commands/server.py",
+      "sha256": "7b7a96b7fc7149dc6c6822952f389e29feff49a40ccaeabac4d4a243bec88f02",
+      "git_blob": "5f57f65b272ff221f15a04d4f912a06540faf1aa",
+      "size": 23477
+    },
+    {
+      "path": "mineru/cli/commands/show.py",
+      "sha256": "7f4767086a87c19153c04fcbf67a7489a9ee339003ec69c9ae462a79a0498162",
+      "git_blob": "e7632a4ee0508c1934bb9f1da7c0bcc44186259e",
+      "size": 5542
+    },
+    {
+      "path": "mineru/cli/commands/telemetry.py",
+      "sha256": "bbf934dce5cd4c3e36f0bc021cdf12bfe23603d297e12bd2b0157413e92b404e",
+      "git_blob": "2aac9b9e4f94095bca2e486539e0e4cc7b59f884",
+      "size": 3309
+    },
+    {
+      "path": "mineru/cli/commands/usage.py",
+      "sha256": "b38c7a453a1342100eff6a8a0953595b01c0cbe12e3a10b8c0b8defe6140db9b",
+      "git_blob": "d1cd3f7ae83b94c9108a5de5d2e983a8cc8a771f",
+      "size": 3722
+    },
+    {
+      "path": "mineru/cli/commands/watch.py",
+      "sha256": "a49c36ae83513366eaceb73df1ad413bb90273efbb93fd6217ab4192c0a9e22b",
+      "git_blob": "4c028b267e77b764577ac80cb0a6dc02f3969e91",
+      "size": 5015
+    },
+    {
+      "path": "mineru/cli/contracts.py",
+      "sha256": "e597254ab0ed6034306da3383fede61e0df0fa47539082393e8765b4e7182548",
+      "git_blob": "496f8ec376379e54312dfba1fa6cbccea4ef72b4",
+      "size": 1135
+    },
+    {
+      "path": "mineru/cli/guidance.py",
+      "sha256": "b6c7901d5ec6152f73c3e0294eb00c606abd4c6b40f55bff529ee5ecfb8a3a45",
+      "git_blob": "db3af21ec258cb3f624e2ab3b3c79dd097b2f5ae",
+      "size": 3857
+    },
+    {
+      "path": "mineru/cli/main.py",
+      "sha256": "bcd36fa257373162c884e9dbb541ec0ec1e99e09e52acea62faacd039ff20126",
+      "git_blob": "8b6b67e5587cf9110f7fad94819f4c2c729691c5",
+      "size": 3348
+    },
+    {
+      "path": "mineru/cli/output.py",
+      "sha256": "177c7a04c8d30d3a2b1ec39c86f63bc4470ded5b145cf46c6b302d6d3bd83865",
+      "git_blob": "4e5675c6bacd118eae102518968648271944e584",
+      "size": 1457
+    },
+    {
+      "path": "mineru/cli/path_utils.py",
+      "sha256": "48f1bde3f8238eb6fa8717b4da7b7b61325661285fa57552dfbbbc4155e2cb0b",
+      "git_blob": "d612885c58b9ea3d09e22b059a146d4e23a67868",
+      "size": 298
+    },
+    {
+      "path": "mineru/cli/runtime.py",
+      "sha256": "71967dfd8d03d3f9f5203eebb5d16c2c89f97aa8e4440f4235b40050257bb4cc",
+      "git_blob": "e50a2199b8e494dd320e67185db1cdaa103395f5",
+      "size": 6201
+    },
+    {
+      "path": "mineru/cli/telemetry.py",
+      "sha256": "47573ebd553e28a48aac8075b9c7c73034f2a9fed2ab71c003fbc4a0c36a68f3",
+      "git_blob": "1c0d3b92326450b8e3a644775ef77c270c9703f5",
+      "size": 3851
+    },
+    {
+      "path": "mineru/cli/version_command.py",
+      "sha256": "8abf3ae3ab913902c093844b2e5b2df97f5b706f19af31f8697fd7252a19eead",
+      "git_blob": "ee26becf25812ffe278fa70ae58dd621a24eefda",
+      "size": 1233
+    },
+    {
+      "path": "mineru/doclib/types.py",
+      "sha256": "3f004c84d73efa0112ef261e5d75274b2458c3a95bb81be909c52805831cde6c",
+      "git_blob": "f4967a2707114058f6d5a22cca1e3b46243021a6",
+      "size": 18623
+    },
+    {
+      "path": "mineru/kit/commands/parse.py",
+      "sha256": "aec43ceba6b5e261a877fa75a1d357c8dcb735b46dbe4e35fa3765546cfd73e4",
+      "git_blob": "9a5e63bc3abc20b37abfc539c87940fc57eb1a0f",
+      "size": 5035
+    },
+    {
+      "path": "mineru/kit/common.py",
+      "sha256": "f14269d1a492f3210ce14a4f107928a01725b329e7744808800d4bb8c8c07988",
+      "git_blob": "9fe6e3020c7a1244ee7014542b9f8a0847db16d3",
+      "size": 4959
+    },
+    {
+      "path": "mineru/kit/main.py",
+      "sha256": "328f97ef1516eae2e1f9549e6e1fc5586bff43d9d0274df58985498cb76f1a7a",
+      "git_blob": "57ebf60863e84a87c5028008dca4bcd3030b7f6e",
+      "size": 2213
+    },
+    {
+      "path": "mineru/parser/base.py",
+      "sha256": "16d61cb51b93dece48306415cac256f0070e62730006e90e778cba51c0acee1b",
+      "git_blob": "7cdd4e5652e6594488384934f06ae447bd5c81f6",
+      "size": 6863
+    },
+    {
+      "path": "mineru/parser/mineru_parser.py",
+      "sha256": "ee26543dc29856996dbbfe52629fec66c7ac63f0035340aebfc639a56b8da648",
+      "git_blob": "50857123987837cc7ee4378157c607b1feac3287",
+      "size": 10615
+    },
+    {
+      "path": "mineru/parser/writer.py",
+      "sha256": "8ad9484eb6388341d65339ad64e4e1326072f27b2189089171b4a2c6d8f592d0",
+      "git_blob": "5f5464fe113c469d83d4a0ea2f593dcec6669338",
+      "size": 2095
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "c67cd0915df125c6e962633e5741288a8a0bd9b5eb05a573f604b039839a7c8d",
+      "git_blob": "5a22e23d6aaf2c6d24937b063c310614fdb390e4",
+      "size": 4933
+    },
+    {
+      "path": "skills/mineru/SKILL.md",
+      "sha256": "dec330a3549d232fed44db2b0c9bc0b64505a11d2526008ddf044b3f94681d96",
+      "git_blob": "b3d83885c0b07e89b6d79791b38a38deed98918e",
+      "size": 37708
+    }
+  ],
+  "validation_scope": "Fixed-source hash and static command checks; no runtime installation or real PDF/API end-to-end test",
+  "adaptation_version": "0.2.0",
+  "adapted_on": "2026-10-21",
+  "runtime_verified_versions": [
+    "mineru 4.0.12 basic ONNX CPU"
+  ],
+  "original_adapter_license": {
+    "path": "LICENSE-adapter-MIT.txt",
+    "scope": "original export_pages.py and original usage additions only",
+    "license": "MIT"
+  },
+  "workbuddy_import_adaptation": {
+    "adapted_on": "2026-10-21",
+    "source_skill_version": "0.2.0",
+    "source_skill_md_sha256": "2685c8e628a71396006c5207a733ef5e0ed845b67cb054e5c50012ab0e4936ff",
+    "purpose": "Separate single-skill import preparation against the published WorkBuddy frontmatter structure",
+    "official_structure_url": "https://open.workbuddy.cn/docs/skill",
+    "checked_on": "2026-10-21",
+    "added_top_level_fields": [
+      "description_zh",
+      "description_en",
+      "version",
+      "author"
+    ],
+    "preserved": "Existing description, frontmatter values, Markdown body, scripts, references, assets and licenses unchanged",
+    "validation_scope": "Offline required-field, YAML, archive and hash checks only; no WorkBuddy client import test",
+    "endorsement": "Independent JT collaboration adaptation; no upstream or WorkBuddy endorsement claimed"
+  }
+}

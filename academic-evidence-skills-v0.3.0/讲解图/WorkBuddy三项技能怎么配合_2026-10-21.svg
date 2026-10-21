@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2400" viewBox="0 0 1080 2400" role="img" aria-labelledby="title desc">
+<title id="title">这三项 skill，在 WorkBuddy 里怎么配合</title>
+<desc id="desc">2026-10-21。三项原有技能的更新和导入副本：选择已配置的 MinerU 或 Docling 解析器，由 pdf-to-markdown 整理可追溯交付并检查，再对原 PDF 复核。技能导入不等于后端已经安装，官方客户端导入尚未实测。通用技能完整包通过 GitHub 和网盘分享，含原文的五篇论文测试包本地单独转交。</desc>
+<style>
+text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;fill:#203541;font-weight:400}
+.bold{font-weight:600}.muted{fill:#5E6D72}.green{fill:#176D68}.orange{fill:#B44B29}.white{fill:#FFFAF2}
+.skill{font-family:"SF Pro Display",Arial,"PingFang SC",sans-serif;font-weight:600}
+</style>
+<rect width="1080" height="2400" fill="#F7F4EE"/>
+
+<rect x="64" y="50" width="244" height="48" rx="24" fill="#DFECE7"/>
+<text id="t01" x="186" y="84" font-size="29" class="bold green" text-anchor="middle">本轮更新 · 使用关系</text>
+<text id="t02" x="1016" y="84" font-size="30" class="muted" text-anchor="end">2026-10-21</text>
+<text id="t03" x="64" y="181" font-size="62" class="bold">这三项 skill，</text>
+<text id="t04" x="64" y="264" font-size="62" class="bold">在 WorkBuddy 里怎么配合</text>
+<text id="t05" x="66" y="325" font-size="35" class="muted">原有技能的更新 / 导入副本，不是新增三种能力。</text>
+
+<circle cx="87" cy="380" r="24" fill="#176D68"/>
+<text id="t06" x="87" y="392" font-size="31" class="bold white" text-anchor="middle">1</text>
+<text id="t07" x="128" y="394" font-size="43" class="bold">选择已配置的解析器</text>
+
+<rect data-box="parsers" x="64" y="418" width="952" height="428" rx="26" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<text id="t08" data-box="parsers" x="104" y="484" font-size="44" class="skill">academic-mineru</text>
+<rect x="688" y="445" width="288" height="50" rx="25" fill="#E1ECE8"/>
+<text id="t09" data-box="parsers" x="832" y="480" font-size="30" class="bold green" text-anchor="middle">本组论文主力候选</text>
+<text id="t10" data-box="parsers" x="104" y="541" font-size="37">解析 PDF 中的公式、正文和图片，</text>
+<text id="t11" data-box="parsers" x="104" y="590" font-size="37">保留原生 Markdown / JSON。</text>
+<line x1="104" y1="619" x2="976" y2="619" stroke="#DCE3DF" stroke-width="2"/>
+<text id="t12" data-box="parsers" x="104" y="684" font-size="44" class="skill">academic-docling</text>
+<rect x="780" y="645" width="196" height="50" rx="25" fill="#F0EEE8"/>
+<text id="t13" data-box="parsers" x="878" y="680" font-size="30" class="bold muted" text-anchor="middle">备选渠道</text>
+<text id="t14" data-box="parsers" x="104" y="741" font-size="37">已有 Docling 渠道时的备选结构解析；</text>
+<text id="t15" data-box="parsers" x="104" y="790" font-size="37" class="orange">本次公式增强仍有局限。</text>
+
+<path d="M540 860 V886 M529 877 L540 889 L551 877" fill="none" stroke="#176D68" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="87" cy="928" r="24" fill="#176D68"/>
+<text id="t16" x="87" y="940" font-size="31" class="bold white" text-anchor="middle">2</text>
+<text id="t17" x="128" y="942" font-size="43" class="bold">整理与检查</text>
+
+<rect data-box="organize" x="64" y="972" width="952" height="244" rx="26" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<text id="t18" data-box="organize" x="104" y="1034" font-size="44" class="skill">pdf-to-markdown</text>
+<text id="t19" data-box="organize" x="104" y="1092" font-size="37">保留原 PDF 哈希、物理页和素材，</text>
+<text id="t20" data-box="organize" x="104" y="1142" font-size="37">整理可追溯交付，检查完整性与基本数学格式。</text>
+<text id="t21" data-box="organize" x="104" y="1192" font-size="37" class="bold orange">不能自动纠正科学内容。</text>
+
+<path d="M540 1230 V1256 M529 1247 L540 1259 L551 1247" fill="none" stroke="#176D68" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect data-box="review" x="64" y="1275" width="952" height="205" rx="26" fill="#E1ECE8"/>
+<circle cx="111" cy="1324" r="24" fill="#176D68"/>
+<text id="t22" data-box="review" x="111" y="1336" font-size="31" class="bold white" text-anchor="middle">3</text>
+<text id="t23" data-box="review" x="152" y="1338" font-size="43" class="bold">对原 PDF 复核</text>
+<text id="t24" data-box="review" x="104" y="1398" font-size="42" class="bold orange">能渲染 ≠ 公式正确</text>
+<text id="t25" data-box="review" x="104" y="1448" font-size="37" class="bold green">候选保持待复核</text>
+
+<text id="t26" x="64" y="1555" font-size="44" class="bold">在 WorkBuddy 里怎么导入</text>
+<line x1="88" y1="1619" x2="88" y2="1840" stroke="#D6E1DB" stroke-width="4"/>
+<circle cx="88" cy="1623" r="23" fill="#F7F4EE" stroke="#176D68" stroke-width="2"/>
+<text id="t27" x="88" y="1634" font-size="29" class="bold green" text-anchor="middle">1</text>
+<text id="t28" x="134" y="1637" font-size="39">解压完整合集</text>
+<circle cx="88" cy="1695" r="23" fill="#F7F4EE" stroke="#176D68" stroke-width="2"/>
+<text id="t29" x="88" y="1706" font-size="29" class="bold green" text-anchor="middle">2</text>
+<text id="t30" x="134" y="1709" font-size="39">选对应单技能 ZIP</text>
+<circle cx="88" cy="1767" r="23" fill="#F7F4EE" stroke="#176D68" stroke-width="2"/>
+<text id="t31" x="88" y="1778" font-size="29" class="bold green" text-anchor="middle">3</text>
+<text id="t32" x="134" y="1781" font-size="39">按本机 WorkBuddy 规则导入</text>
+<circle cx="88" cy="1839" r="23" fill="#F7F4EE" stroke="#176D68" stroke-width="2"/>
+<text id="t33" x="88" y="1850" font-size="29" class="bold green" text-anchor="middle">4</text>
+<text id="t34" x="134" y="1853" font-size="39">检查 Python / SDK / 模型并试跑</text>
+
+<rect data-box="installation" x="64" y="1890" width="952" height="148" rx="26" fill="#203541"/>
+<text id="t35" data-box="installation" x="104" y="1950" font-size="42" class="bold white">导入技能 ≠ 后端已经安装</text>
+<text id="t36" data-box="installation" x="104" y="2001" font-size="35" class="white">官方客户端导入尚未实测。</text>
+
+<text id="t37" x="64" y="2104" font-size="42" class="bold">两份资料，分开拿</text>
+<rect data-box="public-package" x="64" y="2124" width="952" height="108" rx="22" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<rect x="64" y="2146" width="8" height="64" rx="4" fill="#176D68"/>
+<text id="t38" data-box="public-package" x="104" y="2194" font-size="38" class="bold">通用技能完整包</text>
+<text id="t39" data-box="public-package" x="560" y="2194" font-size="35" class="muted">GitHub / 网盘分享</text>
+<rect data-box="paper-package" x="64" y="2248" width="952" height="108" rx="22" fill="#FFFFFF" stroke="#DCE3DF" stroke-width="2"/>
+<rect x="64" y="2270" width="8" height="64" rx="4" fill="#B44B29"/>
+<text id="t40" data-box="paper-package" x="104" y="2318" font-size="38" class="bold">五篇论文测试包</text>
+<text id="t41" data-box="paper-package" x="560" y="2318" font-size="35" class="muted">本地单独转交，含原文</text>
+<text id="t42" x="64" y="2390" font-size="28" class="muted">配置解析器 → 整理与检查 → 原文复核</text>
+</svg>

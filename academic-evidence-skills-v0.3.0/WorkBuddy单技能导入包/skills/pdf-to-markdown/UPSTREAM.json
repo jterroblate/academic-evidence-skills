@@ -1,0 +1,42 @@
+{
+  "kind": "local_adapter",
+  "name": "pdf-to-markdown",
+  "repo": null,
+  "commit": null,
+  "version": "0.2.0",
+  "origin": "JT collaboration implementation, AI assisted, based on supplied requirements and reviewed Uniseem MIT skill",
+  "source_paths": [
+    "2026-10-12_PDF转Markdown/交付/pdf-to-markdown"
+  ],
+  "source_archive_sha256": "1eef823374352b59ab34285a1c48c3330f6d8970d766aeebc0129506571662ef",
+  "license": "MIT for skill and custom scripts; dependencies have their own licenses",
+  "adaptations": [
+    "Added per-skill usage.md; existing tested conversion implementation retained",
+    "Does not bundle or call Uniseem pdfskill CLI",
+    "Does not automatically promote quote or L0 verification",
+    "Added explicit --require-latex profile that preserves separate source review",
+    "Added offline math_check.py basic lexical, corruption and placeholder triage",
+    "Real PDF baseline runs and independent artifact/behavior checks; mathematical fidelity remains unverified",
+    "On a malformed unclosed math delimiter, report the error and resume at the next existing physical-page marker; diagnostics only, never source repair or coverage proof.",
+    "Prepared an independent WorkBuddy import copy with required bilingual description, version and attribution frontmatter; original functionality and licenses preserved"
+  ],
+  "adaptation_version": "0.2.0",
+  "adapted_on": "2026-10-21",
+  "workbuddy_import_adaptation": {
+    "adapted_on": "2026-10-21",
+    "source_skill_version": "0.2.0",
+    "source_skill_md_sha256": "e25799e43cb3b8ba4f5dd40fb7db6dfb4a0cca350a70b8063e042499e7cd3216",
+    "purpose": "Separate single-skill import preparation against the published WorkBuddy frontmatter structure",
+    "official_structure_url": "https://open.workbuddy.cn/docs/skill",
+    "checked_on": "2026-10-21",
+    "added_top_level_fields": [
+      "description_zh",
+      "description_en",
+      "version",
+      "author"
+    ],
+    "preserved": "Existing description, frontmatter values, Markdown body, scripts, references, assets and licenses unchanged",
+    "validation_scope": "Offline required-field, YAML, archive and hash checks only; no WorkBuddy client import test",
+    "endorsement": "Independent JT collaboration adaptation; no upstream or WorkBuddy endorsement claimed"
+  }
+}

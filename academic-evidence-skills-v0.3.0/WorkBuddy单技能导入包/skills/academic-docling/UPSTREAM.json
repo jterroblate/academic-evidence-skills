@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "adapted_skill": "academic-docling",
+  "repo": "docling-project/docling",
+  "url": "https://github.com/docling-project/docling",
+  "commit": "21588f5261d0a5a051102356d9babb35e790f33e",
+  "source_paths": [
+    "docling/.agents/skills/docling",
+    "LICENSE"
+  ],
+  "source_snapshot": "来源/docling",
+  "source_manifest": "验证/ingestion/docling-snapshot.json",
+  "license": {
+    "summary": "MIT for repository code; model artifact licenses independent and not bundled",
+    "source_path": "LICENSE",
+    "packaged_path": "LICENSE",
+    "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c"
+  },
+  "adapted_at": "2026-10-12",
+  "adaptations": [
+    "Chinese host-neutral discoverable entrypoint and explicit CLI usage",
+    "Immutable L0 full SHA256; native outputs and actual engine/version/parameters/page coverage retained",
+    "Physical page 1-based; printed-page unknown null; preserve native bbox and source hash without invented coordinates",
+    "L1 document.md distinct from deep reading.md; no formal EU/Utility/ScientificCoordinate/Registry P IDs",
+    "Selected local channel first; no automatic upload, install, model replacement or unknown-result retry",
+    "Fresh staging only; Gateway owns identity/archive movement; external credentials; no automatic git commit/push",
+    "Upstream references isolated as .txt, raw SKILL kept outside delivery; no upstream precedence over current authorization",
+    "Documented actual formula-enrichment configuration and five-page scope",
+    "Recorded display/inline/chemistry gaps and observed formula errors rather than claiming fidelity",
+    "Prepared an independent WorkBuddy import copy with required bilingual description, version and attribution frontmatter; original functionality and licenses preserved"
+  ],
+  "vendored_resources": [
+    {
+      "source_path": "docling/.agents/skills/docling/references/cli.md",
+      "packaged_path": "references/upstream/references__cli.md.txt",
+      "sha256": "4a7dd31489f9f77a8df59e722902acd5b1b6aa24bb62f3f9de9845d52f17fe34",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docling/.agents/skills/docling/references/extraction.md",
+      "packaged_path": "references/upstream/references__extraction.md.txt",
+      "sha256": "174cc38d544a68aecd934e1706d1d4ef7df011fbc936aa0dc6f43d25dc6dafb5",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docling/.agents/skills/docling/references/python-sdk.md",
+      "packaged_path": "references/upstream/references__python-sdk.md.txt",
+      "sha256": "6ca5b1d6fc0758c2ae137b105e34c5d78f7d623c3dbea26dfe65458e11f827f0",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docling/.agents/skills/docling/references/rag.md",
+      "packaged_path": "references/upstream/references__rag.md.txt",
+      "sha256": "0036ad0e2b28b338ba23f8af508f8cefb06df12f3ef81ab620cdede51290569f",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docling/.agents/skills/docling/references/service-client.md",
+      "packaged_path": "references/upstream/references__service-client.md.txt",
+      "sha256": "6e9ab15bea5ea25fa42fc99f47b7a0599882e711db32123271d4453c73821241",
+      "execution_status": "isolated-reference-only"
+    },
+    {
+      "source_path": "docling/.agents/skills/docling/references/slim-packaging.md",
+      "packaged_path": "references/upstream/references__slim-packaging.md.txt",
+      "sha256": "25201405686287cca8a4244956ed91ee8d44dbb11fe914d549592e58593ad8e3",
+      "execution_status": "isolated-reference-only"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+      "git_blob": "6684a401bf0f700fd37104ab7c8da340036f7166",
+      "size": 1072
+    },
+    {
+      "path": "README.md",
+      "sha256": "ce605634509dc87d79182131ad001e5fddf6053963b9045b971c6e87e6b9bfa1",
+      "git_blob": "3297b7881575dc853facc5add4cc4c8dccc12f14",
+      "size": 8589
+    },
+    {
+      "path": "docling/.agents/skills/docling/SKILL.md",
+      "sha256": "d5e0b1c0c108850621c33dab1fa3da83bcefc52351e93028752f6df973f90998",
+      "git_blob": "f6bdfa26aee4b0df5a4cdfb6b496286e3b9eedd6",
+      "size": 4493
+    },
+    {
+      "path": "docling/.agents/skills/docling/references/cli.md",
+      "sha256": "4a7dd31489f9f77a8df59e722902acd5b1b6aa24bb62f3f9de9845d52f17fe34",
+      "git_blob": "056290f344b54846669f2fadb8a47e450e8e2ec8",
+      "size": 8352
+    },
+    {
+      "path": "docling/.agents/skills/docling/references/extraction.md",
+      "sha256": "174cc38d544a68aecd934e1706d1d4ef7df011fbc936aa0dc6f43d25dc6dafb5",
+      "git_blob": "c7a53655c80f761967ca1a204c7ff5a78e9bf417",
+      "size": 3220
+    },
+    {
+      "path": "docling/.agents/skills/docling/references/python-sdk.md",
+      "sha256": "6ca5b1d6fc0758c2ae137b105e34c5d78f7d623c3dbea26dfe65458e11f827f0",
+      "git_blob": "54cc35d6b23f3075b12476090d5554a0eaf34fd0",
+      "size": 17456
+    },
+    {
+      "path": "docling/.agents/skills/docling/references/rag.md",
+      "sha256": "0036ad0e2b28b338ba23f8af508f8cefb06df12f3ef81ab620cdede51290569f",
+      "git_blob": "b5492831252174627ba01c24e97f420188c9bd85",
+      "size": 2422
+    },
+    {
+      "path": "docling/.agents/skills/docling/references/service-client.md",
+      "sha256": "6e9ab15bea5ea25fa42fc99f47b7a0599882e711db32123271d4453c73821241",
+      "git_blob": "37c1b8c45035fc3147e2729f37c0fe0abd55d5cb",
+      "size": 4207
+    },
+    {
+      "path": "docling/.agents/skills/docling/references/slim-packaging.md",
+      "sha256": "25201405686287cca8a4244956ed91ee8d44dbb11fe914d549592e58593ad8e3",
+      "git_blob": "2d824ed5a8158fc132799c86a3e0aed73b635c3f",
+      "size": 3674
+    },
+    {
+      "path": "docling/cli/__init__.py",
+      "sha256": "fda02e8847d3326be24b3815e79c921ca8f7e46bd9df3c24acfd8e755e37848e",
+      "git_blob": "c4d8f5f986d21543bc8872292272b9f1a5c1d68c",
+      "size": 82
+    },
+    {
+      "path": "docling/cli/export_utils.py",
+      "sha256": "3b8e805931aa08b1558d88654a6d89cccb6758aab79fa0203ab32174e8229805",
+      "git_blob": "c7d2539dd8a862fc8e928bdc9ead416f7ce2a907",
+      "size": 3464
+    },
+    {
+      "path": "docling/cli/main.py",
+      "sha256": "7697e3b2bb0632caf259c05da8f2c13c0f460ad18729e7a6807e8fca0ff1e411",
+      "git_blob": "8c5f2daab5b112b63d16a2a1df0e8cabc8c5d041",
+      "size": 79147
+    },
+    {
+      "path": "docling/cli/models.py",
+      "sha256": "744cbf977cca74a260d04ba2874fe3b6f7f44b0bfcf935bb6925d2d1ac5a2ca6",
+      "git_blob": "e94def23b6f30644c6f0cf70f5a8bbb2fd58557b",
+      "size": 12726
+    },
+    {
+      "path": "docling/cli/remote.py",
+      "sha256": "e7da51665e6794faf246493ce69cbef0e2850e5e1b063f750cd08eebd4d235b5",
+      "git_blob": "aef469221e78209d8da111c01dd8aebede06055f",
+      "size": 16285
+    },
+    {
+      "path": "docling/cli/tools.py",
+      "sha256": "3f290ec7bc0326ad633784567cafd1040a2e2bcf2e13fcf46026e879d0cb6b65",
+      "git_blob": "097e789c336c3993bedccafea21ac743a0cc8b91",
+      "size": 1264
+    },
+    {
+      "path": "docling/datamodel/pipeline_options.py",
+      "sha256": "289d4af8a623ed0d99f5d803365e154f719c4fdf4af433b93d45d016a84d6055",
+      "git_blob": "0da23a7be2d6586ca27982c84d85ba3b0487325b",
+      "size": 93612
+    },
+    {
+      "path": "docling/document_converter.py",
+      "sha256": "79fd6b5b720d146d5cf1ab4eb7a1a66b7680ce468b194306bdae71d2c4a0f1d7",
+      "git_blob": "8a78340e074f4885e54d3cde2fb4cd9354fe244f",
+      "size": 36040
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "22d97f3f8c5f2b8522ff4682b80b0e176f0cf213f0a256e51500cb722e9ae16e",
+      "git_blob": "9f62a9f5fe2335b882eae684cf27a5e81d6512c0",
+      "size": 16201
+    }
+  ],
+  "validation_scope": "Fixed-source hash and static command checks; no runtime installation or real PDF/API end-to-end test",
+  "adaptation_version": "0.2.0",
+  "adapted_on": "2026-10-21",
+  "runtime_verified_versions": [
+    "docling 2.141.0 CodeFormulaV2 local CPU"
+  ],
+  "workbuddy_import_adaptation": {
+    "adapted_on": "2026-10-21",
+    "source_skill_version": "0.2.0",
+    "source_skill_md_sha256": "dbebf7bc057eb5c9e8d2cab7fd62024a932021e7e06d17e8d65abd65bc248984",
+    "purpose": "Separate single-skill import preparation against the published WorkBuddy frontmatter structure",
+    "official_structure_url": "https://open.workbuddy.cn/docs/skill",
+    "checked_on": "2026-10-21",
+    "added_top_level_fields": [
+      "description_zh",
+      "description_en",
+      "version",
+      "author"
+    ],
+    "preserved": "Existing description, frontmatter values, Markdown body, scripts, references, assets and licenses unchanged",
+    "validation_scope": "Offline required-field, YAML, archive and hash checks only; no WorkBuddy client import test",
+    "endorsement": "Independent JT collaboration adaptation; no upstream or WorkBuddy endorsement claimed"
+  }
+}
