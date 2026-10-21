@@ -7,6 +7,7 @@
 2026-10-21：依据5篇真实材料的本机测试，更新PDF转写、MinerU和Docling三项；其余13项保持旧文件。完整ZIP也纳入既有定向候选和WorkBuddy提示词，方便一次转交。
 
 - [下载完整技能包v0.3.0](https://github.com/jterroblate/academic-evidence-skills/releases/download/v0.3.0/academic-evidence-skills-v0.3.0.zip)
+- [百度网盘备用下载](https://pan.baidu.com/s/1f3K5zh1reqVOv8RATJUwjw?pwd=akkx)，提取码 `akkx`。下载的是完整技能 ZIP；已回下载核对 SHA256，与 GitHub 文件一致。
 - [先读与安装](academic-evidence-skills-v0.3.0/README_先读.md) · [16项用法](academic-evidence-skills-v0.3.0/每个技能怎么用.md)
 - [PDF公式实测结论与范围](academic-evidence-skills-v0.3.0/PDF公式更新与实测范围.md) · [验证说明](academic-evidence-skills-v0.3.0/验证说明.md)
 - [发给WorkBuddy的公式任务提示词](workbuddy/PDF_FORMULA_TASK.md) · [项目启动提示词](workbuddy/START_HERE.md) · [交接说明](workbuddy/README.md)
